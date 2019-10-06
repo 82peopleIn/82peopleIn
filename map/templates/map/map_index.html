@@ -1,0 +1,72 @@
+{#{% extends "../base.html" %}                   <!--base.html을 상속받는다고 선언-->#}
+{#{% block title %}상권분석{% endblock %}#}
+{#{% load staticfiles %}#}
+{#{% block extrastyle %}{% static "bootstrap/css/bootstrap.css" %}{% endblock %}#}
+{#{% block content %}#}
+{##}
+{#  <div style="height:150px;"></div>#}
+{##}
+{##}
+{##}
+{#<div class="board_header">#}
+{##}
+{#		<span class="favorite_button favorites_24761 active" onclick="location.href='{% url 'notice:notice_list' %}'">#}
+{#            <i class="fas"></i></span>#}
+{#        <a class="a_header" href="{% url 'notice:notice_list' %}">#}
+{#            <span class="notice_title">상권분석</span>#}
+{#        </a>#}
+{#      </span>#}
+{#<hr class="my-hr3">#}
+{#</div>#}
+{#<br>#}
+{#<div id="map" style="width:100%;height:350px;"></div>#}
+{##}
+{#<script>#}
+{#var mapContainer = document.getElementById('map'), // 지도를 표시할 div#}
+{#    mapOption = {#}
+{#        center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표#}
+{#        level: 3 // 지도의 확대 레벨#}
+{#    };#}
+{##}
+{#var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다#}
+{#</script>#}
+{##}
+{#<select id="list" >#}
+{#  <option  value="" selected="selected">---SELECT---</option>#}
+{#  {% for Gu in gu_list %}#}
+{#    <option class="" value="{{ Gu.id }}">{{ Gu.name }}</option>#}
+{#  {% endfor %}#}
+{#  {% for gu in gu_list %}#}
+{#     <option value="{{gu.id}}">{{gu.name}}</option>#}
+{#  {% endfor %}#}
+{#</select>#}
+{# <button type="submit" onclick="getSelectValue()">지도 중심좌표 이동시키기</button>#}
+{##}
+{##}
+{#<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f460952f0d62b1ca6bd68a4534bb4978"></script>#}
+{#<script>#}
+{#var mapContainer = document.getElementById('map'), // 지도를 표시할 div#}
+{#    mapOption = {#}
+{#        center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표#}
+{#        level: 3 // 지도의 확대 레벨#}
+{#    };#}
+{##}
+{#var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다#}
+{##}
+{##}
+{#function getSelectValue() {#}
+{#    var selectedValue = document.getElementById("list").value;#}
+{#    console.log(selectedValue);#}
+{#  {% for gu in gu_list %}#}
+{#    var lat = {{ gu.latitude }};#}
+{#    var lng = {{ gu.longitude }};#}
+{#  {% endfor %}#}
+{#console.log(lat,lng);#}
+{#    var moveLatLon = new kakao.maps.LatLng(lng, lat);#}
+{##}
+{#    map.setCenter(moveLatLon);}#}
+{##}
+{##}
+{#</script>#}
+{##}
+{#{% endblock %}#}
