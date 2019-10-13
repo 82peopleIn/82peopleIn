@@ -1,0 +1,133 @@
+@charset "utf-8";
+@import url('slick.css');
+@import url('jquery.fullpage.css');
+@import url('animations.css');
+@import url('font.css');
+/* 폰트임 */
+
+@import url('layout.css');
+/* 전체적인 레이아웃 & 메인페이지 */
+
+@import url('style.css');
+/* 스타일 */
+
+@import url('jh_style.css');
+/* 종환님 스타일 */
+
+@import url('yj_style.css');
+/* 윤주님 스타일 */
+
+html {
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+blockquote,
+th,
+td,
+p,
+button {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+}
+
+fieldset,
+img,
+abbr,
+acronym {
+    border: 0 none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+
+hr {
+    display: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    border: 0 none;
+    background: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+button,
+input,
+select,
+textarea {
+    color: #555;
+    line-height: 19px;
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+    vertical-align: middle;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+object {
+    display: block;
+    margin: 0;
+    padding: 0;
+}

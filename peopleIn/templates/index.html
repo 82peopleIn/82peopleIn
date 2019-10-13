@@ -8,7 +8,7 @@
 {% block extrastyle %}{% static "home.css" %}{% endblock %}
 
 {% block content %}
-
+    <link href="{% static 'common/common.css' %}" rel="stylesheet">
       <!-- JavaScript files-->
     <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
@@ -33,43 +33,6 @@
 				<p>아직 못본 더 많은 상가가 있어요.</p>
 			</div>
         <br>
-{#		<div class="container">#}
-{#			<div class="card-deck p-4 rounded">#}
-{#			  <div class="card">#}
-{#				<img src="/static/img/maemul6.jpg" class="card-img-top" alt="...">#}
-{#				<div class="card-body">#}
-{#				  <h5 class="card-title">서울시 서대문구</h5>#}
-{#				  <h5 class="card-text">숟가락반상 마실<br>보증금 7000 월 950</h5>#}
-{#				  <em class="card-text"><small class="text-muted">30분 전</small></em>#}
-{#				</div>#}
-{#			  </div>#}
-{#			  <div class="card">#}
-{#				<img src="/static/img/maemul8.jpg" class="card-img-top" alt="...">#}
-{#				<div class="card-body">#}
-{#				  <h5 class="card-title">서울시 성동구</h5>#}
-{#				  <h5 class="card-text">프렌차이즈 카페<br>순수익 최하 300이상</h5>#}
-{#				  <em class="card-text"><small class="text-muted">1시간 전</small></em>#}
-{#				</div>#}
-{#			  </div>#}
-{#			  <div class="card">#}
-{#				<img src="/static/img/maemul15.jpg" class="card-img-top" alt="...">#}
-{#				<div class="card-body">#}
-{#				  <h5 class="card-title">서울시 마포구</h5>#}
-{#				  <h5 class="card-text">한림돈가<br>보증금 5000 월 770</h5>#}
-{#				  <em class="card-text"><small class="text-muted">5시간 전</small></em>#}
-{#				</div>#}
-{#			  </div>#}
-{#			  <div class="card">#}
-{#				<img src="/static/img/maemul12.jpg" class="card-img-top" alt="...">#}
-{#				<div class="card-body">#}
-{#				  <h5 class="card-title">서울시 구로구</h5>#}
-{#				  <h5 class="card-text">달리마카롱<br>매매 6억</h5>#}
-{#				  <em class="card-text"><small class="text-muted">9시간 전</small></em>#}
-{#				</div>#}
-{#			  </div>#}
-{##}
-{#			</div>#}
-{#		</div><!-- /.컨테이너끝 -->#}
 
     <section>
   <div class="container">
@@ -82,8 +45,7 @@
           <div class="card-body">
             <h5><a class="text-dark" href="{{ item.get_absolute_url }}">{{ item.name }} </a></h5>
              <p style="font-size:1em;">{{ item.price }}</p>
-{#            <p class="text-muted card-text">{{ post.p }}</p>#}
-{#            <p class="card-text"><a href="{{ post.get_absolute_url }}">더 읽기</a></p>#}
+
           </div>
         </div>
       </div>
@@ -114,26 +76,38 @@
 			<h1 style="color:white;">FRANCHISE</h1>
 			<p>프렌차이즈 별 데이터 정보를 살펴보세요</p>
 		</div>
+    <br>
 		<div class="list_wrap">
-		  <ul>
-			<li class="list"><a href="{% url 'franchise:franchise_list' %}"><img src="/static/img/franlogo1.png" alt="쥬씨"></a></li>
-			<li class="list"><a href="{% url 'franchise:franchise_list' %}"><img src="/static/img/franlogo3.png"></a><</li>
-			<li class="list"><a href="{% url 'franchise:franchise_list' %}"><img src="/static/img/franlogo5.png"></a><</li>
-			<li class="list"><a href="{% url 'franchise:franchise_list' %}"><img src="/static/img/franlogo2.png"></a><</li>
-			<li class="list"><a href="{% url 'franchise:franchise_list' %}"><img src="/static/img/franlogo7.png"></a><</li>
-			<li class="list"><a href="{% url 'franchise:franchise_list' %}"><img src="/static/img/franlogo2.png"></a><</li>
-			<li class="list"><a href="{% url 'franchise:franchise_list' %}"><img src="/static/img/franlogo18.png"><</a></li>
-			<li class="list"><a href="{% url 'franchise:franchise_list' %}"><img src="/static/img/franlogo19.png"></a><</li>
-			<li class="list"><a href="{% url 'franchise:franchise_list' %}"><img src="/static/img/franlogo18.png"></a><</li>
-			<li class="list"><a href="{% url 'franchise:franchise_list' %}"><img src="/static/img/franlogo13.png"></a><</li>
-			<li class="list"><a href="{% url 'franchise:franchise_list' %}"><img src="/static/img/franlogo7.png"></a><</li>
-			<li class="list"><a href="{% url 'franchise:franchise_list' %}"><img src="/static/img/franlogo5.png"></a><</li>
+      <ul>
+        <li class="list"><img src="/static/img/franlogo1.png" alt="쥬씨""></li>
+        <li class="list"><img src="/static/img/franlogo3.png"></li>
+        <li class="list"><img src="/static/img/franlogo5.png"></li>
+        <li class="list"><img src="/static/img/franlogo2.png"></li>
+        <li class="list"><img src="/static/img/franlogo7.png"></li>
+        <li class="list"><img src="/static/img/franlogo2.png"></li>
+        <li class="list"><img src="/static/img/franlogo18.png"></li>
+        <li class="list"><img src="/static/img/franlogo19.png"></li>
 
 
-		</ul>
+      </ul>
 		</div>
 
     </div><!-- /.section3끝 -->
+<div class="section fp-auto-height section_footer"><div id="footer">
+   <div class="footer_inner">
+      <div class="footerBtn">
+         <a href="">개인정보취급방침</a>
+      </div>
+      <div class="footerCont">
+         <ul>
+            <li class="w100p">㈜피플인 대표 : 윤혜주</li>
+            <li>주소 : 서울특별시 성동구 살곶이길 200</li>
+            <li>TEL. 02-2290-2114</li>
+         </ul>
+      </div>
+      <p class="copy">Copyright © 2019 PeopleIn All rights reserved.</p>
+   </div>
+</div></div>
 
 </div><!--fullpage 끝-->
 

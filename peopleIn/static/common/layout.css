@@ -1,0 +1,109 @@
+
+.section_footer {
+    position: relative;
+    z-index: 99999;
+}
+
+.sub #footer {
+    background-color: #f6f6f6;
+}
+
+#footer {
+    text-align: center;
+    position: relative;
+    z-index: 99999;
+    padding: 42px 100px;
+    background-color: #fff;
+}
+
+#footer .footer_inner {
+    position: relative;
+}
+
+.footerCont ul {
+    font-size: 0;
+    text-align: center;
+}
+
+.footerCont ul li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 26px;
+    color: #333;
+    opacity: .6;
+    margin: 0 6px;
+}
+
+.footerCont ul li.w100p {
+    width: 100%;
+    margin: 0;
+}
+
+.footerBtn {
+    margin-bottom: 10px;
+}
+
+.footerBtn a {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #333;
+    opacity: .7;
+}
+
+.footerBtn a:hover {
+    opacity: 1;
+}
+
+#footer .copy {
+    font-size: 12px;
+    line-height: 26px;
+    color: #888;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+    #footer {
+        padding: 30px 30px 0px;
+    }
+}
+
+    #footer .footer_inner .footer_logo img {
+        width: 160px;
+        padding-bottom: 0px;
+    }
+    #footer .footer_inner .footer_logo {
+        position: static;
+        padding-top: 20px;
+        margin-top: 20px;
+        border-top: 1px solid #4b4a4d;
+    }
+    #footer .footer_inner .footer_cont {
+        padding-left: 0
+    }
+    #footer .footer_inner .footer_cont ul li {
+        display: block;
+        float: none;
+    }
+    #footer .footer_inner .footer_cont ul.footer_address {
+        margin-bottom: 10px;
+    }
+    #footer .footer_inner .footer_cont ul li:first-child {
+        margin-right: 0;
+        padding-right: 0;
+    }
+    #footer .footer_inner .footer_cont ul li:first-child:after {
+        display: none;
+    }
+
+    #footer {
+        padding: 30px 15px 0 0;
+    }
+    #footer .footer_inner .footer_cont ul li {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }

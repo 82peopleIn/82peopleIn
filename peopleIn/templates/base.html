@@ -14,6 +14,7 @@
   <title>PEOPLE IN</title>
   {% load staticfiles %} <!--정적 파일인 css 연결하기 위하여, staticfiles를 로드-->
   <link rel="shortcut icon" type="image/x-icon" href="{% static 'customer.png' %}" />
+{#  <link href="{% static 'common/common.css' %}" rel="stylesheet">#}
 
   <!-- Bootstrap core CSS -->
   <link  rel="stylesheet" href="{% block stylesheet %}{% static 'bootstrap/css/bootstrap.min.css' %}{% endblock %} ">
@@ -26,7 +27,7 @@
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+  <link href="http://fonts.googleapis.com/earlyaccess/jejugothic.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link rel="stylesheet" type="text/css" href="{% block extrastyle %}{% endblock %}" />
   <link href="{% static 'agency_otherapp.css' %}" rel="stylesheet">
@@ -64,7 +65,7 @@
             <a class="nav-link js-scroll-trigger" href="{% url 'forSale:item_list' %}">상가매물</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">창업나눔</a>
+            <a class="nav-link js-scroll-trigger" href="{% url 'question:question_list' %}">온라인문의</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="{% url 'notice:notice_list' %}">공지사항</a>
@@ -91,16 +92,6 @@
       </div>
     </div>
   </nav>
-<!--  &lt;!&ndash; Header &ndash;&gt;-->
-<!--  <header class="masthead">-->
-<!--    <div class="container">-->
-<!--      <div class="intro-text">-->
-<!--        <div class="intro-lead-in">Welcome To Our Studio!</div>-->
-<!--        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>-->
-<!--        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </header>-->
 
 
   <!-- Bootstrap core JavaScript -->
@@ -120,7 +111,25 @@
 
   {% block content %}{% endblock %}   <!--블록 태그로 콘텐츠 영역 정의 -->
 
-  {% block footer %}{% endblock %}    <!--블록 태그로 풋터 영역 정의-->
+  {% block footer %}
+<div style="height:100px;"></div>
+
+<div id="footer">
+   <div class="footer_inner">
+      <div class="footerBtn">
+         <a href="">People In</a>
+      </div>
+      <div class="footerCont">
+         <ul>
+            <li class="w100p">㈜피플인 대표 : 윤혜주</li>
+            <li>주소 : 서울특별시 성동구 살곶이길 200</li>
+            <li>TEL. 02-2290-2114</li>
+         </ul>
+      </div>
+      <p class="copy">Copyright © 2019 PeopleIn All rights reserved.</p>
+   </div>
+</div>
+  {% endblock %}    <!--블록 태그로 풋터 영역 정의-->
 
 </body>
 

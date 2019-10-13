@@ -13,7 +13,7 @@ def juicy(request):
         [{'options': {
             'source': Juicy},
             'terms': [{'year': 'year',
-                       'count': 'count'}]
+                       'count': 'count'}],
         },
         ])
     cht = Chart(
@@ -21,7 +21,8 @@ def juicy(request):
         series_options =
             [{'options': {
                 'type': 'column',
-                'stacking': False},
+                'stacking': False,
+                'color': 'rgb(239, 62, 54)'},
                'terms':{
                   'year': [
                       'count']
@@ -49,7 +50,8 @@ def gongcha(request):
         series_options =
             [{'options': {
                 'type': 'column',
-                'stacking': False},
+                'stacking': False,
+                'color': 'rgb(195, 32, 49)'},
                'terms':{
                   'year': [
                       'count']
@@ -77,7 +79,8 @@ def subway(request):
         series_options =
             [{'options': {
                 'type': 'column',
-                'stacking': False},
+                'stacking': False,
+                'color': 'rgb(0, 137, 57)'},
                'terms':{
                   'year': [
                       'count']
@@ -105,7 +108,8 @@ def starbucks(request):
         series_options =
             [{'options': {
                 'type': 'column',
-                'stacking': False},
+                'stacking': False,
+                'color': 'rgb(1, 119, 84)'},
                'terms':{
                   'year': [
                       'count']
@@ -133,7 +137,8 @@ def momstouch(request):
         series_options =
             [{'options': {
                 'type': 'column',
-                'stacking': False},
+                'stacking': False,
+                'color': 'rgb(237, 37, 66)'},
                'terms':{
                   'year': [
                       'count']
@@ -162,7 +167,8 @@ def ediya(request):
         series_options =
             [{'options': {
                 'type': 'column',
-                'stacking': False},
+                'stacking': False,
+                'color': 'rgb(19, 35, 93)'},
                'terms':{
                   'year': [
                       'count']
@@ -191,7 +197,8 @@ def sinjeon(request):
         series_options =
             [{'options': {
                 'type': 'column',
-                'stacking': False},
+                'stacking': False,
+                'color': 'rgb(214, 21, 24)'},
                'terms':{
                   'year': [
                       'count']
@@ -219,7 +226,8 @@ def caffebene(request):
         series_options =
             [{'options': {
                 'type': 'column',
-                'stacking': False},
+                'stacking': False,
+                'color': 'rgb(112, 90, 77)'},
                'terms':{
                   'year': [
                       'count']
@@ -247,7 +255,8 @@ def mrsd(request):
         series_options =
             [{'options': {
                 'type': 'column',
-                'stacking': False},
+                'stacking': False,
+                'color': 'rgb(238, 48, 42)'},
                'terms':{
                   'year': [
                       'count']

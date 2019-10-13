@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'ckeditor_uploader',
     'map',
     'notice',
+    'question',
+    'import_export',
     'userExtends',
     'forSale',
     'django.contrib.humanize',

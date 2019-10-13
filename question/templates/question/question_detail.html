@@ -1,0 +1,85 @@
+{% extends "question/layout.html" %}                   <!--base.html을 상속받는다고 선언-->
+{% block title %}{{ question.title }}{% endblock %}
+{% load staticfiles %}
+{% block extrastyle %}{% static "question.css" %}{% endblock %}
+{% block content %}
+    {{ block.super }}
+    <hr class="my-hr4" >
+
+  <section>
+    <article>
+        <div class="title-wrap clearfix" style="padding-left:200px">
+
+            <h5> <span style="">{{ question.title }}</span></h5>
+            <div class="under-title" style="font-size: 15px;">
+                <span class="name el nName">{{ question.author }}</span>
+                <span class="l">|</span>
+                <span class="date el">{{ question.created_at|date:"Y-m-d h:s" }}</span>
+                <span class="l">|</span>
+    			<span class="">{{ question.update_counter }}</span>
+            </div>
+	      </div>
+    </article>
+    <hr class="my-hr4" >
+
+  <div class="notice_content">
+        <article itemprop="articleBody"><!--BeforeDocument(1102807111,0)-->
+
+        <div>
+            {{ question.content|safe  }}
+        <br><br>
+            {% if question.photo %}
+                <img src="{{ question.photo.url }}" style="width:330px; height:auto">
+            {% endif %}
+        </div>
+        </article>
+  </div>
+
+  <div class="control hidden">
+    {% if request.user.is_superuser %}
+        <button type="submit" class="btn btn-primary" style="float:right; margin-right: 200px;">
+            <a href="{% url 'question:question_remove' question.pk %}" >삭제</a>
+        </button></div>
+<div class="control hidden">
+        <button type="submit" class="btn btn-primary" style="float:right;">
+            <a href="{% url 'question:question_edit' question.pk %}">수정</a>
+        </button>
+    {% endif %}
+</div>
+  </section>
+
+
+
+<div class="notice_content">
+    <br><br>
+
+    <hr class="my-hr5" >
+{% for c in question.comments.all %}
+    {% if c in question.comments.all %}
+      <h5 style="text-align: center">[답변] {{ question.title }}</h5>
+      <hr class="my-hr6" >
+    {% else %}
+        <h5 style="text-align: center; display: none;">[답변] {{ question.title }}</h5>
+    {% endif %}
+{% endfor %}
+
+      {% csrf_token %}
+      {% for c in question.comments.all %}
+        <p>{{ c.message|linebreaks }}</p>
+      {% endfor %}
+  <br>
+    <form method="post">
+    {% if request.user.is_superuser %}
+      {% csrf_token %}
+      {{ comment_form.as_p }}
+    {% endif %}
+
+      {% if request.user.is_superuser %}
+        <input type="submit" value="등록" class="btn btn-outline-success" style="float:right;">
+      {% else %}
+      <input type="submit" value="등록" class="btn btn-outline-success" disabled>
+      {% endif %}
+    </form>
+
+</div>
+{% endblock %}

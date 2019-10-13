@@ -1,0 +1,83 @@
+/* 우리 그냥 노토산스만 쓰면안될까 */
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 100;
+    src: url(fonts/notosansKR/NotoSansKR-Thin.woff2) format('woff2'), url(fonts/notosansKR/NotoSansKR-Thin.woff) format('woff'), url(fonts/notosansKR/NotoSansKR-Thin.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    src: url(fonts/notosansKR/NotoSansKR-Light.woff2) format('woff2'), url(fonts/notosansKR/NotoSansKR-Light.woff) format('woff'), url(fonts/notosansKR/NotoSansKR-Light.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/notosansKR/NotoSansKR-Regular.woff2) format('woff2'), url(fonts/notosansKR/NotoSansKR-Regular.woff) format('woff'), url(fonts/notosans/NotoSansKR-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/notosansKR/NotoSansKR-Medium.woff2) format('woff2'), url(fonts/notosansKR/NotoSansKR-Medium.woff) format('woff'), url(fonts/notosansKR/NotoSansKR-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/notosansKR/NotoSansKR-Bold.woff2) format('woff2'), url(fonts/notosansKR/NotoSansKR-Bold.woff) format('woff'), url(fonts/notosansKR/NotoSansKR-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 900;
+    src: url(fonts/notosansKR/NotoSansKR-Black.woff2) format('woff2'), url(fonts/notosansKR/NotoSansKR-Black.woff) format('woff'), url(fonts/notosans/NotoSansKR-Black.otf) format('opentype');
+}
+
+/* Noto Sans */
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: url(fonts/notosans/NotoSans-CondensedLight.woff2) format('woff2'), url(fonts/notosans/NotoSans-CondensedLight.woff) format('woff'), url(fonts/notosans/NotoSans-CondensedLight.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/notosans/NotoSans-CondensedMedium.woff2) format('woff2'), url(fonts/notosans/NotoSans-CondensedMedium.woff) format('woff'), url(fonts/notosans/NotoSans-CondensedMedium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/notosans/NotoSans-CondensedSemiBold.woff2) format('woff2'), url(fonts/notosans/NotoSans-CondensedSemiBold.woff) format('woff'), url(fonts/notosans/NotoSans-CondensedSemiBold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    font-style: normal;
+    font-weight: 600;
+    src: url(fonts/notosans/NotoSans-CondensedBold.woff2) format('woff2'), url(fonts/notosans/NotoSans-CondensedBold.woff) format('woff'), url(fonts/notosans/NotoSans-CondensedBold.otf) format('opentype');
+}
+
+/* Modern Sans */
+
+@font-face {
+    font-family: 'Modern Sans';
+    src: url('fonts/modernsans/ModernSansLight.eot');
+    src: local('Modern Sans Light'), local('ModernSansLight'), url('fonts/modernsans/ModernSansLight.eot?#iefix') format('embedded-opentype'), url('fonts/modernsans/ModernSansLight.woff2') format('woff2'), url('fonts/modernsans/ModernSansLight.woff') format('woff'), url('fonts/modernsans/ModernSansLight.ttf') format('truetype'), url('fonts/modernsans/ModernSansLight.svg#ModernSansLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}

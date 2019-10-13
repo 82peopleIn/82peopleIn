@@ -1,7 +1,7 @@
-{% extends "../base.html" %}                   <!--base.html을 상속받는다고 선언-->
+{% extends "forSale/layout.html" %}                   <!--base.html을 상속받는다고 선언-->
 {% block title %}{{ notice.title }}{% endblock %}
 {% load staticfiles %}
-{% block extrastyle %}{% static "bootstrap/css/bootstrap.css" %}{% endblock %}
+{% block extrastyle %}{% static "forSale.css" %}{% endblock %}
 
 
 {% load humanize %}
@@ -9,51 +9,64 @@
 {% block content %}
     {{ block.super }}
 
-    <div style="height:150px;"></div>
-
-    <div class="board_header">
-
-        <span class="favorite_button favorites_24761 active" onclick="location.href='{% url 'forSale:item_list' %}'">
-    {#            <i class="fas"></i></span>#}
-        <a class="a_header" href="{% url 'forSale:item_list' %}">
-            <span class="notice_title">매물 정보</span>
-        </a>
-      </span>
-    <hr class="my-hr3">
-    </div>
-
 {## 매물 정보#}
-
+<br><h5>매물 정보</h5>
     <section style="height:1000px;">
         <article>
-            <div class="title-wrap clearfix" style="padding-left:200px; height:auto;">
-                <h1> <span style="">{{ item.name }}</span></h1>
-                <h3> <span style="">{{ item.price|intcomma }}</span></h3>
-                <div class="under-title" style="font-size: 15px;">
-                </div>
-            </div>
+          <table class="sang_info">
+            <tr>
+              <td class="aa">소재지</td>
+              <td>{{ item.location }}</td>
+              <td class="aa">상가명</td>
+              <td>{{ item.name }}</td>
+            </tr>
+            <tr>
+              <td class="aa">면적</td>
+              <td>{{ item.area }}</td>
+              <td class="aa">현업종</td>
+              <td>{{ item.sector }}</td>
+            </tr>
+            <tr>
+              <td class="aa">해당층</td>
+              <td>{{ item.floor }}</td>
+              <td class="aa">부동산 전화번호</td>
+              <td>{{ item.tel }}</td>
+            </tr>
+            <tr>
+              <td class="aa">옵션</td>
+              <td colspan="3">{{ item.option|linebreaksbr }}</td>
+            </tr>
+            <tr>
+              <td class="aa">매물특징</td>
+              <td colspan="3">{{ item.desc|linebreaksbr }}</td>
+            </tr>
+            <tr>
+              <td class="aa">예상비용</td>
+              <td colspan="3">{{ item.price }}</td>
+            </tr>
+            </table>
         </article>
-    <hr class="my-hr4">
-
-  <div class="notice_content">
+{#    <hr class="my-hr4">#}
+<br><h5>매물 사진</h5>
+  <div class="sang_content">
         <article itemprop="articleBody"><!--BeforeDocument(1102807111,0)-->
 
-        <div>
+        <div style="margin-left:200px; margin-right: 200px; background-color: #f0f3f5">
             {% if item.photo %}
                 <img src="{{ item.photo.url }}" style="max-width:800px; height:500px;">
             {% endif %}
-        <br><br>
-        {{ item.desc|safe  }}
-        <br><br>
+        </div>
+        <br><br><br><br>
+
 
         <div class="control hidden">
             {% if request.user.is_superuser %}
                 <button type="submit" class="">
-                    <a href="{% url 'forSale:item_remove' item.pk %}" style="color:#fff">매물정보 삭제</a>
+                    <a href="{% url 'forSale:item_remove' item.pk %}" >매물정보 삭제</a>
                 </button>
                 <div class="control hidden">
                 <button type="submit" class="">
-                    <a href="{% url 'forSale:item_edit' item.pk %}" style="color:#fff">매물정보 수정</a>
+                    <a href="{% url 'forSale:item_edit' item.pk %}" >매물정보 수정</a>
                 </button>
             {% endif %}
         </div>
@@ -62,31 +75,6 @@
 
 
   </section>
-
-
-
-{#    ##########################################}
-
-
-{#<h3>Reviews</h3>#}
-{##}
-{#<table>#}
-{#    <thead>#}
-{#        <th>id</th>#}
-{#        <th>댓글</th>#}
-{#        <th>작성 일시</th>#}
-{#        <th>수정 일시</th>#}
-{#    </thead>#}
-{#    <tbody>#}
-{#    {% for r in item.reviews.all %}#}
-{#        <tr>#}
-{#            <td>{{ r.id }}</td>#}
-{#            <td>{{ r.message }}</td>#}
-{#            <td>{{ r.created_at }}</td>#}
-{#            <td>{{ r.updated }}</td>#}
-{#        </tr>#}
-{#    {% endfor %}#}
-{#    </tbody>#}
-{#</table>#}
+  <br><br>
 
 {% endblock content %}

@@ -17,6 +17,7 @@ from django.views.generic.base import TemplateView
 
 def notice_list(request):
     qs = Notice.objects.all()
+    paginate_by = 10
     return render(request, 'notice/notice_list.html',
                   {'notice_list': qs})
 

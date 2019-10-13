@@ -1,24 +1,26 @@
 from django.db import models
-from django.utils.text import slugify
 
+# Create your models here.
 
-class Gu(models.Model):
-    # Si_CHOICES = (
-    #     ('SEOUL', '서울특별시'),
-    #     ('SEONGNAM', '성남시')
-    # )
-    name = models.CharField(max_length=50)
-    # si = models.CharField(choices=Si_CHOICES)
-    latitude = models.DecimalField(max_digits=9, decimal_places=6, verbose_name="위도")
-    longitude = models.DecimalField(max_digits=9, decimal_places=6, verbose_name="경도")
+class Store(models.Model):
 
-    def save(self):
-        self.slug = slugify(self.name)
-        super(Gu, self).save()
+    name = models.CharField(max_length=200, blank=False)
+    sector = models.CharField(max_length=20)
+    location = models.CharField(max_length=30, verbose_name="소재지")
+    code = models.IntegerField()
+    latitude = models.DecimalField(max_digits=20, decimal_places=5)
+    longitude = models.DecimalField(max_digits=20, decimal_places=5)
+
+    class Meta:
+        abstract = True
 
     def __str__(self):
-        return '%s' % self.name
+        return '{}'.format(self.name)
+
+class Seoul(Store):
+    pass
+
+class Bucheon(Store):
+    pass
 
 
-    def __str__(self):
-        return self.name

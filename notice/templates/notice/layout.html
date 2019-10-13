@@ -1,14 +1,68 @@
-{% extends "../base.html" %}                   <!--base.html을 상속받는다고 선언-->
-{% block title %}
-    {{ block.super }} notice
+{% extends "base.html" %}                   <!--base.html을 상속받는다고 선언-->
+
+{% block title %}공지사항{% endblock %}    <!--title 블록 재정의-->
+
+<!--정적 파일인 css 연결하기 위하여, staticfiles를 로드-->
+{% load staticfiles %}
+<!--extrastyle 블록을 재정의하여 추가적으로 home.css 연결-->
+{% block extrastyle %}{% static "notice.css" %}{% endblock %}
+
+{% block content %}
+
+<script>
+	$(window).on("scroll", function() {
+		if ($(window).scrollTop() > 300) {
+			$("#mainNav").css("background-color","#ffffff").css("box-shadow", "0 0 14px rgba(0,0,0,.4)");
+			$(".navbar-nav .nav-item .nav-link").css("color","#000000");
+		}else {
+      $("#mainNav").css("background-color","transparent").css("box-shadow", "none");
+      $(".navbar-nav .nav-item .nav-link").css("color","#ffffff");
+		}
+	});
+</script>
+ <div style="height:400px; width:100%; background-image: url({% static 'img/고객지원.jpg' %});">
+
+    <h1 class="menu_name">고객지원</h1>
+  </div>
+
+  <br><br><br>
+  <h3 style="text-align: center">공지사항</h3>
+<br>
+      <!-- JavaScript files-->
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<body>
 {% endblock %}
-{% block extra_head %}
-    <style>
-        {# notice 관련 템플릿에만 적용할 CSS 정의 혹은 연결 #}
-    </style>
-{% endblock %}
-{% block extra_body %}
-    <script>
-        {# notice 관련 템플릿에만 적용할 JS 정의 혹은 연결 #}
-    </script>
-{% endblock %}
+
+
+
+{% block footer %}
+    <div style="height:100px;"></div>
+
+<div class="section fp-auto-height section_footer">
+  <div id="footer">
+   <div class="footer_inner">
+      <div class="footerBtn">
+         <a href="">People In</a>
+      </div>
+      <div class="footerCont">
+         <ul>
+            <li class="w100p">㈜피플인 대표 : 윤혜주</li>
+            <li>주소 : 서울특별시 성동구 살곶이길 200</li>
+            <li>TEL. 02-2290-2114</li>
+         </ul>
+      </div>
+      <p class="copy">Copyright © 2019 PeopleIn All rights reserved.</p>
+   </div>
+  </div>
+</div>
+{% endblock footer %}
+
+      <!-- JavaScript files-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+</body>

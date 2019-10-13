@@ -1,28 +1,103 @@
 import re
 from django.shortcuts import render, get_object_or_404, redirect
 
-from notice.models import Notice
 from .models import Item
 
-from .forms import ItemForm
+def item_list(request):
+    items = Item.objects.all()
+    # 키값이 'q'로 지정된 값이 없으면 None이 반환됨
+    q = request.GET.get('q', '')  # 'q'로 지정된 값이 없으면 '' 반환
+    if q:  # q가 널 아니면 qs에 filter 조건 추가
+        items = items.filter(name__icontains=q)
+    return render(request, 'forSale/item_list.html', {
+        'item_list': items,
+        'q': q, })
 
-# from .forms import ItemForm
 
+# 상가 매물 목록 수정 삭제
 def item_new(request, item=None):
-    if request.method == 'POST':                        # 'POST' 요청이면
-        form = ItemForm(request.POST, request.FILES)    # 값을 가진 폼 생성
-        if form.is_valid():         # 유효성 검사 통과하면
-            item = form.save()      # ModelForm 기능을 이용해서 DB 저장
-            return redirect(item)   # 저장된 item 보여주기
-    else:                                               # 'POST' 요청 아니면
-        form = ItemForm()                               # 빈 폼 생성
+    error_list = []
+    initial = {}
 
+    if request.method == 'POST':
+        data = request.POST
+        files = request.FILES
+
+        name = data.get('name')
+        location = data.get('location')
+        area = data.get('area')
+        sector = data.get('sector')
+        option = data.get('option')
+        tel = data.get('tel')
+        floor = data.get('floor')
+        desc = data.get('desc')
+        price = data.get('price')
+        photo = files.get('photo')
+
+
+        # 유효성 검사
+        if len(name) == 0:
+            error_list.append('title을 1글자 이상 입력해주세요.')
+
+        if re.match(r'^[\da-zA-Z\s]+$', desc):
+            error_list.append('한글을 입력해주세요.')
+
+        if not error_list:
+            # 저장 시도
+            if item is None:
+                item = Item()
+
+            item.name = name
+            item.location = location
+            item.area = area
+            item.sector = sector
+            item.option = option
+            item.tel = tel
+            item.floor = floor
+            item.desc = desc
+            item.price = price
+
+            if photo:
+                item.photo.save(photo.name, photo, save=False)
+
+            try:
+                item.save()
+            except Exception as e:
+                error_list.append(e)
+            else:
+                # return redirect(item)  # item.get_absolute_url 호출됨
+                return redirect('forSale:item_list')
+
+        initial = {
+            'name': name,
+            'location': location,
+            'area': area,
+            'sector': sector,
+            'option': option,
+            'tel': tel,
+            'floor': floor,
+            'desc': desc,
+            'price': price,
+            'photo': photo,
+        }
+    else:
+        if item is not None:
+            initial = {
+                'name': item.name,
+                'location': item.location,
+                'area': item.area,
+                'sector': item.sector,
+                'option': item.option,
+                'tel': item.tel,
+                'floor': item.floor,
+                'desc': item.desc,
+                'price': item.price,
+                'photo': item.photo,
+            }
     return render(request, 'forSale/item_form.html', {
-        'form': form,               # form 자체만 맥락 변수로 전달
+        'error_list': error_list,
+        'initial': initial,
     })
-
-
-
 
 def item_edit(request, pk):
     item = get_object_or_404(Item, pk=pk)
@@ -36,15 +111,6 @@ def item_remove(request, pk):
 
 
 
-def item_list(request):
-    items = Item.objects.all()
-    # 키값이 'q'로 지정된 값이 없으면 None이 반환됨
-    q = request.GET.get('q', '')  # 'q'로 지정된 값이 없으면 '' 반환
-    if q:  # q가 널 아니면 qs에 filter 조건 추가
-        items = items.filter(name__icontains=q)
-    return render(request, 'forSale/item_list.html', {
-        'item_list': items,
-        'q': q, })
 
 
 def item_detail(request, pk):
@@ -52,61 +118,3 @@ def item_detail(request, pk):
     return render(request, 'forSale/item_detail.html',
                   {'item': item})
 
-
-# 프랜차이즈 게시글 수정 삭제 등록
-def franchise_new(request, notice=None):
-    error_list = []
-    initial = {}
-
-    if request.method == 'POST':
-        data = request.POST
-        files = request.FILES
-
-        title = data.get('title')
-        content = data.get('content')
-        photo = files.get('photo')
-        board = data.get('board')
-
-        # 유효성 검사
-        if len(title) == 0:
-            error_list.append('title을 1글자 이상 입력해주세요.')
-
-        if re.match(r'^[\da-zA-Z\s]+$', content):
-            error_list.append('한글을 입력해주세요.')
-
-        if not error_list:
-            # 저장 시도
-            if notice is None:
-                notice = Notice()
-
-            notice.title = title
-            notice.content = content
-            if photo:
-                notice.photo.save(photo.name, photo, save=False)
-
-            try:
-                notice.save()
-            except Exception as e:
-                error_list.append(e)
-            else:
-                # return redirect(item)  # item.get_absolute_url 호출됨
-                return redirect('notice:franchise_list')
-
-        initial = {
-            'title': title,
-            'content': content,
-            'photo': photo,
-            'board': board,
-        }
-    else:
-        if notice is not None:
-            initial = {
-                'title': notice.title,
-                'content': notice.content,
-                'photo': notice.photo,
-                'board': notice.board,
-            }
-    return render(request, 'notice/franchise_form.html', {
-        'error_list': error_list,
-        'initial': initial,
-    })

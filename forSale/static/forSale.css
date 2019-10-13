@@ -6,7 +6,40 @@
     text-align: center;
 }
 
+
 #id_title {
     opacity: 0.8;
     width: 837px;
+}
+
+h5 {
+        margin-left: 200px;
+
+}
+
+.sang_info {
+    /*margin: 0 auto;*/
+    border: 1px solid #bcbcbc;
+    width: 69%;
+    margin-left: 200px;
+    margin-right:200px;
+
+}
+.sang_info tr, td {
+    border: 1px solid #bcbcbc;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+;
+}
+
+.aa{
+    /*text-align: center;*/
+    background-color: #f0f4f8;
+    font-weight: bold;
+}
+
+.sang_content{
+    text-align: center;
+     margin: 0 auto;
 }

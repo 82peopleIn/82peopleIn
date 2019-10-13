@@ -8,17 +8,6 @@
 {##}
 {##}
 {##}
-{#<div class="board_header">#}
-{##}
-{#		<span class="favorite_button favorites_24761 active" onclick="location.href='{% url 'notice:notice_list' %}'">#}
-{#            <i class="fas"></i></span>#}
-{#        <a class="a_header" href="{% url 'notice:notice_list' %}">#}
-{#            <span class="notice_title">상권분석</span>#}
-{#        </a>#}
-{#      </span>#}
-{#<hr class="my-hr3">#}
-{#</div>#}
-{#<br>#}
 {#<div id="map" style="width:100%;height:350px;"></div>#}
 {##}
 {#<script>#}
@@ -31,17 +20,6 @@
 {#var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다#}
 {#</script>#}
 {##}
-{#<select id="list" >#}
-{#  <option  value="" selected="selected">---SELECT---</option>#}
-{#  {% for Gu in gu_list %}#}
-{#    <option class="" value="{{ Gu.id }}">{{ Gu.name }}</option>#}
-{#  {% endfor %}#}
-{#  {% for gu in gu_list %}#}
-{#     <option value="{{gu.id}}">{{gu.name}}</option>#}
-{#  {% endfor %}#}
-{#</select>#}
-{# <button type="submit" onclick="getSelectValue()">지도 중심좌표 이동시키기</button>#}
-{##}
 {##}
 {#<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f460952f0d62b1ca6bd68a4534bb4978"></script>#}
 {#<script>#}
@@ -53,20 +31,284 @@
 {##}
 {#var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다#}
 {##}
+{#// 마커를 표시할 위치와 title 객체 배열입니다#}
+{#var positions = [#}
+{#    {#}
+{#        title: '카카오',#}
+{#        latlng: new kakao.maps.LatLng(33.450705, 126.570677)#}
+{#    },#}
+{#    {#}
+{#        title: '생태연못',#}
+{#        latlng: new kakao.maps.LatLng(33.450936, 126.569477)#}
+{#    },#}
+{#    {#}
+{#        title: '텃밭',#}
+{#        latlng: new kakao.maps.LatLng(33.450879, 126.569940)#}
+{#    },#}
+{#    {#}
+{#        title: '근린공원',#}
+{#        latlng: new kakao.maps.LatLng(33.451393, 126.570738)#}
+{#    }#}
+{#];#}
 {##}
-{#function getSelectValue() {#}
-{#    var selectedValue = document.getElementById("list").value;#}
-{#    console.log(selectedValue);#}
-{#  {% for gu in gu_list %}#}
-{#    var lat = {{ gu.latitude }};#}
-{#    var lng = {{ gu.longitude }};#}
-{#  {% endfor %}#}
-{#console.log(lat,lng);#}
-{#    var moveLatLon = new kakao.maps.LatLng(lng, lat);#}
+{#// 마커 이미지의 이미지 주소입니다#}
+{#var imageSrc = "http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png";#}
 {##}
-{#    map.setCenter(moveLatLon);}#}
+{#for (var i = 0; i < positions.length; i ++) {#}
 {##}
+{#    // 마커 이미지의 이미지 크기 입니다#}
+{#    var imageSize = new kakao.maps.Size(24, 35);#}
 {##}
+{#    // 마커 이미지를 생성합니다#}
+{#    var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize);#}
+{##}
+{#    // 마커를 생성합니다#}
+{#    var marker = new kakao.maps.Marker({#}
+{#        map: map, // 마커를 표시할 지도#}
+{#        position: positions[i].latlng, // 마커를 표시할 위치#}
+{#        title : positions[i].title, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다#}
+{#        image : markerImage // 마커 이미지#}
+{#    });#}
+{#}#}
 {#</script>#}
+{##}
+{#  #}
+{#<div style="height:150px;"></div>#}
+{##}
+{#  <div class="add_buttons">#}
+{##}
+{#    <div class="button-group">#}
+{#      <a href="{% url 'map:display_seoul' %}" class="btn btn-primary btn-md btn-trim" role="button"> Laptops</a>#}
+{##}
+{#      <a href="{% url 'map:display_bucheon' %}" class="btn btn-primary btn-md btn-trim" role="button"> Desktops</a>#}
+{##}
+{##}
+{##}
+{#    </div>#}
+{##}
+{#  </div>#}
+{##}
+{#  <div>#}
+{##}
+{#    <h4>Currently Viewing {{ header }}</h4>#}
+{#  </div>#}
+{##}
+{#  <table class="table table-hover">#}
+{#    <thead>#}
+{#      <tr>#}
+{#        <th>id</th>#}
+{#        <th>Model</th>#}
+{#        <th>Price</th>#}
+{#        <th>Status</th>#}
+{#        <th>Issues</th>#}
+{#        <th></th>#}
+{#      </tr>#}
+{#    </thead>#}
+{##}
+{#    <tbody>#}
+{##}
+{#      {% for item in items %}#}
+{##}
+{#      <tr>#}
+{#        <td>{{ item.pk }}#}
+{#        <td>{{ item.name }}</td>#}
+{#        <td>{{ item.location }}</td>#}
+{#        <td>{{ item.latitude }}</td>#}
+{#        <td>{{ item.longitude }}</td>#}
+{##}
+{##}
+{#      </tr>#}
+{##}
+{#      {% endfor %}#}
+{#    </tbody>#}
+{#  </table>#}
+{##}
+{##}
+{##}
+{#{% endblock %}#}
+{##}
+{##}
+{#{% extends "base.html" %}                   <!--base.html을 상속받는다고 선언-->#}
+{##}
+{#{% block title %}{% endblock %}    <!--title 블록 재정의-->#}
+{##}
+{#<!--정적 파일인 css 연결하기 위하여, staticfiles를 로드-->#}
+{#{% load staticfiles %}#}
+{#<!--extrastyle 블록을 재정의하여 추가적으로 home.css 연결-->#}
+{#{% block extrastyle %}{% static "home.css" %}{% endblock %}#}
+{##}
+{#{% block content %}#}
+{##}
+{#{% load staticfiles %}#}
+{#<script>#}
+{#	$(window).on("scroll", function() {#}
+{#		if ($(window).scrollTop() > 300) {#}
+{#			$("#mainNav").css("background-color","#ffffff").css("box-shadow", "0 0 14px rgba(0,0,0,.4)");#}
+{#			$(".navbar-nav .nav-item .nav-link").css("color","#000000");#}
+{#		}else {#}
+{#      $("#mainNav").css("background-color","transparent").css("box-shadow", "none");#}
+{#      $(".navbar-nav .nav-item .nav-link").css("color","#ffffff");#}
+{#		}#}
+{#	});#}
+{#</script>#}
+{##}
+{#<div style="height:400px; width:100%; background-image: url({% static 'img/상권분석.jpg' %});">#}
+{#  <h1 class="menu_name">상권분석</h1>#}
+{#</div>#}
+{#  <div style="height:100px;"></div>#}
+{##}
+{#	<div id="map" style=" height:450px; margin-right:180px; margin-left:180px;"></div>#}
+{##}
+{#	<script src="https://code.jquery.com/jquery-latest.min.js" type="application/javascript"></script>#}
+{##}
+{#    <script src="{% static 'js/hangjungdong2.js' %}" type="application/javascript"></script>#}
+{#	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2efc7c37bb5224fa7e38f9b7f3a8bc32&libraries=services,clusterer,drawing"></script>#}
+{##}
+{#	<script>#}
+{#  var mapContainer = document.getElementById('map'), // 지도를 표시할 div#}
+{#    mapOption = {#}
+{#        center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표#}
+{#        level: 3 // 지도의 확대 레벨#}
+{#    };#}
+{#  var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다#}
+{##}
+{#		jQuery(document).ready(function(){#}
+{#  //sido option 추가#}
+{#  jQuery.each(hangjungdong.sido, function(idx, code){#}
+{#    //append를 이용하여 option 하위에 붙여넣음#}
+{#    jQuery('#sido').append(fn_option(code.sido, code.codeNm));#}
+{#  });#}
+{##}
+{#  //sido 변경시 시군구 option 추가#}
+{#  jQuery('#sido').change(function(){#}
+{#    jQuery('#sigugun').show();#}
+{#    jQuery('#sigugun').empty();#}
+{#    jQuery('#sigugun').append(fn_option('','선택')); //#}
+{#    jQuery.each(hangjungdong.sigugun, function(idx, code){#}
+{#      if(jQuery('#sido > option:selected').val() == code.sido)#}
+{#        jQuery('#sigugun').append(fn_option(code.sigugun, code.codeNm));#}
+{#    });#}
+{##}
+{#    //세종특별자치시 예외처리#}
+{#    //옵션값을 읽어 비교#}
+{#    if(jQuery('#sido option:selected').val() == '36'){#}
+{#      jQuery('#sigugun').hide();#}
+{#      //index를 이용해서 selected 속성(attr)추가#}
+{#      //기본 선택 옵션이 최상위로 index 0을 가짐#}
+{#      jQuery('#sigugun option:eq(1)').attr('selected', 'selected');#}
+{#      //trigger를 이용해 change 실행#}
+{#      jQuery('#sigugun').trigger('change');#}
+{#    }#}
+{#  });#}
+{##}
+{#  //시군구 변경시 행정동 옵션추가#}
+{#  jQuery('#sigugun').change(function(){#}
+{#    //option 제거#}
+{#    jQuery('#dong').empty();#}
+{#    jQuery.each(hangjungdong.dong, function(idx, code){#}
+{#      if(jQuery('#sido > option:selected').val() == code.sido && jQuery('#sigugun > option:selected').val() == code.sigugun)#}
+{#        jQuery('#dong').append(fn_option(code.dong, code.codeNm));#}
+{#    });#}
+{#    //option의 맨앞에 추가#}
+{#    jQuery('#dong').prepend(fn_option('','선택'));#}
+{#    //option중 선택을 기본으로 선택#}
+{#    jQuery('#dong option:eq("")').attr('selected', 'selected');#}
+{##}
+{#  });#}
+{##}
+{#  jQuery('#dong').change(function(){#}
+{#    var sido = jQuery('#sido option:selected').val();#}
+{#    var sigugun = jQuery('#sigugun option:selected').val();#}
+{#    var dong = jQuery('#dong option:selected').val();#}
+{#    var codeNm = jQuery('#dong option:selected').text();#}
+{#    // var ADONG_NM = sido + sigugun + dong + '00';#}
+{##}
+{##}
+{#    // 한글 -> 좌표 변환#}
+{#    var geocoder = new kakao.maps.services.Geocoder();#}
+{##}
+{##}
+{#    var callback = function(result, status) {#}
+{#        if (status === kakao.maps.services.Status.OK) {#}
+{#            var x = result[0].address.x;#}
+{#            var y = result[0].address.y;#}
+{#            console.log(x,y);#}
+{#            var container = document.getElementById('map');#}
+{#            var options = {#}
+{#              center: new kakao.maps.LatLng(y,x),#}
+{#              level: 3#}
+{#            };#}
+{##}
+{#            var map = new kakao.maps.Map(container, options);#}
+{##}
+{##}
+{##}
+{#         {% for item in items %}#}
+{##}
+{#           var positions = {#}
+{##}
+{#                    var c = {{ item.latitude }};#}
+{#                    var v = {{ item.longitude }};#}
+{##}
+{#                    title: {{ item.name }},#}
+{#                    latlng: new kakao.maps.LatLng(c, v)#}
+{#           }#}
+{#           #}
+{#          {% endfor %}#}
+{##}
+                {#{#}
+                {#    title: '슬로스텝',#}
+                {#    latlng: new kakao.maps.LatLng(37.58314925, 127.0001708)}#}
+{##}
+{##}
+{#          // 마커 이미지의 이미지 주소입니다#}
+{#            var imageSrc = "http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png";#}
+{#            for (var i = 0; i < positions.length; i ++) {#}
+{##}
+{#            // 마커 이미지의 이미지 크기 입니다#}
+{#            var imageSize = new kakao.maps.Size(24, 35);#}
+{##}
+{#            // 마커 이미지를 생성합니다#}
+{#            var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize);#}
+{##}
+{#            // 마커를 생성합니다#}
+{#            var marker = new kakao.maps.Marker({#}
+{#                map: map, // 마커를 표시할 지도#}
+{#                position: positions[i].latlng, // 마커를 표시할 위치#}
+{#                title : positions[i].title, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다#}
+{#                image : markerImage // 마커 이미지#}
+{#            });#}
+{#        }#}
+{##}
+{#        }#}
+{#    };#}
+{##}
+{##}
+{##}
+{#    geocoder.addressSearch("'"+codeNm+"'", callback);#}
+{##}
+{#  });#}
+{#});#}
+{##}
+{#function fn_option(code, name){#}
+{#  return '<option value="' + code +'">' + name +'</option>';#}
+{#}#}
+{##}
+{##}
+{#	</script>#}
+{##}
+{##}
+{#	<div  style="  margin-left:180px;">#}
+{#		<select id="sido">#}
+{#			<option value="">선택</option>#}
+{#		</select>#}
+{#		<select id="sigugun">#}
+{#			<option value="">선택</option>#}
+{#		</select>#}
+{#		<select id="dong">#}
+{#			<option value="">선택</option>#}
+{#		</select>#}
+{#		</div>#}
+{##}
 {##}
 {#{% endblock %}#}

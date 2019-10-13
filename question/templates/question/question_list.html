@@ -1,0 +1,45 @@
+{% extends "question/layout.html" %}                   <!--base.html을 상속받는다고 선언-->
+{% block title %}Q&A{% endblock %}
+{% load staticfiles %}
+{% block extrastyle %}{% static "bootstrap/css/bootstrap.css" %}{% endblock %}
+{% block content %}
+    {{ block.super }}
+
+<br>
+<section class="board_content">
+  <table id="notice_list" class="table table-striped responsive display nowrap">
+    <thead>
+      <tr>
+        <th class="priority-1">번호</th>
+        <th class="priority-2">제목</th>
+        <th class="priority-3">작성자</th>
+        <th class="priority-4">날짜</th>
+        <th class="priority-5">조회수</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for question in question_list %}
+      <tr>
+        <td class="priority-1">{{ question.id }}</td>
+        <td class="priority-2"><a style="text-decoration: none;" href="{{ question.get_absolute_url }}">{{ question.title }}</a></td>
+        <td class="priority-3">{{ question.author }}</td>
+        <td class="priority-4">{{ question.created_at|date:"Y-m-d" }}</td>
+        <td class="priority-5">{{ question.hit }}</td>
+{#        <td></td>#}
+      </tr>
+    {% endfor %}
+
+    </tbody>
+  </table>
+ {% if request.user.is_superuser %}
+    <button type="submit" style="float: right;">
+        <a href="{% url 'question:question_new' %}" style="color:#000000 ">글쓰기</a>
+    </button>
+  {% endif %}
+</section>
+
+<br>
+
+
+
+{% endblock %}

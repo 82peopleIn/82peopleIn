@@ -10,25 +10,23 @@
 {% block content %}
 
 {% load staticfiles %}
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"/>
-	<title>상권분석</title>
+<script>
+	$(window).on("scroll", function() {
+		if ($(window).scrollTop() > 300) {
+			$("#mainNav").css("background-color","#ffffff").css("box-shadow", "0 0 14px rgba(0,0,0,.4)");
+			$(".navbar-nav .nav-item .nav-link").css("color","#000000");
+		}else {
+      $("#mainNav").css("background-color","transparent").css("box-shadow", "none");
+      $(".navbar-nav .nav-item .nav-link").css("color","#ffffff");
+		}
+	});
+</script>
 
-</head>
-<body>
-  <div style="height:150px;"></div>
-  <div class="board_header">
-
-		<span class="favorite_button favorites_24761 active" onclick="location.href='{% url 'sang:sang2' %}'">
-{#            <i class="fas"></i></span>#}
-        <a class="a_header" href="{% url 'sang:sang2' %}">
-            <span class="notice_title">상권분석</span>
-        </a>
-      </span>
-<hr class="my-hr3">
+<div style="height:400px; width:100%; background-image: url({% static 'img/상권분석.jpg' %});">
+  <h1 class="menu_name">상권분석</h1>
 </div>
+  <div style="height:100px;"></div>
+
 	<div id="map" style=" height:450px; margin-right:180px; margin-left:180px;"></div>
 
 	<script src="https://code.jquery.com/jquery-latest.min.js" type="application/javascript"></script>
@@ -37,7 +35,12 @@
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2efc7c37bb5224fa7e38f9b7f3a8bc32&libraries=services,clusterer,drawing"></script>
 
 	<script>
-		
+  var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+    mapOption = {
+        center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+        level: 3 // 지도의 확대 레벨
+    };
+  var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 
 		jQuery(document).ready(function(){
   //sido option 추가
@@ -106,16 +109,16 @@
             };
 
             var map = new kakao.maps.Map(container, options);
-            
-            
+
+
         }
     };
 
     geocoder.addressSearch("'"+codeNm+"'", callback);
-    
-    
-    
-    
+
+
+
+
   });
 });
 
@@ -125,8 +128,8 @@ function fn_option(code, name){
 
 
 	</script>
-		
-	
+
+
 	<div  style="  margin-left:180px;">
 		<select id="sido">
 			<option value="">선택</option>
@@ -139,7 +142,5 @@ function fn_option(code, name){
 		</select>
 		</div>
 
-</body>
-</html>
 
 {% endblock %}

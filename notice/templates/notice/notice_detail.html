@@ -1,25 +1,15 @@
-{% extends "../base.html" %}                   <!--base.html을 상속받는다고 선언-->
+{% extends "notice/layout.html" %}                   <!--base.html을 상속받는다고 선언-->
 {% block title %}{{ notice.title }}{% endblock %}
 {% load staticfiles %}
 {% block extrastyle %}{% static "notice.css" %}{% endblock %}
+
 {% block content %}
+{{ block.super }}
 
-  <div style="height:150px;"></div>
-
-<div class="board_header">
-
-		<span class="favorite_button favorites_24761 active" onclick="location.href='{% url 'notice:notice_list' %}'">
-{#            <i class="fas"></i></span>#}
-        <a class="a_header" href="{% url 'notice:notice_list' %}">
-            <span class="notice_title">공지사항</span>
-        </a>
-      </span>
-<hr class="my-hr3">
-</div>
-
-  <section>
+  <hr class="my-hr4" >
+  <section class="allContent">
     <article>
-        <div class="title-wrap clearfix" style="padding-left:200px">
+        <div class="notice_content">
 
             <h5> <span style="">{{ notice.title }}</span></h5>
             <div class="under-title" style="font-size: 15px;">
@@ -31,7 +21,7 @@
             </div>
 	      </div>
     </article>
-    <hr class="my-hr4" style="margin-left:180px; margin-right:180px;">
+    <hr class="my-hr4" >
 
   <div class="notice_content">
         <article itemprop="articleBody"><!--BeforeDocument(1102807111,0)-->
@@ -45,19 +35,20 @@
         </div>
         </article>
   </div>
+
+    <div class="control hidden" style="float: right; margin-right:200px;">
+    {% if request.user.is_superuser %}
+            <button type="submit" class="">
+                <a href="{% url 'notice:notice_remove' notice.pk %}" style="color:#000" >삭제</a>
+            </button>
+            <button type="submit" class="">
+                <a href="{% url 'notice:notice_edit' notice.pk %}" style="color:#000">수정</a>
+            </button>
+      {% endif %}
+    </div>
   </section>
 
-<div class="control hidden">
-    {% if request.user.is_superuser %}
-        <button type="submit" class="">
-            <a href="{% url 'notice:notice_remove' notice.pk %}" style="color:#fff">삭제</a>
-        </button></div>
-<div class="control hidden">
-        <button type="submit" class="">
-            <a href="{% url 'notice:notice_edit' notice.pk %}" style="color:#fff">수정</a>
-        </button>
-    {% endif %}
-</div>
+  <br><br><br>
 
 {##}
 {#    <br>#}

@@ -1,0 +1,25 @@
+{% extends "question/layout.html" %}                   <!--base.html을 상속받는다고 선언-->
+{% block title %}{{ question.title }}{% endblock %}
+{% load staticfiles %}
+{% block extrastyle %}{% static "question.css" %}{% endblock %}
+
+{% block content %}
+    {{ block.super }}
+
+<section class="noticeEditor">
+{{ form.media }}
+  <form class="noticeClass" method="POST" action="">
+      {% csrf_token %}
+      {{form.as_p|safe}}
+          <div class="bt-wrap clearfix bt-wrap-full">
+              <br>
+  {#            <button type="submit" class="btn btn-primary  btn-block login-btn" style="margin-top: 0px; margin-left:6px;">등록</button>#}
+            <input type="submit" value="save">
+          </div>
+  </form>
+</section>
+
+
+
+
+{% endblock %}

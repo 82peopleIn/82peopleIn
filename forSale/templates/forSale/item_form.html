@@ -1,4 +1,4 @@
-{% extends "../base.html" %}                   <!--base.html을 상속받는다고 선언-->
+{% extends "forSale/layout.html" %}                   <!--base.html을 상속받는다고 선언-->
 {% block title %}{{ item.title }}{% endblock %}
 {% load staticfiles %}
 {% block extrastyle %}{% static "forSale.css" %}{% endblock %}
@@ -10,8 +10,6 @@
 
 {% block content %}
     {{ block.super }}
-
-    <div style="height:150px;"></div>
 
     <div class="container">
         <div class="col-sm-12">
@@ -28,11 +26,11 @@
                 </div>
             {% endif %}
 
-            {% if initial %}
-                <div class="alert alert-info">
-                    initial: {{ initial }}
-                </div>
-            {% endif %}
+{#            {% if initial %}#}
+{#                <div class="alert alert-info">#}
+{#                    initial: {{ initial }}#}
+{#                </div>#}
+{#            {% endif %}#}
 
             <form action="" method="post" enctype="multipart/form-data" autocomplete="off">
                 {% csrf_token %}
@@ -46,10 +44,46 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>매물 설명</th>
+                            <th>소재지</th>
+                            <td>
+                                <input type="text" name="location" value="{{ initial.location }}" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>면적</th>
+                            <td>
+                                <input type="text" name="area" value="{{ initial.area }}" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>현 업종</th>
+                            <td>
+                                <input type="text" name="sector" value="{{ initial.sector }}" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>해당층</th>
+                            <td>
+                                <input type="text" name="floor" value="{{ initial.floor }}" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>부동산 전화번호</th>
+                            <td>
+                                <input type="text" name="date" value="{{ initial.tel }}" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>옵션</th>
+                            <td>
+                                <textarea name="option" class="form-control"
+                                    cols="20" rows="5">{{ initial.option }}</textarea>                            </td>
+                        </tr>
+                        <tr>
+                            <th>매물 특징</th>
                             <td>
                                 <textarea name="desc" class="form-control"
-                                    cols="40" rows="10">{{ initial.desc }}</textarea>
+                                    cols="20" rows="5">{{ initial.desc }}</textarea>
                             </td>
                         </tr>
                         <tr>
@@ -61,16 +95,9 @@
                         <tr>
                             <th>매물 사진</th>
                             <td>
-                                {% if initial.photo %}<img src="{{ initial.photo.url }}"/>{% endif %}
+                                {% if initial.photo %}<img style="max-width:800px;" src="{{ initial.photo.url }}"/>{% endif %}
                                 <input type="file" name="photo"
                                       {% if initial.photo %} value="{{ initial.photo.url }}" {% endif %} class="form-control" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>출시 여부</th>
-                            <td>
-                                <input type="checkbox" name="is_published" value="1"
-                                       {% if initial.is_published %}checked{% endif %} />
                             </td>
                         </tr>
                     </tbody>

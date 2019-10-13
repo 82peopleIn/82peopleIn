@@ -14,6 +14,7 @@
   <title>PEOPLE IN</title>
   {% load staticfiles %} <!--정적 파일인 css 연결하기 위하여, staticfiles를 로드-->
   <link rel="shortcut icon" type="image/x-icon" href="{% static 'customer.png' %}" />
+{#    <link href="{% static 'common/common.css' %}" rel="stylesheet">#}
 
   <!-- Bootstrap core CSS -->
   <link  rel="stylesheet" href="{% block stylesheet %}{% static 'bootstrap/css/bootstrap.min.css' %}{% endblock %} ">
@@ -84,7 +85,7 @@
             <a class="nav-link js-scroll-trigger" href="{% url 'forSale:item_list' %}">상가매물</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">창업나눔</a>
+            <a class="nav-link js-scroll-trigger" href="{% url 'question:question_list' %}">온라인문의</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="{% url 'notice:notice_list' %}">공지사항</a>
@@ -131,7 +132,21 @@
 
 
   {% block content %}{% endblock %}   <!--블록 태그로 콘텐츠 영역 정의 -->
-
+      <div id="footer">
+   <div class="footer_inner">
+      <div class="footerBtn">
+         <a href="">People In</a>
+      </div>
+      <div class="footerCont">
+         <ul>
+            <li class="w100p">㈜피플인 대표 : 윤혜주</li>
+            <li>주소 : 서울특별시 성동구 살곶이길 200</li>
+            <li>TEL. 02-2290-2114</li>
+         </ul>
+      </div>
+      <p class="copy">Copyright © 2019 PeopleIn All rights reserved.</p>
+   </div>
+</div>
   {% block footer %}{% endblock %}    <!--블록 태그로 풋터 영역 정의-->
 
 </body>

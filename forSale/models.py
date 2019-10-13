@@ -11,9 +11,15 @@ def local_time(input_time):
     return my_local_time.strftime(fmt)
 
 class Item(models.Model):
-    name = models.CharField(max_length=20)
-    desc = models.TextField(blank=True)
-    price = models.CharField(max_length=20)
+    name = models.CharField(max_length=20, verbose_name="상가명")
+    location = models.CharField(max_length=30, verbose_name="소재지")
+    area = models.CharField(max_length=8,verbose_name="면적")
+    sector = models.CharField(max_length=8,verbose_name="현 업종", null = True, blank = True)
+    option = models.TextField(verbose_name="옵션", null = True, blank = True)
+    tel = models.CharField(max_length=20, verbose_name="부동산 전화번호", null = True, blank = True)
+    floor = models.CharField(max_length=5, verbose_name="해당층", null = True, blank = True)
+    desc = models.TextField(verbose_name="매물 특징")
+    price = models.CharField(max_length=20,verbose_name="가격")
     photo = models.ImageField()  # blank=True 지정하지 않은 경우
 
     def __str__(self):
@@ -21,20 +27,3 @@ class Item(models.Model):
 
     def get_absolute_url(self):
         return reverse('forSale:item_detail', kwargs={'pk': self.pk})
-
-# class Review(models.Model):
-#     item = models.ForeignKey(Item, on_delete=models.CASCADE,
-#                              related_name='reviews', verbose_name='아이템')
-#     message = models.TextField('리뷰')
-#     created_at = models.DateTimeField(auto_now_add=True)
-#     updated_at = models.DateTimeField(auto_now=True)
-#
-#     class Meta:
-#         ordering = ['-item__id', '-id']  # '-item__id', '-id'
-#
-#     def __str__(self):
-#         return self.message
-#
-#     def updated(self):
-#         return local_time(self.updated_at)
-#     updated.short_description = '수정 일시'

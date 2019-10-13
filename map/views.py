@@ -1,13 +1,28 @@
+from django.shortcuts import render, redirect, get_object_or_404
 
-from django.shortcuts import render
+# Create your views here.
 
-from map.models import Gu
+from .models import *
 
-#
-# def index(request):
-#     return render(request, 'map/map_index.html')
+from .forms import *
 
-def gu_list(request):
-    qs = Gu.objects.all()
-    return render(request, 'map/map_index.html',
-                  {'gu_list': qs})
+
+def index(request):
+    return render(request, 'map/map_index.html')
+
+def display_seoul(request):
+    items = Seoul.objects.all()
+    context = {
+        'items': items,
+        'header': 'Seoul',
+    }
+    return render(request, 'map/map_index.html', context)
+
+
+def display_bucheon(request):
+    items = Bucheon.objects.all()
+    context = {
+        'items': items,
+        'header': 'Bucheon',
+    }
+    return render(request, 'map/map_index.html', context)

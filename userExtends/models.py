@@ -36,19 +36,13 @@ class Profile(models.Model):
     in_area = models.PositiveSmallIntegerField(choices=AREA_CHOICES, null=True, blank=True, verbose_name='관심지역')
 
 
-    class Meta:
+    class Meta:  
         verbose_name = 'profile'
         verbose_name_plural = 'profiles'
 
     def __str__(self):
         return self.user.username
 
-
-# @receiver(post_save, sender=User)
-# def create_or_update_user_profile(sender, instance, created, **kwargs):
-#     if created:
-#         Profile.objects.create(user=instance)
-#     instance.profile.save()
 
 @receiver(post_save, sender=User)
 def create_user_profile(sender, instance, created, **kwargs):
