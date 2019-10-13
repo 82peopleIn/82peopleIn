@@ -23,7 +23,8 @@ def question_list(request):
 # 정상적으로 작동되는 댓글 기능 코드 ------------------------------------------------------------
 def question_detail(request, pk):
     question = get_object_or_404(Question, pk=pk)
-    comments = Comment.objects.filter(post=question).order_by('-id')
+    # comments = Comment.objects.filter(post=question).order_by('-id')
+    comments = Comment.objects.filter(post=question)[:1]
 
     if request.method == 'POST':
         comment_form = CommentForm(request.POST or None)

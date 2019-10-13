@@ -10,6 +10,7 @@
 {% block content %}
 
 {% load staticfiles %}
+   <link href='{% static "css/sang.css" %}' rel="stylesheet">
 <script>
 	$(window).on("scroll", function() {
 		if ($(window).scrollTop() > 300) {
@@ -25,7 +26,10 @@
 <div style="height:400px; width:100%; background-image: url({% static 'img/상권분석.jpg' %});">
   <h1 class="menu_name">상권분석</h1>
 </div>
-  <div style="height:100px;"></div>
+  <br><br><br>
+  <h3 style="text-align: center">상권분석</h3>
+<br>
+
 
 	<div id="map" style=" height:450px; margin-right:180px; margin-left:180px;"></div>
 
@@ -55,8 +59,19 @@
     jQuery('#sigugun').empty();
     jQuery('#sigugun').append(fn_option('','선택')); //
     jQuery.each(hangjungdong.sigugun, function(idx, code){
-      if(jQuery('#sido > option:selected').val() == code.sido)
-        jQuery('#sigugun').append(fn_option(code.sigugun, code.codeNm));
+      if(jQuery('#sido > option:selected').val() == code.sido){
+        jQuery('#sigugun').append(fn_option(code.sigugun, code.codeNm))
+             if(code.sido == '11'){
+                 $("#hh").click(function() {
+                location.href="{% url 'sang:sang3' %}";
+        });
+            } else if (code.sido == '41') {
+                  $("#hh").click(function() {
+                location.href="{% url 'sang:sang4' %}";
+        });
+        }
+      }
+
     });
 
     //세종특별자치시 예외처리
@@ -125,22 +140,27 @@
 function fn_option(code, name){
   return '<option value="' + code +'">' + name +'</option>';
 }
-
+function moveUrl(url){
+    var sido = each(hangjungdong.sigugun)
+}
 
 	</script>
 
 
-	<div  style="  margin-left:180px;">
-		<select id="sido">
+	<div class="dropdown" style="margin-left: 180px; margin-right:180px;">
+        <div class="select form-row" >
+		<select id="sido" class="form-control col-md-2" >
+			<option value="">선택</option>
+		</select>&nbsp;&nbsp;
+		<select id="sigugun" class="form-control col-md-2">
+			<option value="">선택</option>
+		</select>&nbsp;&nbsp;
+		<select id="dong" class="form-control col-md-2">
 			<option value="">선택</option>
 		</select>
-		<select id="sigugun">
-			<option value="">선택</option>
-		</select>
-		<select id="dong">
-			<option value="">선택</option>
-		</select>
-		</div>
+        </div>
+      <a class="btn btn-info btn-lg btn-block" style="margin-top:5px;" id="hh" role="button" >상권분석</a>
 
+    </div>
 
 {% endblock %}

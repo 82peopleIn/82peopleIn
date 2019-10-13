@@ -53,25 +53,42 @@
 <div class="notice_content">
     <br><br>
 
-    <hr class="my-hr5" >
-{% for c in question.comments.all %}
-    {% if c in question.comments.all %}
-      <h5 style="text-align: center">[답변] {{ question.title }}</h5>
-      <hr class="my-hr6" >
-    {% else %}
-        <h5 style="text-align: center; display: none;">[답변] {{ question.title }}</h5>
-    {% endif %}
-{% endfor %}
+{#    <hr class="my-hr5" >#}
+{#{% for c in question.comments.all %}#}
+{#    {% if c in question.comments.all %}#}
+{#      <h5 style="text-align: center">[답변] {{ question.title }}</h5>#}
+{#      <hr class="my-hr6" >#}
+{#    {% else %}#}
+{#        <h5 style="text-align: center; display: none;">[답변] {{ question.title }}</h5>#}
+{#    {% endif %}#}
+{#{% endfor %}#}
+
+{#{% for c in question.comments.all %}#}
+{#      <h5 style="text-align: center">[답변] {{ question.title }}</h5>#}
+{#      <hr class="my-hr6" >#}
+{#    {% empty %}#}
+{#        <h5 style="text-align: center; display: none;">[답변] {{ question.title }}</h5>#}
+{#{% endfor %}#}
 
       {% csrf_token %}
       {% for c in question.comments.all %}
+        <hr class="my-hr5" >
+        <h5 style="text-align: center">[답변] {{ question.title }}</h5>
+        <hr class="my-hr6" >
         <p>{{ c.message|linebreaks }}</p>
+        <br>
+      {% empty %}
+         <h5 style="text-align: center; display: none;">[답변] {{ question.title }}</h5>
       {% endfor %}
+
+
   <br>
     <form method="post">
     {% if request.user.is_superuser %}
-      {% csrf_token %}
-      {{ comment_form.as_p }}
+{#      {% if  %}#}
+        {% csrf_token %}
+        {{ comment_form.as_p }}
+{#      {% endif %}#}
     {% endif %}
 
       {% if request.user.is_superuser %}

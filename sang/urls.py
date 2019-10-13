@@ -5,4 +5,6 @@ app_name = 'sang'
 
 urlpatterns = [
     path('', views.sang2, name='sang2'),
+    path('sang3', views.sang3, name='sang3'),
+    path('sang4', views.sang4, name='sang4'),
 ]
