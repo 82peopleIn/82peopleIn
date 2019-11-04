@@ -1,7 +1,3 @@
-from django.contrib.auth import login
-from django.contrib.auth.models import User
-from django.http import HttpResponse
-from django.shortcuts import redirect, render
 from django.views.generic.base import TemplateView
 from django.views.generic.edit import CreateView
 from django.contrib.auth.forms import UserCreationForm
@@ -13,6 +9,7 @@ from django.contrib.auth.decorators import login_required
 
 # from notice.models import Notice
 from forSale.models import Item
+from userExtends.forms import ProfileForm
 
 
 class IndexView(TemplateView):
@@ -27,6 +24,7 @@ class IndexView(TemplateView):
 class UserCreateView(CreateView):
     template_name = 'registration/register.html'
     form_class = UserCreationForm
+    # form_class = ProfileForm
     success_url = reverse_lazy('register_done')
 
 

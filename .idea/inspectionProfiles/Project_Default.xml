@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="userExtends.views.login_ext" />
+          <option value="userExtends.views.user" />
         </list>
       </option>
     </inspection_tool>

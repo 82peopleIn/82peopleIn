@@ -20,7 +20,7 @@ def juicy(request):
         datasource = count,
         series_options =
             [{'options': {
-                'type': 'column',
+                'type': 'line',
                 'stacking': False,
                 'color': 'rgb(239, 62, 54)'},
                'terms':{
@@ -49,7 +49,7 @@ def gongcha(request):
         datasource = count,
         series_options =
             [{'options': {
-                'type': 'column',
+                'type': 'line',
                 'stacking': False,
                 'color': 'rgb(195, 32, 49)'},
                'terms':{
@@ -78,7 +78,7 @@ def subway(request):
         datasource = count,
         series_options =
             [{'options': {
-                'type': 'column',
+                'type': 'line',
                 'stacking': False,
                 'color': 'rgb(0, 137, 57)'},
                'terms':{
@@ -107,7 +107,7 @@ def starbucks(request):
         datasource = count,
         series_options =
             [{'options': {
-                'type': 'column',
+                'type': 'line',
                 'stacking': False,
                 'color': 'rgb(1, 119, 84)'},
                'terms':{
@@ -136,7 +136,7 @@ def momstouch(request):
         datasource = count,
         series_options =
             [{'options': {
-                'type': 'column',
+                'type': 'line',
                 'stacking': False,
                 'color': 'rgb(237, 37, 66)'},
                'terms':{
@@ -166,7 +166,7 @@ def ediya(request):
         datasource = count,
         series_options =
             [{'options': {
-                'type': 'column',
+                'type': 'line',
                 'stacking': False,
                 'color': 'rgb(19, 35, 93)'},
                'terms':{
@@ -196,7 +196,7 @@ def sinjeon(request):
         datasource = count,
         series_options =
             [{'options': {
-                'type': 'column',
+                'type': 'line',
                 'stacking': False,
                 'color': 'rgb(214, 21, 24)'},
                'terms':{
@@ -225,7 +225,7 @@ def caffebene(request):
         datasource = count,
         series_options =
             [{'options': {
-                'type': 'column',
+                'type': 'line',
                 'stacking': False,
                 'color': 'rgb(112, 90, 77)'},
                'terms':{
@@ -254,7 +254,7 @@ def mrsd(request):
         datasource = count,
         series_options =
             [{'options': {
-                'type': 'column',
+                'type': 'line',
                 'stacking': False,
                 'color': 'rgb(238, 48, 42)'},
                'terms':{

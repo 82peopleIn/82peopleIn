@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'question',
     'import_export',
     'userExtends',
+    'userExtends2',
     'forSale',
     'django.contrib.humanize',
     'chartit',

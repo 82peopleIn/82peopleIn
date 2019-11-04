@@ -9,11 +9,14 @@ from django.urls import path, re_path, include
 from django.conf.urls.static import static
 from django.conf import settings                         # 추가 1
 
+
 urlpatterns = [
     path('logout/', auth_views.LogoutView.as_view(), name='logout'),
     re_path(r'^accounts/', include('django.contrib.auth.urls')),
+
     # 계정 가입 처리하는 URL
     re_path(r'^accounts/register/$', UserCreateView.as_view(), name='register'),
+
     # 계정 가입 완료될 때 보여줄 URL
     re_path(r'^accounts/register/done/$', UserCreateDoneTV.as_view(), name='register_done'),
     url(r'^admin/', admin.site.urls, name='admin'),
