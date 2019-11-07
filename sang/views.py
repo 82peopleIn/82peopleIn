@@ -4,8 +4,10 @@ from django.shortcuts import render
 def sang2(request):
     return render(request, 'sang/sang2.html')
 
+
 def sang3(request):
     return render(request, 'sang/sang3.html')
+
 
 def sang4(request):
     return render(request, 'sang/sang4.html')

@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e08f3cd5-5f26-49dd-ab72-8aeb84aa7876" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang2.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang2ori.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang2ori.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang3.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang4.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang5.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sang/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sang/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sang/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1328">
-              <caret line="144" column="50" selection-start-line="144" selection-start-column="50" selection-end-line="144" selection-end-column="50" />
+            <state relative-caret-position="1205">
+              <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -119,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/sang/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -127,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="30">
               <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
               <folding>
                 <element signature="e#781#866#0#HTML" expanded="true" />
@@ -177,9 +170,9 @@
       <find>map</find>
       <find>fon</find>
       <find>area</find>
-      <find>info</find>
       <find>carto</find>
       <find>sang</find>
+      <find>info</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -232,12 +225,12 @@
         <option value="$PROJECT_DIR$/sang/static/seoul.json" />
         <option value="$PROJECT_DIR$/sang/static/data(1).json" />
         <option value="$PROJECT_DIR$/sang/static/data.json" />
-        <option value="$PROJECT_DIR$/sang/templates/sang/sang2.html" />
         <option value="$PROJECT_DIR$/sang/templates/sang/sang2ori.html" />
         <option value="$PROJECT_DIR$/sang/templates/sang/sang5.html" />
         <option value="$PROJECT_DIR$/sang/templates/sang/sang3.html" />
         <option value="$PROJECT_DIR$/sang/templates/sang/sang4.html" />
         <option value="$PROJECT_DIR$/sang/urls.py" />
+        <option value="$PROJECT_DIR$/sang/templates/sang/sang2.html" />
         <option value="$PROJECT_DIR$/sang/views.py" />
       </list>
     </option>
@@ -457,12 +450,12 @@
       <workItem from="1572704722999" duration="4579000" />
       <workItem from="1572760094844" duration="8375000" />
       <workItem from="1573039026342" duration="12485000" />
-      <workItem from="1573102027253" duration="12388000" />
+      <workItem from="1573102027253" duration="12941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311588000" />
+    <option name="totallyTimeSpent" value="312141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -848,13 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1328">
-          <caret line="144" column="50" selection-start-line="144" selection-start-column="50" selection-end-line="144" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2ori.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -876,17 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <element signature="e#781#866#0#HTML" expanded="true" />
-            <element signature="e#916#937#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sang/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -897,10 +872,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="e#781#866#0#HTML" expanded="true" />
+            <element signature="e#916#937#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1205">
+          <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sang/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
