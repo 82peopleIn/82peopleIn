@@ -9,3 +9,7 @@ def sang3(request):
 
 def sang4(request):
     return render(request, 'sang/sang4.html')
+
+
+def sang5(request):
+    return render(request, 'sang/sang5.html')

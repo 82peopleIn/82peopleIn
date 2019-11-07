@@ -1,0 +1,41 @@
+{% extends "base.html" %}                   <!--base.html을 상속받는다고 선언-->
+
+{% block title %}{% endblock %}    <!--title 블록 재정의-->
+
+<!--정적 파일인 css 연결하기 위하여, staticfiles를 로드-->
+{% load staticfiles %}
+<!--extrastyle 블록을 재정의하여 추가적으로 home.css 연결-->
+{% block extrastyle %}{% static "home.css" %}{% endblock %}
+
+{% block content %}
+
+{% load staticfiles %}
+
+  <script>
+	$(window).on("scroll", function() {
+		if ($(window).scrollTop() > 300) {
+			$("#mainNav").css("background-color","#ffffff").css("box-shadow", "0 0 14px rgba(0,0,0,.4)");
+			$(".navbar-nav .nav-item .nav-link").css("color","#000000");
+		}else {
+      $("#mainNav").css("background-color","transparent").css("box-shadow", "none");
+      $(".navbar-nav .nav-item .nav-link").css("color","#ffffff");
+		}
+	});
+</script>
+
+<div style="height:400px; width:100%; background-image: url({% static 'img/상권분석.jpg' %});">
+  <h1 class="menu_name">상권분석</h1>
+</div>
+  <div style="height:100px;"></div>
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+
+  <br><br><br>
+
+<div><h1>데이터 보여주는 곳</h1></div>
+
+{% endblock %}
