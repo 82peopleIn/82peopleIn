@@ -52,7 +52,7 @@
         <ul class="navbar-nav text-uppercase ml-auto">
            {% if request.user.is_superuser %}
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="{% url 'admin:index' %}">사이트관리</a>
+            <a class="nav-link js-scroll-trigger" style="font-weight: bold" href="{% url 'admin:index' %}">사이트관리</a>
           </li>
           {% endif %}
           <li class="nav-item">

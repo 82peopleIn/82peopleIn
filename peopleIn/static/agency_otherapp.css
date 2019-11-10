@@ -344,13 +344,13 @@ ul.social-buttons li a {
       text-align: right;
       /*padding-right: 10px;*/
 
-      color: #000000;
+      color: #ffffff;
       font-weight: normal;
       font-size: 12px;
   }
 
   .welcome a:link, .welcome a:visited {
-      color: #000000;
+      color: #ffffff;
   }
 
   /*메뉴*/

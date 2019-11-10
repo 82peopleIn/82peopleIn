@@ -32,15 +32,6 @@ class Notice(models.Model):
     hit = models.PositiveIntegerField(default=0)
     likes = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='likes', blank=True)
 
-    # board_choices = (
-    #     ('공지사항', '공지사항'),
-    #     ('문의사항', '문의사항'),
-    #     ('프랜차이즈', '프랜차이즈'),
-    #     ('창업정보나누기', '창업정보나누기'),
-    #     ('창업계획서나누기', '창업계획서나누기')
-    # )
-    # board = models.CharField(max_length=10, choices=board_choices, default='공지사항')
-    #
     def save(self):
         self.slug = slugify(self.title)
         super(Notice, self).save()

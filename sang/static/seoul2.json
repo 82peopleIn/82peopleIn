@@ -1,0 +1,252 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sheet1",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::3857"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id":176,
+        "gu_name": "노원구",
+        "dong_name": "공릉1동",
+        "Classification": "한식",
+        "count": 158
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":176,
+        "gu_name": "노원구",
+        "dong_name": "공릉1동",
+        "Classification": "중식",
+        "count": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":176,
+        "gu_name": "노원구",
+        "dong_name": "공릉1동",
+        "Classification": "닭/오리요리",
+        "count": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":176,
+        "gu_name": "노원구",
+        "dong_name": "공릉1동",
+        "Classification": "커피점/카페",
+        "count": 55
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":176,
+        "gu_name": "노원구",
+        "dong_name": "공릉1동",
+        "Classification": "편의점/슈퍼마켓",
+        "count": 58
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":176,
+        "gu_name": "노원구",
+        "dong_name": "공릉1동",
+        "Classification": "일식/수산물",
+        "count": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":176,
+        "gu_name": "노원구",
+        "dong_name": "공릉1동",
+        "Classification": "제과제빵떡케익",
+        "count": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":176,
+        "gu_name": "노원구",
+        "dong_name": "공릉1동",
+        "Classification": "유흥주점",
+        "count": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":176,
+        "gu_name": "노원구",
+        "dong_name": "공릉1동",
+        "Classification": "분식",
+        "count": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":176,
+        "gu_name": "노원구",
+        "dong_name": "공릉1동",
+        "Classification": "패스트푸드",
+        "count": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":176,
+        "gu_name": "노원구",
+        "dong_name": "공릉1동",
+        "Classification": "별식/퓨전요리",
+        "count": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":176,
+        "gu_name": "노원구",
+        "dong_name": "공릉1동",
+        "Classification": "양식",
+        "count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":161,
+        "gu_name": "노원구",
+        "dong_name": "공릉2동",
+        "Classification": "한식",
+        "count": 85
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":161,
+        "gu_name": "노원구",
+        "dong_name": "공릉2동",
+        "Classification": "중식",
+        "count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":161,
+        "gu_name": "노원구",
+        "dong_name": "공릉2동",
+        "Classification": "닭/오리요리",
+        "count": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":161,
+        "gu_name": "노원구",
+        "dong_name": "공릉2동",
+        "Classification": "커피점/카페",
+        "count": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":161,
+        "gu_name": "노원구",
+        "dong_name": "공릉2동",
+        "Classification": "편의점/슈퍼마켓",
+        "count": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":161,
+        "gu_name": "노원구",
+        "dong_name": "공릉2동",
+        "Classification": "일식/수산물",
+        "count": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":161,
+        "gu_name": "노원구",
+        "dong_name": "공릉2동",
+        "Classification": "제과제빵떡케익",
+        "count": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":161,
+        "gu_name": "노원구",
+        "dong_name": "공릉2동",
+        "Classification": "유흥주점",
+        "count": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":161,
+        "gu_name": "노원구",
+        "dong_name": "공릉2동",
+        "Classification": "분식",
+        "count": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":161,
+        "gu_name": "노원구",
+        "dong_name": "공릉2동",
+        "Classification": "패스트푸드",
+        "count": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":161,
+        "gu_name": "노원구",
+        "dong_name": "공릉2동",
+        "Classification": "별식/퓨전요리",
+        "count": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":161,
+        "gu_name": "노원구",
+        "dong_name": "공릉2동",
+        "Classification": "양식",
+        "count": 2
+      }
+    }
+  ]
+}

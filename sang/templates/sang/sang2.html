@@ -42,8 +42,13 @@
   <h1 class="menu_name">상권분석</h1>
 </div>
   <br><br><br>
+
   <h3 style="text-align: center">상권분석</h3>
 <br>
+
+    <div>
+</div>
+
 
 
 <div id="map" style="width:70%;height:550px; margin:0 auto;"></div>
@@ -66,13 +71,15 @@ $.getJSON("{% static 'data.json' %}", function(geojson) {
     var data = geojson.features;
     var coordinates = [];    //좌표 저장할 배열
     var adm_nm = '';            //행정 구 이름
+    var id = 0; // id 저장
 
     $.each(data, function(index, val) {
 
         coordinates = val.geometry.coordinates;
         adm_nm = val.properties.adm_nm;
+        id = val.properties.id;
 
-        displayArea(coordinates, adm_nm);
+        displayArea(coordinates, adm_nm, id);
 
     })
 });
@@ -81,7 +88,7 @@ $.getJSON("{% static 'data.json' %}", function(geojson) {
 var polygons=[];                //function 안 쪽에 지역변수로 넣으니깐 폴리곤 하나 생성할 때마다 배열이 비어서 클릭했을 때 전체를 못 없애줌.  그래서 전역변수로 만듦.
 
 //행정구역 폴리곤
-function displayArea(coordinates, adm_nm) {
+function displayArea(coordinates, adm_nm, id) {
 
     var path = [];            //폴리곤 그려줄 path
     var points = [];        //중심좌표 구하기 위한 지역구 좌표들
@@ -98,7 +105,8 @@ function displayArea(coordinates, adm_nm) {
     var polygon = new kakao.maps.Polygon({
         map: map, // 다각형을 표시할 지도 객체
         path: path,
-        strokeWeight: 2,
+        strokeWeight: 4,
+        strokeStyle: 'longdash',
         strokeColor: '#3498db',
         strokeOpacity: 0.8,
         fillColor: '#fff',
@@ -112,13 +120,15 @@ function displayArea(coordinates, adm_nm) {
     // 지역명을 표시하는 커스텀오버레이를 지도위에 표시합니다
     kakao.maps.event.addListener(polygon, 'mouseover', function (mouseEvent) {
         polygon.setOptions({
-            fillOpacity: 0.5,
+            fillOpacity: 0.3,
             fillColor: '#09f'
 
         });
 
         var content = '<div class="area">' + adm_nm + '<br>' +
                       '<p style="font-size: 14px; float: right; margin-bottom:0px;">' + '상권분석 >' + '</p>' + '</div>';
+
+
 
         customOverlay.setContent(content);
         customOverlay.setPosition(mouseEvent.latLng);
@@ -141,8 +151,14 @@ function displayArea(coordinates, adm_nm) {
         });
 
     });
+
+
     kakao.maps.event.addListener(polygon, 'click', function() {
-        document.location.href='{% url 'sang:sang5' %}';
+        {% for sang in sang_list %}
+            if (id == {{ sang.id }}) {
+                document.location.href = '{{ sang.get_absolute_url }}';
+            }
+        {% endfor %}
     });
 }
 

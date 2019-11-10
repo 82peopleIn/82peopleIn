@@ -1,17 +1,23 @@
-from django.shortcuts import render
+from chartit import DataPool, Chart
+from django.shortcuts import render, get_object_or_404
+
 
 # Create your views here.
-def sang2(request):
-    return render(request, 'sang/sang2.html')
+from sang.models import Sang
+
+def sang_list(request):
+    sangs = Sang.objects.all()
+
+    return render(request, 'sang/sang2.html', {
+        'sang_list': sangs })
+
+def sang_detail(request, pk):
+    sangs = get_object_or_404(Sang, pk=pk)
+
+    context = {
+        'sang': sangs,
+    }
+    return render(request, 'sang/sang_detail.html',
+                  context)
 
 
-def sang3(request):
-    return render(request, 'sang/sang3.html')
-
-
-def sang4(request):
-    return render(request, 'sang/sang4.html')
-
-
-def sang5(request):
-    return render(request, 'sang/sang5.html')

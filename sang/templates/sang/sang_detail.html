@@ -1,0 +1,214 @@
+{% extends "base.html" %}                   <!--base.html을 상속받는다고 선언-->
+
+{% block title %}{% endblock %}    <!--title 블록 재정의-->
+
+<!--정적 파일인 css 연결하기 위하여, staticfiles를 로드-->
+{% load staticfiles %}
+<!--extrastyle 블록을 재정의하여 추가적으로 home.css 연결-->
+{% block extrastyle %}{% static "home.css" %}{% endblock %}
+
+{% block content %}
+
+{% load staticfiles %}
+  <style>
+
+  </style>
+  <script>
+	$(window).on("scroll", function() {
+		if ($(window).scrollTop() > 300) {
+			$("#mainNav").css("background-color","#ffffff").css("box-shadow", "0 0 14px rgba(0,0,0,.4)");
+			$(".navbar-nav .nav-item .nav-link").css("color","#000000");
+		}else {
+      $("#mainNav").css("background-color","transparent").css("box-shadow", "none");
+      $(".navbar-nav .nav-item .nav-link").css("color","#ffffff");
+		}
+	});
+</script>
+
+<div style="height:400px; width:100%; background-image: url({% static 'img/상권분석.jpg' %});">
+  <h1 class="menu_name">상권분석</h1>
+</div>
+  <div style="height:70px;"></div>
+
+
+  <h5 style="text-align: center"> <span style="margin: 0 auto;">{{ sang.gu_title }} {{ sang.dong_title }}</span></h5>
+  <br><br>
+
+{% load humanize %}
+<div style="margin: 0 auto; text-align: center; height: 250px;">
+  <div style="display: inline-block; width:30%; height:250px; border:3px solid #dae0e5; overflow:hidden;" >
+    <br>
+    <img src="{% static 'img/demographic.png' %}" style="width:100px; font-size: 0;" alt=""/>
+    <p>주거인구</p>
+    <h1 style="color:#0f4c97;">{{ sang.living_pop|intcomma }}명</h1>
+  </div>
+  <div  id="container2" style="display: inline-block; width:30%; height:250px; border:3px solid #dae0e5;" >
+  </div>
+</div>
+
+  <br> <br><br>
+  <p  style="width: 60%; margin: 0 auto; ">업종별 점포 수</p><br>
+    <div id="container1" style="width: 60%; margin: 0 auto; height: 500px"></div>
+
+
+
+  	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script type="text/javascript">
+        $(function () {
+                var processed_json = new Array();
+                {#var processed_json = [];#}
+                $.getJSON('{% static 'csvjson.json' %}', function(data) {
+                    // Populate series
+                    for (i = 0; i < data.length; i++){
+                        {#console.log(data[i].id);#}
+                        if(data[i].id == {{ sang.id }}){
+                            processed_json.push([data[i].Classification, data[i].count]);
+                            console.log(processed_json);
+                        }
+                    }
+                    // draw chart
+                    $('#container1').highcharts({
+                    chart: {
+                        type: "column"
+                    },
+                    title: {
+                        text: ""
+                    },
+                    xAxis: {
+                        type:'category',
+                        allowDecimals: false,
+                        title: {
+                            text: "업종명"
+                        }
+                    },
+                    yAxis: {
+                        title: {
+                            text: "점포 수"
+                        }
+                    },
+                    series: [{
+                        name : '',
+                        colorByPoint: true,
+                        data: processed_json
+                    }]
+                });
+            });
+        });
+    </script>
+  <script type="text/javascript">
+
+      Highcharts.chart('container2', {
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false,
+            type: 'pie'
+        },
+        title: {
+            text: ''
+        },
+        tooltip: {
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: false
+                },
+                showInLegend: true
+            }
+        },
+        series: [{
+            name: '',
+            {#showInLegend: false,#}
+            colorByPoint: true,
+            data: [{
+                name: '0~9세',
+                y: 643
+            }, {
+                name: '10~19세',
+                y: 756
+            }, {
+                name: '20~29세',
+                y: 1251
+            }, {
+                name: '30~39세',
+                y: 1448
+            }, {
+                name: '40~49세',
+                y: 1591
+            }, {
+                name: '50~59세',
+                y: 1554
+            }, {
+                name:'60세 이상',
+                y: 2457
+            }],
+              credits: {
+                enabled: false
+            }
+
+        }]
+    });
+
+
+
+
+
+      /*
+        $(function () {
+                var processed_json2 = new Array();
+                $.getJSON('{% static 'age.json' %}', function(data) {
+                    // Populate series
+                    for (i = 0; i < data.length; i++){
+                        console.log(data[i].id);
+                        if(data[i].id == {{ sang.id }}){
+                            processed_json2.push([data[i].data[i].zeronine, data[i].tennine, data[i].twentynine, data[i].thirtynine, data[i].fourtynine,data[i].fiftynine, data[i].sixty_up]);
+                            console.log(processed_json2);
+                        }
+                    }
+                    // draw chart
+                    $('#container2').highcharts({
+                    chart: {
+                        type: "pie"
+                    },
+                    title: {
+                        text: ""
+                    },
+                    series: [{
+                      type: 'pie',
+                      data: processed_json2,
+                      innerSize: '50%'
+                    }],
+                    credits: {
+                      enabled: false
+                  }
+                });
+            });
+        });
+       */
+    </script>
+
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
