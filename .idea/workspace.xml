@@ -3,69 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e08f3cd5-5f26-49dd-ab72-8aeb84aa7876" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/AWR_Logo_Kr_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/blank.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/btn_play.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/dataroot_logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/f_line_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/footer_notice.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/icon_doc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/icon_down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/icon_down_b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/icon_down_g.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/icon_quotes1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/knime_logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/logo_max_w.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/logo_whitec.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/menu_bn2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/menu_bn2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/menu_bn3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/menu_bn3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/menu_bn6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/menu_lang.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/menu_lang_w.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/sns1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/sns1_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/sns2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/sns2_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/sns3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/sns3_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/sns4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/sns4_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/common/wheel_w.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/burgerking.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/chicken.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/fla_ani.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/fla_fix.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/fla_sum1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/inter_ani.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/inter_fix.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/inter_sum1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/inter_sum2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/inter_sum3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/inter_sum4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/intro_menu1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/intro_menu2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/intro_menu3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/intro_menu4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/max_ani.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/max_feature1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/max_feature2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/max_feature3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/max_feature5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/max_feature6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/max_feature7.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/max_feature8.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/max_fix.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/max_sum1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/max_sum2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/max_sum3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/max_sum4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/static/image/sub/rotation05.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peopleIn/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/peopleIn/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang2.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,26 +55,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="170" column="14" selection-start-line="170" selection-start-column="14" selection-end-line="170" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Pictures/peopleIn2 (4)/sang/templates/sang/sang2.html">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/피플인/nuBnag (2)/sang/templates/sang/sang2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4408">
-              <caret line="232" selection-start-line="232" selection-end-line="233" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sang/static/css/sub.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1235">
-              <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+              <caret line="50" lean-forward="true" selection-end-line="170" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,51 +76,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/peopleIn/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="342">
               <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/franchise/templates/franchise/layout.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.5dc90dbc2e4055/sang22.html">
+        <entry file="file://$PROJECT_DIR$/sang/static/css/sub.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="148" column="1" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sang/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.5dc90df22f14cb/sang2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="224" column="31" lean-forward="true" selection-end-line="240" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/peopleIn/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1463">
-              <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+            <state relative-caret-position="615">
+              <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -299,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1300" />
@@ -311,6 +208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -388,7 +286,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -517,12 +414,13 @@
       <workItem from="1573411617135" duration="223000" />
       <workItem from="1573434715339" duration="5331000" />
       <workItem from="1573445636293" duration="3206000" />
-      <workItem from="1573456983848" duration="575000" />
+      <workItem from="1573456983848" duration="719000" />
+      <workItem from="1573459102522" duration="509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371241000" />
+    <option name="totallyTimeSpent" value="371894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -537,7 +435,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230563" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18498659" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -549,7 +447,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49597856" visible="true" weight="0.34702548" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49597856" weight="0.34560907" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402147" side_tool="true" weight="0.38755304" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.04249292" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32577905" />
@@ -561,7 +459,7 @@
       <window_info anchor="right" id="Database" order="4" weight="0.24262735" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.211126" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -573,9 +471,9 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49597856" visible="true" weight="0.3371105" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49597856" visible="true" weight="0.34560907" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402147" side_tool="true" weight="0.38755304" />
-      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.04249292" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32577905" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -600,9 +498,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/map/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/map/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -896,27 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/피플인/nuBnag (2)/sang/templates/sang/sang2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4408">
-          <caret line="232" selection-start-line="232" selection-end-line="233" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sang/static/css/sub.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/peopleIn/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1463">
-          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forSale/templates/forSale/layout.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -927,13 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/peopleIn/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forSale/templates/forSale/item_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -941,36 +808,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/franchise/templates/franchise/layout.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.5dc90df22f14cb/sang2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="224" column="31" lean-forward="true" selection-end-line="240" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.5dc90dbc2e4055/sang22.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
+        <state relative-caret-position="2812">
           <caret line="148" column="1" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sang/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
+    <entry file="file://$PROJECT_DIR$/peopleIn/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/피플인/nuBnag (2)/sang/templates/sang/sang2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="220" column="35" lean-forward="true" selection-start-line="220" selection-start-column="35" selection-end-line="220" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.5dc90df22f14cb/sang2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="224" column="31" selection-end-line="240" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/franchise/templates/franchise/layout.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peopleIn/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Pictures/peopleIn2 (4)/sang/templates/sang/sang2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <caret line="50" lean-forward="true" selection-end-line="170" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sang/static/css/sub.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="170" column="14" selection-start-line="170" selection-start-column="14" selection-end-line="170" selection-end-column="14" />
         </state>
       </provider>
     </entry>
