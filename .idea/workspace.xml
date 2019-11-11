@@ -55,8 +55,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="170" column="14" selection-start-line="170" selection-start-column="14" selection-end-line="170" selection-end-column="14" />
+            <state relative-caret-position="285">
+              <caret line="236" selection-start-line="236" selection-end-line="236" />
+              <folding>
+                <element signature="e#1524#1567#0#HTML" expanded="true" />
+                <element signature="e#4024#4065#0#HTML" expanded="true" />
+                <element signature="e#4228#4250#0#HTML" expanded="true" />
+                <element signature="e#4277#4299#0#HTML" expanded="true" />
+                <element signature="e#4487#4557#0#HTML" expanded="true" />
+                <element signature="e#4641#4711#0#HTML" expanded="true" />
+                <element signature="e#5561#5616#0#HTML" expanded="true" />
+                <element signature="e#5793#5815#0#HTML" expanded="true" />
+                <element signature="e#5842#5864#0#HTML" expanded="true" />
+                <element signature="e#5904#5950#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1300" />
@@ -415,12 +427,12 @@
       <workItem from="1573434715339" duration="5331000" />
       <workItem from="1573445636293" duration="3206000" />
       <workItem from="1573456983848" duration="719000" />
-      <workItem from="1573459102522" duration="509000" />
+      <workItem from="1573459102522" duration="773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371894000" />
+    <option name="totallyTimeSpent" value="372158000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,9 +445,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18498659" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -447,7 +458,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49597856" weight="0.34560907" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49597856" visible="true" weight="0.34560907" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402147" side_tool="true" weight="0.38755304" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.04249292" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32577905" />
@@ -868,8 +879,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="170" column="14" selection-start-line="170" selection-start-column="14" selection-end-line="170" selection-end-column="14" />
+        <state relative-caret-position="285">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+          <folding>
+            <element signature="e#1524#1567#0#HTML" expanded="true" />
+            <element signature="e#4024#4065#0#HTML" expanded="true" />
+            <element signature="e#4228#4250#0#HTML" expanded="true" />
+            <element signature="e#4277#4299#0#HTML" expanded="true" />
+            <element signature="e#4487#4557#0#HTML" expanded="true" />
+            <element signature="e#4641#4711#0#HTML" expanded="true" />
+            <element signature="e#5561#5616#0#HTML" expanded="true" />
+            <element signature="e#5793#5815#0#HTML" expanded="true" />
+            <element signature="e#5842#5864#0#HTML" expanded="true" />
+            <element signature="e#5904#5950#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
