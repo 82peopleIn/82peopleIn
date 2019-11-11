@@ -1,0 +1,20 @@
+[
+{ "id": 1, "gu_name": "종로구", "dong_name": "사직동", "Classification": "한식", "count": 35 },
+{ "id": 1, "gu_name": "종로구", "dong_name": "사직동", "Classification": "커피점/카페", "count": 11 },
+{ "id": 1, "gu_name": "종로구", "dong_name": "사직동", "Classification": "유흥주점", "count": 9 },
+{ "id": 1, "gu_name": "종로구", "dong_name": "사직동", "Classification": "편의점/슈퍼마켓", "count": 8 },
+{ "id": 1, "gu_name": "종로구", "dong_name": "사직동", "Classification": "양식", "count": 7 },
+{ "id": 1, "gu_name": "종로구", "dong_name": "사직동", "Classification": "이외의 업종", "count": 30 },
+{ "id": 16, "gu_name": "종로구", "dong_name": "청운효자동", "Classification": "한식", "count": 42 },
+{ "id": 16, "gu_name": "종로구", "dong_name": "청운효자동", "Classification": "커피점/카페", "count": 10 },
+{ "id": 16, "gu_name": "종로구", "dong_name": "청운효자동", "Classification": "유흥주점", "count": 6 },
+{ "id": 16, "gu_name": "종로구", "dong_name": "청운효자동", "Classification": "편의점/슈퍼마켓", "count": 5 },
+{ "id": 16, "gu_name": "종로구", "dong_name": "청운효자동", "Classification": "양식", "count": 5 },
+{ "id": 16, "gu_name": "종로구", "dong_name": "청운효자동", "Classification": "이외의 업종", "count": 32 },
+{ "id": 5, "gu_name": "종로구", "dong_name": "무악동", "Classification": "한식", "count": 55 },
+{ "id": 5, "gu_name": "종로구", "dong_name": "무악동", "Classification": "커피점/카페", "count": 15 },
+{ "id": 5, "gu_name": "종로구", "dong_name": "무악동", "Classification": "유흥주점", "count": 7 },
+{ "id": 5, "gu_name": "종로구", "dong_name": "무악동", "Classification": "편의점/슈퍼마켓", "count": 3 },
+{ "id": 5, "gu_name": "종로구", "dong_name": "무악동", "Classification": "양식", "count": 5 },
+{ "id": 5, "gu_name": "종로구", "dong_name": "무악동", "Classification": "이외의 업종", "count": 15 }
+]

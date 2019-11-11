@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e08f3cd5-5f26-49dd-ab72-8aeb84aa7876" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/81f73662-0edb-429f-aa0a-67e69a536eb7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/81f73662-0edb-429f-aa0a-67e69a536eb7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forSale/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/forSale/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/map/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/notice/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peopleIn/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/peopleIn/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peopleIn/static/agency_otherapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/peopleIn/static/agency_otherapp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peopleIn/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/peopleIn/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peopleIn/templates/home_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/peopleIn/templates/home_base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sang/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sang/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/static/seoul.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang2.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang5.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sang/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sang/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userExtends2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userExtends2/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userExtends2/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userExtends2/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userExtends2/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userExtends2/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userExtends2/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userExtends2/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userExtends2/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,63 +54,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.8668831">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="933">
-                  <caret line="168" selection-start-line="168" selection-end-line="168" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sang/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
-                  <folding>
-                    <element signature="e#0#28#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang_detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="344">
-                  <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-                  <folding>
-                    <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#h5#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#0;n#h5#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-                    <element signature="n#script#3;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sang/static/age.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sang/templates/sang/sample.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="344">
-                  <caret line="57" column="4" selection-start-line="13" selection-start-column="2" selection-end-line="57" selection-end-column="4" />
+                <state relative-caret-position="275">
+                  <caret line="160" column="20" lean-forward="true" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -142,7 +66,7 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sang/static/age.json">
               <provider selected="true" editor-type-id="text-editor">
@@ -205,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/notice/templates/notice/notice_detail.html" />
         <option value="$PROJECT_DIR$/peopleIn/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/peopleIn/templates/registration/register_done.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/81f73662-0edb-429f-aa0a-67e69a536eb7/console.sql" />
@@ -256,6 +179,7 @@
         <option value="$PROJECT_DIR$/peopleIn/settings.py" />
         <option value="$PROJECT_DIR$/sang/static/age.json" />
         <option value="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" />
+        <option value="$PROJECT_DIR$/sang/static/mc.json" />
       </list>
     </option>
   </component>
@@ -303,13 +227,6 @@
               <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
               <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
               <item name="sang" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
-              <item name="sang" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -342,19 +259,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\peopleIn2\sang\static" />
-      <recent name="C:\peopleIn2\sang\static\img" />
-      <recent name="C:\peopleIn2\sang\static\js" />
-      <recent name="C:\peopleIn2\sang" />
-      <recent name="C:\peopleIn2\sang\templates\sang" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\peopleIn2\sang\static" />
       <recent name="C:\peopleIn2\sang" />
       <recent name="C:\peopleIn2\sang\templates\geo" />
       <recent name="C:\peopleIn2\sang\templates\sang" />
       <recent name="C:\peopleIn2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\peopleIn2\sang\static" />
+      <recent name="C:\peopleIn2\sang\static\img" />
+      <recent name="C:\peopleIn2\sang\static\js" />
+      <recent name="C:\peopleIn2\sang" />
+      <recent name="C:\peopleIn2\sang\templates\sang" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -449,11 +366,14 @@
       <workItem from="1573193830723" duration="6340000" />
       <workItem from="1573279987415" duration="11266000" />
       <workItem from="1573366302470" duration="31492000" />
+      <workItem from="1573411617135" duration="223000" />
+      <workItem from="1573434715339" duration="5331000" />
+      <workItem from="1573445636293" duration="275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="361906000" />
+    <option name="totallyTimeSpent" value="367735000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,7 +388,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17426273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1802949" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -480,7 +400,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49597856" visible="true" weight="0.34702548" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49597856" visible="true" weight="0.34702548" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402147" side_tool="true" weight="0.38755304" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.04249292" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32577905" />
@@ -531,13 +451,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/notice/templates/notice/notice_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notice/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -816,27 +729,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sang/static/노원구 일부.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sang/static/seoul.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sang/static/localization.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4389">
-          <caret line="231" column="6" lean-forward="true" selection-start-line="231" selection-start-column="6" selection-end-line="231" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sang/static/seoul.json" />
+    <entry file="file://$PROJECT_DIR$/sang/static/localization.json" />
     <entry file="file://$PROJECT_DIR$/sang/static/--_-1_-2_utf.geojson">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -888,54 +782,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sang/static/mc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sang/templates/sang/sample.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="1083">
           <caret line="57" column="4" selection-start-line="13" selection-start-column="2" selection-end-line="57" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sang/models.py">
+    <entry file="file://$PROJECT_DIR$/sang/static/노원구 일부.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="933">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sang/static/age.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="57">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h5#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#script#3;n#!!top" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="161" column="20" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sang/static/age.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="44" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sang/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="160" column="20" lean-forward="true" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
         </state>
       </provider>
     </entry>
