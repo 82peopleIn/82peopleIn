@@ -2,8 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e08f3cd5-5f26-49dd-ab72-8aeb84aa7876" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sang/static/css/sub.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/css/examples.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/css/fullpage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/css/sub.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/AWR_Logo_Kr_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/blank.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/btn_play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/dataroot_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/f_line_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/footer_notice.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/icon_doc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/icon_down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/icon_down_b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/icon_down_g.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/icon_quotes1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/knime_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/logo_max_w.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/logo_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/logo_whitec.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/menu_bn2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/menu_bn2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/menu_bn3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/menu_bn3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/menu_bn6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/menu_lang.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/menu_lang_w.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/sns1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/sns1_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/sns2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/sns2_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/sns3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/sns3_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/sns4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/sns4_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/image/common/wheel_w.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/js/examples.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/js/fullpage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/js/product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/js/slick.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +115,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sang/static/css/sub.css">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -222,20 +266,6 @@
               <item name="forSale" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
-              <item name="forSale" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
-              <item name="forSale" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -368,12 +398,12 @@
       <workItem from="1573366302470" duration="31492000" />
       <workItem from="1573411617135" duration="223000" />
       <workItem from="1573434715339" duration="5331000" />
-      <workItem from="1573445636293" duration="2609000" />
+      <workItem from="1573445636293" duration="2837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370069000" />
+    <option name="totallyTimeSpent" value="370297000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,6 +416,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1802949" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -828,7 +859,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sang/static/css/sub.css">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
