@@ -12,25 +12,27 @@
 /* 스타일 */
 
 @import url('jh_style.css');
-/* 종환님 스타일 */
+
 
 @import url('yj_style.css');
-/* 윤주님 스타일 */
+
 
 html {
     height: 100%;
     overflow-y: auto;
 }
 
-
+h2 {
+    font-family: '나눔고딕';}
 
 h1,
-h2,
+
 h3,
 h4,
 h5,
 h6 {
     font-family: 'Noto Sans KR', sans-serif;
+
 }
 
 body,
@@ -131,3 +133,21 @@ object {
     margin: 0;
     padding: 0;
 }
+
+#myVideo{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
+.main1_bgbg {width:100%; height:100%; background:black; position:absolute; opacity:.4; left:0; top:0; z-index:4;}

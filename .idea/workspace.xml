@@ -3,7 +3,264 @@
   <component name="ChangeListManager">
     <list default="true" id="e08f3cd5-5f26-49dd-ab72-8aeb84aa7876" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/static/forSale.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/templates/forSale/item_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/forSale/templates/forSale/item_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forSale/templates/forSale/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/forSale/templates/forSale/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/franchise/templates/franchise/franchise_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/franchise/templates/franchise/franchise_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/franchise/templates/franchise/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/franchise/templates/franchise/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/agency.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/agency.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/agency_otherapp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/animations.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/fonts/modernsans/ModernSansLight.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/fonts/notosans/NotoSans-CondensedSemiBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/fonts/notosansKR/NotoSansKR-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/fonts/notosansKR/NotoSansKR-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/fonts/notosansKR/NotoSansKR-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/fonts/notosansKR/NotoSansKR-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/fonts/notosansKR/NotoSansKR-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/fonts/notosansKR/NotoSansKR-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/fonts/notosansKR/NotoSansKR-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/fonts/notosansKR/NotoSansKR-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/jh_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/jquery.fullpage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/common/yj_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/examples.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/fullpage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/yun.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/yun2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/customer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/css/brands.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/css/brands.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/css/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/css/regular.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/css/regular.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/css/solid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/css/solid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/css/svg-with-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/css/svg-with-js.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/css/v4-shims.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/css/v4-shims.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/fontawesome-free/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/franchise.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/44003c4f6506e7e5a2ddccd0c8f013fb5255ce6e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/5842f062a6515b1e0ad75b15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/article1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/article10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/article11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/article12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/article13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/article14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/article2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/article3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/article4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/article5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/article6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/article7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/article8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/article9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/background-image-grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/bang9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/bg6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/btn1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/btn2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/bullet2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/ca1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/ca2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/ca3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/chick1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/chick2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/chick3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/commercial1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/commercial2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/daum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/food1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/food2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/fran1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/fran2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo11.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/franlogo9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/im.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/im2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/im5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/im6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/invest1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/invest2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/maemul9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/nav.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/newback.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/newbtn1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/newbtn2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sosang9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/sub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/고객지원.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/공차.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/국민은행.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/레스토랑.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/레스토랑2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/레스토랑3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/맘스터치.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/명랑핫도그.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/상가매물.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/상가매물2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/상가매물4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/상권분석.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/서브웨이.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/스타벅스.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/신전.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/이디야.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/쥬씨.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/카페.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/카페베네.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/탐탐.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/파바.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/img/하이트진로.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/jquery-easing/jquery.easing.compatibility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/jquery-easing/jquery.easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/jquery-easing/jquery.easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/jquery/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/js/examples.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/js/fullpage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/js/jquery-slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/js/yun.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/록오록오.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/static/주방.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/peopleIn/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/templates/home_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/peopleIn/templates/home_base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/peopleIn/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,34 +308,38 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8668831">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="160" column="20" lean-forward="true" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/sang/static/age.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="51" selection-start-column="44" selection-end-column="51" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="113" column="7" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Desktop/피플인/nuBnag (2)/sang/templates/sang/sang2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/peopleIn/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -205,12 +466,38 @@
             <path>
               <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
               <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
-              <item name="franchise" type="462c0819:PsiDirectoryNode" />
+              <item name="forSale" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
+              <item name="forSale" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
+              <item name="forSale" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="forSale" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
               <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
               <item name="peopleIn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
+              <item name="peopleIn" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
+              <item name="peopleIn" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
@@ -259,19 +546,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\peopleIn2\sang\static" />
-      <recent name="C:\peopleIn2\sang" />
-      <recent name="C:\peopleIn2\sang\templates\geo" />
-      <recent name="C:\peopleIn2\sang\templates\sang" />
-      <recent name="C:\peopleIn2" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\peopleIn2\sang\static" />
       <recent name="C:\peopleIn2\sang\static\img" />
       <recent name="C:\peopleIn2\sang\static\js" />
       <recent name="C:\peopleIn2\sang" />
       <recent name="C:\peopleIn2\sang\templates\sang" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\peopleIn2\forSale\templates\forSale" />
+      <recent name="C:\peopleIn2\forSale" />
+      <recent name="C:\peopleIn2\franchise" />
+      <recent name="C:\peopleIn2\peopleIn" />
+      <recent name="C:\peopleIn2\franchise\templates\franchise" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -368,12 +655,12 @@
       <workItem from="1573366302470" duration="31492000" />
       <workItem from="1573411617135" duration="223000" />
       <workItem from="1573434715339" duration="5331000" />
-      <workItem from="1573445636293" duration="275000" />
+      <workItem from="1573445636293" duration="1996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367735000" />
+    <option name="totallyTimeSpent" value="369456000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,9 +738,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/notice/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/notice/templates/notice/notice_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -628,16 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/peopleIn/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1463">
-          <caret line="77" column="24" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,10 +1098,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/peopleIn/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="160" column="20" lean-forward="true" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
+        <state relative-caret-position="342">
+          <caret line="113" column="7" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/피플인/nuBnag (2)/sang/templates/sang/sang2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

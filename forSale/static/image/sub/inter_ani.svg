@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 250 320" style="white-space: pre;">
+    <defs>
+        <linearGradient id="Gradient-0" x1="7.5" y1="260.5" x2="233.5" y2="265" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#3de4eb"/>
+            <stop offset="1" stop-color="#59b4f7"/>
+        </linearGradient>
+        <linearGradient id="Gradient-1" x1="7.5" y1="260.5" x2="223" y2="267" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#3de4eb"/>
+            <stop offset="1" stop-color="#59b4f7"/>
+        </linearGradient>
+        <linearGradient id="Gradient-2" x1="7.5" y1="260.5" x2="233.5" y2="265" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#a2fff1"/>
+            <stop offset="1" stop-color="#76ebff"/>
+        </linearGradient>
+        <linearGradient id="Gradient-3" x1="7.5" y1="260.5" x2="223" y2="267" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#a2fff1"/>
+            <stop offset="1" stop-color="#76ebff"/>
+        </linearGradient>
+        <linearGradient id="Gradient-4" x1="122.6" y1="17.8562" x2="122.6" y2="262.4" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffffff"/>
+            <stop offset="0" stop-color="#2ed0fd"/>
+            <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="Gradient-5" x1="123.5" y1="20.5" x2="123.5" y2="216.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#8edeff"/>
+            <stop offset="0.825" stop-color="#ffffff" stop-opacity="0.1"/>
+            <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <style>
+@keyframes w_t { 0% { transform: rotate(-21deg) translate(-7.634206px,-3.234206px); } 31.5789% { transform: rotate(-5.4deg) translate(-7.634206px,-3.234206px); } 73.6842% { transform: rotate(3.67deg) translate(-7.634206px,-3.234206px); } 100% { transform: rotate(15deg) translate(-7.634206px,-3.234206px); } }
+@keyframes w_mo { 0% { offset-distance: 0%; } 31.5789% { offset-distance: 30.11%; } 73.6842% { offset-distance: 65.828%; } 100% { offset-distance: 100%; } }
+@keyframes w03_o { 0% { opacity: 0; } 10.5263% { opacity: 1; } 42.1053% { opacity: 1; } 52.6316% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes w02_o { 0% { opacity: 0; } 10.5263% { opacity: 1; } 42.1053% { opacity: 1; } 52.6316% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes w01_o { 0% { opacity: 0; } 10.5263% { opacity: 1; } 42.1053% { opacity: 1; } 52.6316% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes a0_o { 0% { opacity: 0.4; } 52.6316% { opacity: 0; } 100% { opacity: 0.4; } }
+@keyframes light_o { 0% { opacity: 1; animation-timing-function: cubic-bezier(0.42,0,0.413493,1); } 52.6316% { opacity: 0.300657; animation-timing-function: cubic-bezier(0.604411,0,0.58,1); } 100% { opacity: 1; } }
+@keyframes a1_t { 0% { transform: translate(12.25px,26.5957px) scale(1,1) translate(-6.85px,-14.5px); } 52.6315% { transform: translate(12.25px,26.5957px) scale(1.5,1.5) translate(-6.85px,-14.5px); } 100% { transform: translate(12.25px,26.5957px) scale(1,1) translate(-6.85px,-14.5px); } }
+@keyframes a2_t { 0% { transform: translate(12.2px,17.6393px) scale(0.8,0.8) translate(-12.2px,-12.25px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 52.6315% { transform: translate(12.2px,16.1457px) scale(0.8,0.8) translate(-12.2px,-12.25px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(12.2px,17.6393px) scale(0.8,0.8) translate(-12.2px,-12.25px); } }
+@keyframes a3_t { 0% { transform: translate(12.25px,26.5957px) scale(1.5,1.5) translate(-6.85px,-14.5px); } 52.6315% { transform: translate(12.25px,26.5957px) scale(1,1) translate(-6.85px,-14.5px); } 100% { transform: translate(12.25px,26.5957px) scale(1.5,1.5) translate(-6.85px,-14.5px); } }
+@keyframes a4_t { 0% { transform: translate(0px,2.8957px); animation-timing-function: cubic-bezier(0.42,0,1,1); } 52.6315% { transform: translate(0px,5.3893px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(0px,2.8957px); } }
+@keyframes a5_t { 0% { transform: translate(12.25px,26.5957px) scale(1,1) translate(-6.85px,-14.5px); } 52.6315% { transform: translate(12.25px,26.5957px) scale(1.5,1.5) translate(-6.85px,-14.5px); } 100% { transform: translate(12.25px,26.5957px) scale(1,1) translate(-6.85px,-14.5px); } }
+@keyframes a6_t { 0% { transform: translate(0px,5.3893px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 52.6315% { transform: translate(0px,2.8957px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(0px,5.3893px); } }
+@keyframes fly_cone_t { 0% { transform: translate(59.455369px,114.5px) rotate(-13deg) scale(0.3,0.3) translate(-13.275px,-21.0753px); } 100% { transform: translate(47.7px,27.994325px) rotate(-13deg) scale(0.3,0.3) translate(-13.275px,-21.0753px); } }
+@keyframes fly_cone_o { 0% { opacity: 0; } 43.75% { opacity: 1; } 75% { opacity: 1; } 100% { opacity: 0; } }
+@keyframes a7_t { 0% { transform: translate(0px,2.8957px); animation-timing-function: cubic-bezier(0.42,0,1,1); } 52.6315% { transform: translate(0px,5.3893px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(0px,2.8957px); } }
+@keyframes fly_cone_t { 0% { transform: translate(88.1px,88px) rotate(-18deg) scale(0.5,0.5) translate(-13.275px,-21.0753px); } 100% { transform: translate(53.5px,26.894325px) rotate(-18deg) scale(0.5,0.5) translate(-13.275px,-21.0753px); } }
+@keyframes fly_cone_o { 0% { opacity: 0; } 30.4348% { opacity: 1; } 82.6087% { opacity: 1; } 100% { opacity: 0; } }
+@keyframes a8_t { 0% { transform: translate(0px,2.8957px); animation-timing-function: cubic-bezier(0.42,0,1,1); } 52.6315% { transform: translate(0px,5.3893px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(0px,2.8957px); } }
+    </style>
+    <g id="ufo" transform="translate(49.4002,18.4201) translate(-27.8488,-17.0049)">
+        <g transform="translate(26.245,11.9131) translate(-45.7964,-11.934)">
+            <path class="st0" d="M57.3,9.9C56.3,3.4,50.4,-0.7,44,0C48,1.7,50,5.5,50,9.9C50,15.9,46.5,20.9,40.2,20.9C39.4,20.9,38.7,20.8,38,20.7C40.5,23.1,43.9,24.4,47.7,23.8C54.4,22.7,58.3,16.6,57.3,9.9Z" fill="#005fd1"/>
+            <path class="st1" d="M51.5,10C51.5,5.6,48,1.6,44,0C36.5,1,33.3579,7.28197,34.3,13.5C34.7,16.3,36,18.9,37.9,20.7C38.6,20.8,39.4,20.9,40.1,20.9C46.4,20.9,51.5,16,51.5,10Z" fill="#43a3fd"/>
+        </g>
+        <g id="w" transform=" rotate(-21) translate(-7.63421,-3.23421)" style="animation: w_t 1.9s linear infinite both, w_mo 1.9s linear infinite both; offset-path: path('M7.21017,16.4318L17.9852,11.2791C22.954,9.87984,26.8048,9.20733,31.9486,9.08622L45.4961,9.52672'); offset-rotate: 0deg;">
+            <path id="w03" class="st2" d="M52,11.6L52,11.6C51,11.8,50.1,11.1,49.9,10.1L49.7,9.1C49.5,8.1,50.2,7.2,51.2,7L51.2,7C52.2,6.8,53.1,7.5,53.3,8.5L53.5,9.5C53.7,10.5,53,11.5,52,11.6Z" fill="#2e49ed" opacity="0" transform="translate(13.3342,2.33421) translate(-51.6,-9.3)" style="animation: w03_o 1.9s linear 0.2s infinite both;"/>
+            <path id="w02" class="st2" d="M46.6,12.2L46.6,12.2C45.6,12.4,44.7,11.7,44.5,10.7L44.3,9.7C44.1,8.7,44.8,7.8,45.8,7.6L45.8,7.6C46.8,7.4,47.7,8.1,47.9,9.1L48.1,10.1C48.2,11.1,47.6,12,46.6,12.2Z" fill="#2e49ed" opacity="0" transform="translate(7.92252,2.93421) translate(-46.1883,-9.9)" style="animation: w02_o 1.9s linear 0.5s infinite both;"/>
+            <path id="w01" class="st2" d="M40.6,13.4L40.6,13.4C39.6,13.6,38.7,12.9,38.5,11.9L38.3,10.9C38.1,9.9,38.8,9,39.8,8.8L39.8,8.8C40.8,8.6,41.7,9.3,41.9,10.3L42.1,11.3C42.3,12.3,41.6,13.2,40.6,13.4Z" fill="#2e49ed" opacity="0" transform="translate(1.93421,4.13421) translate(-40.2,-11.1)" style="animation: w01_o 1.9s linear 0.8s infinite both;"/>
+        </g>
+        <path class="st4" d="M75.1,17C76,22.8,64.4,30.3,49.1,32.7C33.8,35.1,20.5,31.3,19.6,25.5C18.7,19.7,30.4,13.1,45.7,10.7C61,8.3,74.2,11.2,75.1,17Z" fill="#ffffff" transform="translate(27.7988,21.6218) translate(-47.3502,-21.6427)"/>
+        <path class="st5" d="M75.2,17.6C76.1,23.4,64.5,30.9,49.2,33.3C33.9,35.7,20.6,31.9,19.7,26.1C18.8,20.3,30.5,13.7,45.8,11.3C61.1,8.9,74.3,11.8,75.2,17.6Z" fill="#3698fc" transform="translate(27.8988,22.2218) translate(-47.4502,-22.2427)"/>
+        <path class="st6" d="M49.2,33.3C33.7,35.7,21.2,31.7,20.4,26.6C19.6,21.2,31.3,14.8,46,12.5C60.7,10.2,73.8,12.9,74.6,18.3C75.4,23.4,64.7,30.9,49.2,33.3Z" fill="#48a7fe" transform="translate(27.9503,22.8245) translate(-47.5017,-22.8454)"/>
+    </g>
+    <g transform="translate(124.6,168.967) translate(-122.6,-167.572)">
+        <g id="maze" transform="translate(122.6,256.594) translate(-122.6,-60.6952)">
+            <path class="st10" d="M153.9,228L153.9,210.1L138.8,218.8L123.3,209.8C123.3,209.8,116.2,206,107.1,210.9C101.4,214,51,242,51,242L69,253L89,241L103,249L36,288L22,280L55,261L38,251L5.8,270C13.9,283.8,32.8,303.8,76.3,312.7L50.1,297.6L65.2,288.8L114,317.2C118,317.4,122.2,317.2,126.4,317.2C132,317.2,137.3,317,142.3,316.7L140,315L154,307.4L166,314C205.5,306.4,227.4,288.1,237.2,275.6L236.8,275.4L181.6,307.4L168,299L222,267L207,257L124.2,306.2L80,280.8L135,249.5L105,232L119.2,223.5L164.2,249.5L110.4,280.8L124,288.7L192,249.5C192,249.5,153.9,228,153.9,228Z" fill="#5583ef" stroke="none" transform="translate(0,-195.899)"/>
+            <g transform="translate(122.6,60.6007) translate(-122.6,-60.6007)">
+                <path class="st10" d="M54.1,260.7L21,279.9L36.2,288.7L104.1,249.2L88.8,240.4L69.1,251.9L52.9,242.5C52.9,242.5,101.3,214.2,107,211.1C116.1,206.1,123.2,210,123.2,210L138.7,219L153.8,210.3L153.8,210.2L138.2,201.2C138.2,201.2,130.7,196,116,195.9C101.3,195.8,93.9,201,93.9,201L0,255.6C0.1,256.4,1.3,262.2,5.8,270L37.7,251.3Z" fill="url(#Gradient-0)" fill-rule="evenodd" transform="translate(0,-195.899)"/>
+                <path class="st14" d="M50.1,297.6L76.3,312.7C87.3,314.9,99.7,316.4,114,317L65.2,288.9Z" fill="url(#Gradient-0)" fill-rule="evenodd" transform="translate(0,-195.899)"/>
+                <path class="st16" d="M154,228L191.6,249.4L124.1,288.6L110.5,280.7L164.3,249.4L119.3,223.4L104.2,232.3L134,249.4L80,280.8L124.2,306.3L206.9,258.2L221.5,266.7L166.4,298.7L181.6,307.5L236.8,275.5L237.2,275.7C242.7,268.7,244.9,263.5,245.2,262.7L169.2,218.9Z" fill="url(#Gradient-0)" fill-rule="evenodd" transform="translate(0,-195.899)"/>
+                <path class="st10" d="M138.8,314.8L142.4,316.9C151.5,316.3,159.8,315.2,167.3,313.8L154,306Z" fill="url(#Gradient-1)" fill-rule="evenodd" transform="translate(0,-195.899)"/>
+            </g>
+            <g opacity="0.4" transform="translate(122.6,60.6009) translate(-122.6,-60.6007)" style="animation: a0_o 1.9s linear infinite both;">
+                <path class="st10" d="M54.1,260.7L21,279.9L36.2,288.7L104.1,249.2L88.8,240.4L69.1,251.9L52.9,242.5C52.9,242.5,101.3,214.2,107,211.1C116.1,206.1,123.2,210,123.2,210L138.7,219L153.8,210.3L153.8,210.2L138.2,201.2C138.2,201.2,130.7,196,116,195.9C101.3,195.8,93.9,201,93.9,201L0,255.6C0.1,256.4,1.3,262.2,5.8,270L37.7,251.3Z" fill="url(#Gradient-2)" fill-rule="evenodd" transform="translate(0,-195.899)"/>
+                <path class="st14" d="M50.1,297.6L76.3,312.7C87.3,314.9,99.7,316.4,114,317L65.2,288.9Z" fill="url(#Gradient-2)" fill-rule="evenodd" transform="translate(0,-195.899)"/>
+                <path class="st16" d="M154,228L191.6,249.4L124.1,288.6L110.5,280.7L164.3,249.4L119.3,223.4L104.2,232.3L134,249.4L80,280.8L124.2,306.3L206.9,258.2L221.5,266.7L166.4,298.7L181.6,307.5L236.8,275.5L237.2,275.7C242.7,268.7,244.9,263.5,245.2,262.7L169.2,218.9Z" fill="url(#Gradient-2)" fill-rule="evenodd" transform="translate(0,-195.899)"/>
+                <path class="st10" d="M138.8,314.8L142.4,316.9C151.5,316.3,159.8,315.2,167.3,313.8L154,306Z" fill="url(#Gradient-3)" fill-rule="evenodd" transform="translate(0,-195.899)"/>
+            </g>
+        </g>
+        <g id="light" opacity="1" transform="translate(122.5,139.928) translate(-122.5,-122.072)" style="animation: light_o 1.9s linear infinite both;">
+            <path class="st19" d="M139.5,201.6C142.214,203.138,153.9,210,153.9,210L153.9,228L169,219L245,262L57.3,19.5C57.3,19.5,56,17.1,47.5,18.1C38.2,19.2,38.4,23,38.4,23L0,255.5L94,201C94,201,103.8,194.6,117.3,195.4C125.272,195.905,132,197,139.5,201.6ZM57.3,20.5L56.6,20.1L56.6,20.1Z" fill="url(#Gradient-4)" transform="translate(0,-17.8562)"/>
+            <path class="st26" d="M189.7,215.6L57.3,20.5L162.6,216.2Z" fill="url(#Gradient-5)" transform="translate(0,-17.8562)"/>
+        </g>
+        <path class="st0" d="M8.3,0.3C3,1.2,-0.2,3.2,0,4.2C0.1,5.2,3.8,6.2,9.1,5.4C14.4,4.6,17.6,2.6,17.4,1.5C17.3,0.5,13.6,-0.5,8.3,0.3Z" fill="#ffffff" transform="translate(39,18.2907)"/>
+    </g>
+    <g id="cone" transform="translate(116.375,198.97) translate(-13.275,-21.0753)">
+        <path class="st1" d="M0,14.4787C0,13.1111,3.03197,12,6.85,12C10.6119,12,13.7,13.1111,13.7,14.4787L13.7,14.5213C13.7,15.8888,10.6681,17,6.85,17C3.03197,17,0,15.8888,0,14.4787Z" fill="#c1c1c1" opacity="0.4" transform="translate(12.25,26.5957) translate(-6.85,-14.5)" style="mix-blend-mode: multiply; animation: a1_t 1.9s linear infinite both;"/>
+        <g transform="translate(12.2,17.6393) scale(0.8,0.8) translate(-12.2,-12.25)" style="animation: a2_t 1.9s linear infinite both;">
+            <path class="st0" d="M0,18.6C0,21.9,5.4,24.5,12.2,24.5C18.9,24.5,24.4,21.9,24.4,18.7L24.4,17.7L0,17.8Z" fill="#e89010"/>
+            <path class="st1" d="M0,17.8C0,14.6,5.4,12,12.2,12C18.9,12,24.4,14.6,24.4,17.8L24.4,17.9C24.4,21.1,19,23.7,12.2,23.7C5.4,23.7,0,21.1,0,17.8Z" fill="#fcc410"/>
+            <g>
+                <path class="st2" d="M23.2,20.4C23.9,19.7,24.4,18.8,24.4,17.9L24.4,17.8C24.4,14.8,19.6,12.3,13.5,12L17.4,20Z" fill="#ffb600"/>
+            </g>
+            <g>
+                <path class="st3" d="M12.2,0L3.8,16.8C3.8,16.8,3.9,20.8,12.2,20.8C20.5,20.8,20.6,16.8,20.6,16.8Z" fill="#fff2ca"/>
+                <g>
+                    <path class="st4" d="M14.7,4.9L12.2,0L9.8,4.8C10.3,5.1,11.1,5.6,12.2,5.6C13.3,5.6,14.1,5.3,14.7,4.9Z" fill="#ff9d00"/>
+                    <path class="st4" d="M19.3,14.3C18.3,15.1,15.6,16.9,11.9,16.9C8,16.9,5.8,14.8,5.1,14.1L3.8,16.8C3.8,16.8,3.9,20.8,12.2,20.8C20.5,20.8,20.6,16.8,20.6,16.8Z" fill="#ff9d00"/>
+                    <path class="st4" d="M12,12.7C14.5,12.7,16.4,11.6,17.5,10.7L16,7.7C15.3,8.2,13.9,9,12.1,9C10.1,9,8.9,8.1,8.4,7.6L6.9,10.7C7.8,11.5,9.5,12.7,12,12.7Z" fill="#ff9d00"/>
+                </g>
+                <g>
+                    <path class="st5" d="M13.6,5.4L14.4,8.5C15.1,8.2,15.7,7.9,16,7.6L16.7,9L12.2,0L14.7,4.9C14.4,5.1,14,5.3,13.6,5.4Z" fill="#ffdc8f"/>
+                    <path class="st5" d="M17.5,10.7C16.9,11.1,16.2,11.6,15.3,12L16.3,16C17.7,15.4,18.7,14.7,19.3,14.3Z" fill="#ffdc8f"/>
+                    <path class="st6" d="M14.7,4.9L12.2,0L13.6,5.4C14,5.3,14.4,5.1,14.7,4.9Z" fill="#ff8b00"/>
+                    <path class="st6" d="M20.6,16.8L19.3,14.3C18.7,14.7,17.7,15.5,16.3,16L17.3,20C20.5,18.9,20.6,16.8,20.6,16.8Z" fill="#ff8b00"/>
+                    <path class="st6" d="M14.4,8.5L15.3,12C16.2,11.6,17,11.1,17.5,10.7L16.7,9L16,7.6C15.7,7.9,15.1,8.2,14.4,8.5Z" fill="#ff8b00"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="cone" transform="translate(101.375,276.946) translate(-13.275,-21.0753)">
+        <path class="st1" d="M0,14.4787C0,13.1111,3.03197,12,6.85,12C10.6119,12,13.7,13.1111,13.7,14.4787L13.7,14.5213C13.7,15.8888,10.6681,17,6.85,17C3.03197,17,0,15.8888,0,14.4787Z" fill="#c1c1c1" opacity="0.4" transform="translate(12.25,26.5957) scale(1.5,1.5) translate(-6.85,-14.5)" style="mix-blend-mode: multiply; animation: a3_t 1.9s linear infinite both;"/>
+        <g transform="translate(12.2,15.1457) translate(-12.2,-12.25)" style="animation: a4_t 1.9s linear infinite both;">
+            <path class="st0" d="M0,18.6C0,21.9,5.4,24.5,12.2,24.5C18.9,24.5,24.4,21.9,24.4,18.7L24.4,17.7L0,17.8Z" fill="#e89010"/>
+            <path class="st1" d="M0,17.8C0,14.6,5.4,12,12.2,12C18.9,12,24.4,14.6,24.4,17.8L24.4,17.9C24.4,21.1,19,23.7,12.2,23.7C5.4,23.7,0,21.1,0,17.8Z" fill="#fcc410"/>
+            <g>
+                <path class="st2" d="M23.2,20.4C23.9,19.7,24.4,18.8,24.4,17.9L24.4,17.8C24.4,14.8,19.6,12.3,13.5,12L17.4,20Z" fill="#ffb600"/>
+            </g>
+            <g>
+                <path class="st3" d="M12.2,0L3.8,16.8C3.8,16.8,3.9,20.8,12.2,20.8C20.5,20.8,20.6,16.8,20.6,16.8Z" fill="#fff2ca"/>
+                <g>
+                    <path class="st4" d="M14.7,4.9L12.2,0L9.8,4.8C10.3,5.1,11.1,5.6,12.2,5.6C13.3,5.6,14.1,5.3,14.7,4.9Z" fill="#ff9d00"/>
+                    <path class="st4" d="M19.3,14.3C18.3,15.1,15.6,16.9,11.9,16.9C8,16.9,5.8,14.8,5.1,14.1L3.8,16.8C3.8,16.8,3.9,20.8,12.2,20.8C20.5,20.8,20.6,16.8,20.6,16.8Z" fill="#ff9d00"/>
+                    <path class="st4" d="M12,12.7C14.5,12.7,16.4,11.6,17.5,10.7L16,7.7C15.3,8.2,13.9,9,12.1,9C10.1,9,8.9,8.1,8.4,7.6L6.9,10.7C7.8,11.5,9.5,12.7,12,12.7Z" fill="#ff9d00"/>
+                </g>
+                <g>
+                    <path class="st5" d="M13.6,5.4L14.4,8.5C15.1,8.2,15.7,7.9,16,7.6L16.7,9L12.2,0L14.7,4.9C14.4,5.1,14,5.3,13.6,5.4Z" fill="#ffdc8f"/>
+                    <path class="st5" d="M17.5,10.7C16.9,11.1,16.2,11.6,15.3,12L16.3,16C17.7,15.4,18.7,14.7,19.3,14.3Z" fill="#ffdc8f"/>
+                    <path class="st6" d="M14.7,4.9L12.2,0L13.6,5.4C14,5.3,14.4,5.1,14.7,4.9Z" fill="#ff8b00"/>
+                    <path class="st6" d="M20.6,16.8L19.3,14.3C18.7,14.7,17.7,15.5,16.3,16L17.3,20C20.5,18.9,20.6,16.8,20.6,16.8Z" fill="#ff8b00"/>
+                    <path class="st6" d="M14.4,8.5L15.3,12C16.2,11.6,17,11.1,17.5,10.7L16.7,9L16,7.6C15.7,7.9,15.1,8.2,14.4,8.5Z" fill="#ff8b00"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="cone" transform="translate(184.675,292.946) translate(-13.275,-21.0753)">
+        <path class="st1" d="M0,14.4787C0,13.1111,3.03197,12,6.85,12C10.6119,12,13.7,13.1111,13.7,14.4787L13.7,14.5213C13.7,15.8888,10.6681,17,6.85,17C3.03197,17,0,15.8888,0,14.4787Z" fill="#c1c1c1" opacity="0.4" transform="translate(12.25,26.5957) translate(-6.85,-14.5)" style="mix-blend-mode: multiply; animation: a5_t 1.9s linear infinite both;"/>
+        <g transform="translate(12.2,17.6393) translate(-12.2,-12.25)" style="animation: a6_t 1.9s linear infinite both;">
+            <path class="st0" d="M0,18.6C0,21.9,5.4,24.5,12.2,24.5C18.9,24.5,24.4,21.9,24.4,18.7L24.4,17.7L0,17.8Z" fill="#e89010"/>
+            <path class="st1" d="M0,17.8C0,14.6,5.4,12,12.2,12C18.9,12,24.4,14.6,24.4,17.8L24.4,17.9C24.4,21.1,19,23.7,12.2,23.7C5.4,23.7,0,21.1,0,17.8Z" fill="#fcc410"/>
+            <g>
+                <path class="st2" d="M23.2,20.4C23.9,19.7,24.4,18.8,24.4,17.9L24.4,17.8C24.4,14.8,19.6,12.3,13.5,12L17.4,20Z" fill="#ffb600"/>
+            </g>
+            <g>
+                <path class="st3" d="M12.2,0L3.8,16.8C3.8,16.8,3.9,20.8,12.2,20.8C20.5,20.8,20.6,16.8,20.6,16.8Z" fill="#fff2ca"/>
+                <g>
+                    <path class="st4" d="M14.7,4.9L12.2,0L9.8,4.8C10.3,5.1,11.1,5.6,12.2,5.6C13.3,5.6,14.1,5.3,14.7,4.9Z" fill="#ff9d00"/>
+                    <path class="st4" d="M19.3,14.3C18.3,15.1,15.6,16.9,11.9,16.9C8,16.9,5.8,14.8,5.1,14.1L3.8,16.8C3.8,16.8,3.9,20.8,12.2,20.8C20.5,20.8,20.6,16.8,20.6,16.8Z" fill="#ff9d00"/>
+                    <path class="st4" d="M12,12.7C14.5,12.7,16.4,11.6,17.5,10.7L16,7.7C15.3,8.2,13.9,9,12.1,9C10.1,9,8.9,8.1,8.4,7.6L6.9,10.7C7.8,11.5,9.5,12.7,12,12.7Z" fill="#ff9d00"/>
+                </g>
+                <g>
+                    <path class="st5" d="M13.6,5.4L14.4,8.5C15.1,8.2,15.7,7.9,16,7.6L16.7,9L12.2,0L14.7,4.9C14.4,5.1,14,5.3,13.6,5.4Z" fill="#ffdc8f"/>
+                    <path class="st5" d="M17.5,10.7C16.9,11.1,16.2,11.6,15.3,12L16.3,16C17.7,15.4,18.7,14.7,19.3,14.3Z" fill="#ffdc8f"/>
+                    <path class="st6" d="M14.7,4.9L12.2,0L13.6,5.4C14,5.3,14.4,5.1,14.7,4.9Z" fill="#ff8b00"/>
+                    <path class="st6" d="M20.6,16.8L19.3,14.3C18.7,14.7,17.7,15.5,16.3,16L17.3,20C20.5,18.9,20.6,16.8,20.6,16.8Z" fill="#ff8b00"/>
+                    <path class="st6" d="M14.4,8.5L15.3,12C16.2,11.6,17,11.1,17.5,10.7L16.7,9L16,7.6C15.7,7.9,15.1,8.2,14.4,8.5Z" fill="#ff8b00"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="fly_cone" opacity="0" transform="translate(59.4554,114.5) rotate(-13) scale(0.3,0.3) translate(-13.275,-21.0753)" style="animation: fly_cone_t 1.6s linear infinite both, fly_cone_o 1.6s linear infinite both;">
+        <g transform="translate(12.2,15.1457) translate(-12.2,-12.25)" style="animation: a7_t 1.9s linear infinite both;">
+            <g>
+                <path class="st3" d="M12.2,0L3.8,16.8C3.8,16.8,3.9,20.8,12.2,20.8C20.5,20.8,20.6,16.8,20.6,16.8Z" fill="#fff2ca"/>
+                <g>
+                    <path class="st4" d="M19.3,14.3C18.3,15.1,15.6,16.9,11.9,16.9C8,16.9,5.8,14.8,5.1,14.1L3.8,16.8C3.8,16.8,3.9,20.8,12.2,20.8C20.5,20.8,20.6,16.8,20.6,16.8Z" fill="#ff9d00"/>
+                    <path class="st4" d="M17.5,10.7L16,7.7C14.6333,5.50707,9.6,5.75588,8.4,7.6L6.9,10.7C10.1,8.75588,15.0358,9.05718,17.5,10.7Z" fill="#ff9d00"/>
+                    <path class="st4" d="M14.7,4.9L12.2,0L9.8,4.8C11.1,3.25588,13.6,3.25588,14.7,4.9Z" fill="#ff9d00"/>
+                </g>
+                <g display="none">
+                    <path class="st5" d="M13.6,5.4L14.4,8.5C15.1,8.2,15.7,7.9,16,7.6L16.7,9L12.2,0L14.7,4.9C14.4,5.1,14,5.3,13.6,5.4Z" fill="#ffdc8f"/>
+                    <path class="st5" d="M17.5,10.7C16.9,11.1,16.2,11.6,15.3,12L16.3,16C17.7,15.4,18.7,14.7,19.3,14.3Z" fill="#ffdc8f"/>
+                    <path class="st6" d="M14.7,4.9L12.2,0L13.6,5.4C14,5.3,14.4,5.1,14.7,4.9Z" fill="#ff8b00"/>
+                    <path class="st6" d="M20.6,16.8L19.3,14.3C18.7,14.7,17.7,15.5,16.3,16L17.3,20C20.5,18.9,20.6,16.8,20.6,16.8Z" fill="#ff8b00"/>
+                    <path class="st6" d="M14.4,8.5L15.3,12C16.2,11.6,17,11.1,17.5,10.7L16.7,9L16,7.6C15.7,7.9,15.1,8.2,14.4,8.5Z" fill="#ff8b00"/>
+                </g>
+            </g>
+        </g>
+        <path class="st0" d="M0,18.6C0,21.9,5.4,24.5,12.2,24.5C18.9,24.5,24.4,21.9,24.4,18.7L24.4,17.7L0,17.8Z" fill="#fff1c5" transform="translate(24.45,38.65) rotate(180)"/>
+        <path class="st1" d="M0,17.8C0,14.6,5.4,12,12.2,12C18.9,12,24.4,14.6,24.4,17.8L24.4,17.9C24.4,21.1,19,23.7,12.2,23.7C5.4,23.7,0,21.1,0,17.8Z" fill="#ffc715" transform="translate(-1.90735e-07,3.05101)"/>
+        <path class="st1" d="M0,14.7018C0,13.2111,2.51544,12,5.68303,12C8.80404,12,11.3661,13.2111,11.3661,14.7018L11.3661,14.7484C11.3661,16.239,8.85062,17.4501,5.68303,17.4501C2.51544,17.4501,0,16.239,0,14.7018Z" fill="#ffa900" transform="translate(6.9,6.12495)"/>
+    </g>
+    <g id="fly_cone" opacity="0" transform="translate(88.1,88) rotate(-18) scale(0.5,0.5) translate(-13.275,-21.0753)" style="animation: fly_cone_t 2.3s linear infinite both, fly_cone_o 2.3s linear infinite both;">
+        <g transform="translate(12.2,15.1457) translate(-12.2,-12.25)" style="animation: a8_t 1.9s linear infinite both;">
+            <g>
+                <path class="st3" d="M12.2,0L3.8,16.8C3.8,16.8,3.9,20.8,12.2,20.8C20.5,20.8,20.6,16.8,20.6,16.8Z" fill="#fff2ca"/>
+                <g>
+                    <path class="st4" d="M19.3,14.3C18.3,15.1,15.6,16.9,11.9,16.9C8,16.9,5.8,14.8,5.1,14.1L3.8,16.8C3.8,16.8,3.9,20.8,12.2,20.8C20.5,20.8,20.6,16.8,20.6,16.8Z" fill="#ff9d00"/>
+                    <path class="st4" d="M17.5,10.7L16,7.7C14.6333,5.50707,9.6,5.75588,8.4,7.6L6.9,10.7C10.1,8.75588,15.0358,9.05718,17.5,10.7Z" fill="#ff9d00"/>
+                    <path class="st4" d="M14.7,4.9L12.2,0L9.8,4.8C11.1,3.25588,13.6,3.25588,14.7,4.9Z" fill="#ff9d00"/>
+                </g>
+                <g display="none">
+                    <path class="st5" d="M13.6,5.4L14.4,8.5C15.1,8.2,15.7,7.9,16,7.6L16.7,9L12.2,0L14.7,4.9C14.4,5.1,14,5.3,13.6,5.4Z" fill="#ffdc8f"/>
+                    <path class="st5" d="M17.5,10.7C16.9,11.1,16.2,11.6,15.3,12L16.3,16C17.7,15.4,18.7,14.7,19.3,14.3Z" fill="#ffdc8f"/>
+                    <path class="st6" d="M14.7,4.9L12.2,0L13.6,5.4C14,5.3,14.4,5.1,14.7,4.9Z" fill="#ff8b00"/>
+                    <path class="st6" d="M20.6,16.8L19.3,14.3C18.7,14.7,17.7,15.5,16.3,16L17.3,20C20.5,18.9,20.6,16.8,20.6,16.8Z" fill="#ff8b00"/>
+                    <path class="st6" d="M14.4,8.5L15.3,12C16.2,11.6,17,11.1,17.5,10.7L16.7,9L16,7.6C15.7,7.9,15.1,8.2,14.4,8.5Z" fill="#ff8b00"/>
+                </g>
+            </g>
+        </g>
+        <path class="st0" d="M0,18.6C0,21.9,5.4,24.5,12.2,24.5C18.9,24.5,24.4,21.9,24.4,18.7L24.4,17.7L0,17.8Z" fill="#fff1c5" transform="translate(24.45,38.65) rotate(180)"/>
+        <path class="st1" d="M0,17.8C0,14.6,5.4,12,12.2,12C18.9,12,24.4,14.6,24.4,17.8L24.4,17.9C24.4,21.1,19,23.7,12.2,23.7C5.4,23.7,0,21.1,0,17.8Z" fill="#ffb300" transform="translate(-1.90735e-07,3.05101)"/>
+        <path class="st1" d="M0,14.7018C0,13.2111,2.51544,12,5.68303,12C8.80404,12,11.3661,13.2111,11.3661,14.7018L11.3661,14.7484C11.3661,16.239,8.85062,17.4501,5.68303,17.4501C2.51544,17.4501,0,16.239,0,14.7018Z" fill="#ff9600" transform="translate(6.9,6.12495)"/>
+    </g>
+</svg>

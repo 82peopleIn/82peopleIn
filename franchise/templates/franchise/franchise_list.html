@@ -5,34 +5,145 @@
 {% block content %}
 
 {{ block.super }}
-
-<script src="https://code.highcharts.com/highcharts.src.js"></script>
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/data.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<head>
+        <link href="/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href='{% static "css/fullpage.css" %}' rel="stylesheet">
+        <link href='{% static "css/examples.css" %}' rel="stylesheet">
 
 
 
 
-<div style="height:30px;"></div>
-<div class="fran_list">
-  <div class="fran_list_1line">
-			<a class="fran_a" href="{% url 'franchise:juicy' %}"><img src="/static/img/쥬씨.png" alt="쥬씨"></a>
-			<a class="fran_a" href="{% url 'franchise:gongcha' %}"><img src="/static/img/공차.png"></a>
-			<a class="fran_a" href="{% url 'franchise:subway' %}"><img src="/static/img/서브웨이.png"></a>
-			<a class="fran_a" href="{% url 'franchise:starbucks' %}"><img src="/static/img/스타벅스.png"></a>
-			<a class="fran_a" href="{% url 'franchise:momstouch' %}"><img src="/static/img/맘스터치.png"></a>
-  </div>
-  <br><br><br>
-  <div class="fran_list_2line">
-      <a class="fran_a" href="{% url 'franchise:ediya' %}"><img src="/static/img/이디야.png"></a>
-      <a class="fran_a" href="{% url 'franchise:sinjeon' %}"><img src="/static/img/신전.png"></a>
-      <a class="fran_a" href="{% url 'franchise:caffebene' %}"><img src="/static/img/카페베네.png"></a>
-      <a class="fran_a" href="{% url 'franchise:mrsd' %}"><img src="/static/img/명랑핫도그.png"></a>
-      <a class="fran_a" href="{% url 'franchise:momstouch' %}"><img src="/static/img/탐탐.png"></a>
-  </div>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=1600px, user-scalable=yes">
+
+            <link rel="shortcut icon" type="image/x-icon" href="/resources/image/common/favicon.png">
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+           <!-- <script src="/resources/js/jquery-1.12.4.min.js"></script> -->
+            <script type="text/javascript" src="{% static 'js/common.js' %}"></script>
+            <link href='{% static "css/common.css" %}' rel="stylesheet">
+
+
+            <script type="text/javascript" src="{% static 'js/slick.js' %}"></script>
+
+
+    </head>
+        <body class="fp-viewing-intro" style="overflow: visible; height: initial;">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+           <div class="menu">
+               <div class="menu_bg"></div>
+               <div class="menu_con_bg"></div>
+               <div class="menu_con">
+                   <div class="lang white">
+                       <span class="lang_bg"></span>
+                   </div>
+
+               </div>
+           </div>
+
+
+
+            <script src="https://code.jquery.com/jquery-latest.min.js" type="application/javascript"></script>
+           <style>
+           .intro {height:943px}
+           </style>
+            <link href='{% static "css/sub.css" %}' rel="stylesheet">
+            <script type="text/javascript" src="{% static 'js/fullpage.js' %}"></script>
+            <script type="text/javascript" src="{% static 'js/example.js' %}"></script>
+            <script type="text/javascript" src="{% static 'js/product.js' %}"></script>
+            <script src="https://code.highcharts.com/highcharts.src.js"></script>
+            <script src="https://code.highcharts.com/highcharts.js"></script>
+            <script src="https://code.highcharts.com/modules/data.js"></script>
+            <script src="https://code.highcharts.com/modules/exporting.js"></script>
+            <script src="https://code.highcharts.com/modules/export-data.js"></script>
+            <script>
+                $(window).on("scroll", function() {
+                    if ($(window).scrollTop() > 300) {
+                        $("#mainNav").css("background-color","#ffffff").css("box-shadow", "0 0 14px rgba(0,0,0,.4)");
+                        $(".navbar-nav .nav-item .nav-link").css("color","#000000");
+                    }else {
+                  $("#mainNav").css("background-color","transparent").css("box-shadow", "none");
+                  $(".navbar-nav .nav-item .nav-link").css("color","#ffffff");
+                    }
+                });
+            </script>
+               <title>MaxGauge | DB 성능관리 솔루션</title>
+           <!-- 컨텐츠 -->
+           <section>
+
+                <div class="contents inter_con fullpage-wrapper" style="height: 100%; position: relative;">
+                    <!-- 인트로 -->
+                    <div class="intro section fp-section active fp-table fp-completely" data-fp-styles="null" data-anchor="intro" style="height: 674px;"><div class="fp-tableCell" style="height: 674px;">
+                        <div class="intro_wrap"></div>
+
+                        <div class="intro_txt">
+                            <dl class="intro_dl">
+                                <p style ="text-align:left; margin: 0px; font-size:50px; color: #ffffff;">프랜차이즈</p>
+                                <br>
+                                <p style ="text-align:left; margin: 0px; font-size:20px; color: #ffffff;">피플인에서 제공하는 다양한 데이터 정보를 살펴보세요.</p>
+                            </dl>
+
+                            <ul class="intro_menu">
+                                <li data-menuanchor="con1"><a href="#con1"><span>소개</span></a></li>
+                                <li data-menuanchor="con2"><a href="#con2"><span>차트</span></a></li>
+
+                            </ul>
+                        </div>
+
+{#                        <img src="/static/image/sub/chicken.gif" style="float:right;" style="display: block;">#}
+                      <img src="/static/image/sub/chicken.gif" style= "width:600px; height:450px; margin-left: 600px;">
+
+
+                    </div></div>
+                    <div class="summary section fp-normal-scroll fp-auto-height fp-section fp-table" data-fp-styles="null" data-anchor="con1" style="height: 674px;"><div class="fp-tableCell" style="height: 674px;">
+                        <h2 class="con_h2">소개<span class="line"></span></h2>
+                        <p class="con_p">
+                            국내 TOP7 커피점은 어디일까요? <br>
+                            스타벅스, 커피빈, 카페베네, 앤제리너스, 이디야커피, 할리스, 탐앤탐스 <br>
+                            이 7개 커피전문점은  2013년 매출 1조2천억 원. 평균 영업이익률은 6.7%. 매장 수는 4538개를 달성했습니다. <br>
+                            이 중 나의 매장도 있을까요? 피플인에서 브랜드 경쟁력을 확인하세요.<br>
+
+                        </p>
+                        <ul class="summary_ul summary_ul4">
+                            <li><span class="icon"></span><span class="txt">커피 브랜드 별<br>평균 당 함량</span></li>
+                            <li><span class="icon"></span><span class="txt">경쟁 업체 간 <br> 최저가 메뉴 순위</span></li>
+                            <li><span class="icon"></span><span class="txt"><br>매출액 추이</span></li>
+                            <li><span class="icon"></span><span class="txt"><br>기업별 재무상태</span></li>
+                        </ul>
+                    </div>
+                    </div>
+                <div class="feature section fp-normal-scroll fp-auto-height fp-section fp-table" data-fp-styles="null" data-anchor="con2" style="height: 674px;"><div class="fp-tableCell" style="height: 674px;">
+                    <h2 class="con_h2">프랜차이즈<span class="line"></span></h2>
+                    <div style="height:30px;"></div>
+                    <div class="fran_list">
+                      <div class="fran_list_1line">
+                                <a class="fran_a" href="{% url 'franchise:juicy' %}"><img src="/static/img/쥬씨.png" alt="쥬씨"></a>
+                                <a class="fran_a" href="{% url 'franchise:gongcha' %}"><img src="/static/img/공차.png"></a>
+                                <a class="fran_a" href="{% url 'franchise:subway' %}"><img src="/static/img/서브웨이.png"></a>
+                                <a class="fran_a" href="{% url 'franchise:starbucks' %}"><img src="/static/img/스타벅스.png"></a>
+                                <a class="fran_a" href="{% url 'franchise:momstouch' %}"><img src="/static/img/맘스터치.png"></a>
+                      </div>
+                      <br><br><br>
+                      <div class="fran_list_2line">
+                          <a class="fran_a" href="{% url 'franchise:ediya' %}"><img src="/static/img/이디야.png"></a>
+                          <a class="fran_a" href="{% url 'franchise:sinjeon' %}"><img src="/static/img/신전.png"></a>
+                          <a class="fran_a" href="{% url 'franchise:caffebene' %}"><img src="/static/img/카페베네.png"></a>
+                          <a class="fran_a" href="{% url 'franchise:mrsd' %}"><img src="/static/img/명랑핫도그.png"></a>
+                          <a class="fran_a" href="{% url 'franchise:momstouch' %}"><img src="/static/img/탐탐.png"></a>
+                      </div>
 
 </div>
 <br><br><br><br>
+                   </div>
+        </div>
+                   </div>
+           </section>
+        </body>
 {% endblock %}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="product_max:-banner" transform="translate(-381.000000, -444.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="shortcut" transform="translate(133.000000, 444.000000)">
+                <path d="M277.590674,24.4741052 L265.106246,11.9896763 C266.334222,8.85151388 265.652013,5.09936311 263.127839,2.57518896 C260.399002,-0.153647955 256.305746,-0.699415339 253.031142,0.86966589 L258.966362,6.80488619 L254.804886,10.9663625 L248.869666,5.03114219 C247.300585,8.30574649 247.846352,12.3990019 250.575189,15.1278388 C253.099363,17.6520129 256.851514,18.3342222 259.989676,17.1062456 L272.474105,29.5906745 C273.019873,30.1364418 273.906745,30.1364418 274.384291,29.5906745 L277.590674,26.3842911 C278.136442,25.9067446 278.136442,25.0198726 277.590674,24.4741052 L277.590674,24.4741052 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
