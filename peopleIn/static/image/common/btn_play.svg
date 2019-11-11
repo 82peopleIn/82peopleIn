@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="46px" height="45px" viewBox="0 0 46 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="web_2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="product_max:-about" transform="translate(-697.000000, -1282.000000)">
+            <g id="mov" transform="translate(0.000000, 1048.000000)">
+                <g id="play" transform="translate(697.000000, 234.000000)">
+                    <ellipse id="Oval-7" fill="#D0011B" cx="22.5677031" cy="22.5" rx="22.5677031" ry="22.5"></ellipse>
+                    <polygon id="Triangle-2" fill="#FFFFFF" transform="translate(23.610832, 22.980000) scale(1, -1) rotate(90.000000) translate(-23.610832, -22.980000) " points="23.6108325 17 31.1735205 28.9599999 16.0481444 28.9599999"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
