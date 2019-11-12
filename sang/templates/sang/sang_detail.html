@@ -100,62 +100,52 @@
         });
     </script>
   <script type="text/javascript">
-
-      Highcharts.chart('container2', {
-        chart: {
-            plotBackgroundColor: null,
-            plotBorderWidth: null,
-            plotShadow: false,
-            type: 'pie'
-        },
-        title: {
-            text: ''
-        },
-        tooltip: {
-        },
-        plotOptions: {
-            pie: {
-                allowPointSelect: true,
-                cursor: 'pointer',
-                dataLabels: {
-                    enabled: false
+      $(function () {
+            var processed_json2 = new Array();
+            {#var processed_json = [];#}
+            $.getJSON('{% static 'age.json' %}', function(data) {
+                // Populate series
+                for (i = 0; i < data.length; i++) {
+                    if (data[i].id == {{ sang.id }}) {
+                        processed_json2.push(["0~9세", data[i].zeronine], ["10~19세", data[i].tennine], ["20~29세", data[i].twentynine],
+                            ["30~39세", data[i].thirtynine], ["40~49세", data[i].fourtynine], ["50~59세", data[i].fiftynine], ["60세 이상", data[i].sixty_up]);
+                        console.log(processed_json2);
+                    }
+                }
+            $('#container2').highcharts({
+                chart: {
+                    plotBackgroundColor: null,
+                    plotBorderWidth: null,
+                    plotShadow: false,
+                    type: 'pie'
                 },
-                showInLegend: true
-            }
-        },
-        series: [{
-            name: '',
-            {#showInLegend: false,#}
-            colorByPoint: true,
-            data: [{
-                name: '0~9세',
-                y: 643
-            }, {
-                name: '10~19세',
-                y: 756
-            }, {
-                name: '20~29세',
-                y: 1251
-            }, {
-                name: '30~39세',
-                y: 1448
-            }, {
-                name: '40~49세',
-                y: 1591
-            }, {
-                name: '50~59세',
-                y: 1554
-            }, {
-                name:'60세 이상',
-                y: 2457
-            }],
-              credits: {
-                enabled: false
-            }
-
-        }]
-    });
-</script>
+                title: {
+                    text: ""
+                },
+                tooltip: {
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        dataLabels: {
+                        enabled: false
+                        },
+                        showInLegend: true
+                    }
+                },
+                series: [{
+                    name : '',
+                    {#colorByPoint: true,#}
+                    data: processed_json2,
+                    credits: {
+                        enabled: false
+                    }
+                }]
+        });
+            });
+      });
+  </script>
   <script>
 
           $(function () {
@@ -199,7 +189,6 @@
   });
 
       </script>
-
 
 
 
