@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e08f3cd5-5f26-49dd-ab72-8aeb84aa7876" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang2.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="124" column="22" lean-forward="true" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
+            <state relative-caret-position="186">
+              <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
               <folding>
                 <element signature="e#2472#2930#0#HTML" />
                 <element signature="e#3276#3862#0#HTML" />
@@ -108,7 +107,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>content</find>
       <find>polygon</find>
       <find>map</find>
       <find>fon</find>
@@ -138,6 +136,7 @@
       <find>z</find>
       <find>316</find>
       <find>gan</find>
+      <find>exam</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -420,12 +419,12 @@
       <workItem from="1573445636293" duration="3206000" />
       <workItem from="1573456983848" duration="719000" />
       <workItem from="1573459102522" duration="1184000" />
-      <workItem from="1573521163137" duration="291000" />
+      <workItem from="1573521163137" duration="847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="372860000" />
+    <option name="totallyTimeSpent" value="373416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -849,8 +848,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="124" column="22" lean-forward="true" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
+        <state relative-caret-position="186">
+          <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
           <folding>
             <element signature="e#2472#2930#0#HTML" />
             <element signature="e#3276#3862#0#HTML" />
