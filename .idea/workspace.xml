@@ -55,19 +55,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="236" selection-start-line="236" selection-end-line="236" />
+            <state relative-caret-position="287">
+              <caret line="124" column="22" lean-forward="true" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
               <folding>
-                <element signature="e#1524#1567#0#HTML" expanded="true" />
-                <element signature="e#4024#4065#0#HTML" expanded="true" />
-                <element signature="e#4228#4250#0#HTML" expanded="true" />
-                <element signature="e#4277#4299#0#HTML" expanded="true" />
-                <element signature="e#4487#4557#0#HTML" expanded="true" />
-                <element signature="e#4641#4711#0#HTML" expanded="true" />
-                <element signature="e#5561#5616#0#HTML" expanded="true" />
-                <element signature="e#5793#5815#0#HTML" expanded="true" />
-                <element signature="e#5842#5864#0#HTML" expanded="true" />
+                <element signature="e#2472#2930#0#HTML" />
+                <element signature="e#3276#3862#0#HTML" />
+                <element signature="e#3335#3838#0#HTML" />
                 <element signature="e#5904#5950#0#HTML" expanded="true" />
+                <element signature="e#6133#11492#0#HTML" />
               </folding>
             </state>
           </provider>
@@ -76,11 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Pictures/peopleIn2 (4)/sang/templates/sang/sang2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="50" lean-forward="true" selection-end-line="170" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="950">
+              <caret line="50" selection-end-line="170" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -88,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/peopleIn/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="513">
               <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
             </state>
           </provider>
@@ -97,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sang/static/css/sub.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
+            <state relative-caret-position="1235">
               <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
             </state>
           </provider>
@@ -427,12 +419,13 @@
       <workItem from="1573434715339" duration="5331000" />
       <workItem from="1573445636293" duration="3206000" />
       <workItem from="1573456983848" duration="719000" />
-      <workItem from="1573459102522" duration="773000" />
+      <workItem from="1573459102522" duration="1184000" />
+      <workItem from="1573521163137" duration="291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="372158000" />
+    <option name="totallyTimeSpent" value="372860000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,8 +438,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18766756" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -853,46 +847,38 @@
     <entry file="file://$PROJECT_DIR$/franchise/templates/franchise/layout.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/peopleIn/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        <state relative-caret-position="287">
+          <caret line="124" column="22" lean-forward="true" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
+          <folding>
+            <element signature="e#2472#2930#0#HTML" />
+            <element signature="e#3276#3862#0#HTML" />
+            <element signature="e#3335#3838#0#HTML" />
+            <element signature="e#5904#5950#0#HTML" expanded="true" />
+            <element signature="e#6133#11492#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Pictures/peopleIn2 (4)/sang/templates/sang/sang2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="50" lean-forward="true" selection-end-line="170" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="950">
+          <caret line="50" selection-end-line="170" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peopleIn/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sang/static/css/sub.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="1235">
           <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="236" selection-start-line="236" selection-end-line="236" />
-          <folding>
-            <element signature="e#1524#1567#0#HTML" expanded="true" />
-            <element signature="e#4024#4065#0#HTML" expanded="true" />
-            <element signature="e#4228#4250#0#HTML" expanded="true" />
-            <element signature="e#4277#4299#0#HTML" expanded="true" />
-            <element signature="e#4487#4557#0#HTML" expanded="true" />
-            <element signature="e#4641#4711#0#HTML" expanded="true" />
-            <element signature="e#5561#5616#0#HTML" expanded="true" />
-            <element signature="e#5793#5815#0#HTML" expanded="true" />
-            <element signature="e#5842#5864#0#HTML" expanded="true" />
-            <element signature="e#5904#5950#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
