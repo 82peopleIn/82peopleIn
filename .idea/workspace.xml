@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e08f3cd5-5f26-49dd-ab72-8aeb84aa7876" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forSale/templates/forSale/item_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/forSale/templates/forSale/item_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,94 +51,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
-              <folding>
-                <element signature="e#1712#1793#0#HTML" expanded="true" />
-                <element signature="e#1834#1870#0#HTML" expanded="true" />
-                <element signature="e#1902#1952#0#HTML" expanded="true" />
-                <element signature="e#1908#1984#0#HTML" expanded="true" />
-                <element signature="e#2083#2132#0#HTML" expanded="true" />
-                <element signature="e#2285#2343#0#HTML" expanded="true" />
-                <element signature="e#2875#4729#0#HTML" />
-                <element signature="e#4732#6469#0#HTML" />
-                <element signature="e#6472#9159#0#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/forSale/templates/forSale/item_detail.html">
+        <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="133" column="53" selection-start-line="133" selection-start-column="53" selection-end-line="133" selection-end-column="53" />
+            <state relative-caret-position="146">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
               <folding>
-                <element signature="e#287#1145#0#HTML" />
-                <element signature="e#1918#1979#0#HTML" expanded="true" />
-                <element signature="e#2516#2537#0#HTML" expanded="true" />
-                <element signature="e#2679#3347#0#HTML" />
+                <element signature="e#6032#10299#0#HTML" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forSale/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="24" column="75" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="75" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sang/static/ingu.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-start-column="24" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/peopleIn/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="123" column="21" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/peopleIn/static/css/yun2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="312" selection-start-line="312" selection-end-line="312" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sang/static/mc.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/peopleIn/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -236,7 +154,6 @@
         <option value="$PROJECT_DIR$/sang/models.py" />
         <option value="$PROJECT_DIR$/sang/static/makers.json" />
         <option value="$PROJECT_DIR$/sang/static/markers.json" />
-        <option value="$PROJECT_DIR$/sang/templates/sang/sang2.html" />
         <option value="$PROJECT_DIR$/sang/static/age.json" />
         <option value="$PROJECT_DIR$/sang/static/csvjson.json" />
         <option value="$PROJECT_DIR$/sang/static/in.json" />
@@ -247,10 +164,11 @@
         <option value="$PROJECT_DIR$/sang/static/mc2.json" />
         <option value="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" />
         <option value="$PROJECT_DIR$/forSale/templates/forSale/item_detail.html" />
+        <option value="$PROJECT_DIR$/sang/templates/sang/sang2.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-48" />
     <option name="y" value="65" />
     <option name="width" value="1020" />
@@ -507,12 +425,12 @@
       <workItem from="1573709664562" duration="22982000" />
       <workItem from="1573802669350" duration="10300000" />
       <workItem from="1573903686331" duration="3103000" />
-      <workItem from="1573969953129" duration="18033000" />
+      <workItem from="1573969953129" duration="18881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="440106000" />
+    <option name="totallyTimeSpent" value="440954000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,8 +457,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4953083" visible="true" weight="0.05240793" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50469166" side_tool="true" visible="true" weight="0.05240793" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49463806" visible="true" weight="0.32152975" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5053619" side_tool="true" weight="0.3186969" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.04249292" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32577905" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3286119" />
@@ -857,16 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="128" column="29" lean-forward="true" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
-          <folding>
-            <element signature="e#6032#10299#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/peopleIn/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -919,6 +827,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/forSale/templates/forSale/item_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="133" column="53" selection-start-line="133" selection-start-column="53" selection-end-line="133" selection-end-column="53" />
+          <folding>
+            <element signature="e#287#1145#0#HTML" />
+            <element signature="e#1918#1979#0#HTML" expanded="true" />
+            <element signature="e#2516#2537#0#HTML" expanded="true" />
+            <element signature="e#2679#3347#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forSale/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="75" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -937,25 +868,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forSale/models.py">
+    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="24" column="75" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="75" />
+        <state relative-caret-position="146">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forSale/templates/forSale/item_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="133" column="53" selection-start-line="133" selection-start-column="53" selection-end-line="133" selection-end-column="53" />
-          <folding>
-            <element signature="e#287#1145#0#HTML" />
-            <element signature="e#1918#1979#0#HTML" expanded="true" />
-            <element signature="e#2516#2537#0#HTML" expanded="true" />
-            <element signature="e#2679#3347#0#HTML" />
+            <element signature="e#6032#10299#0#HTML" />
           </folding>
         </state>
       </provider>
