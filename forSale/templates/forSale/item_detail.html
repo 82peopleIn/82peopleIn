@@ -48,6 +48,7 @@
         </article>
 {#    <hr class="my-hr4">#}
 <br><h5>매물 사진</h5>
+
   <div class="sang_content">
         <article itemprop="articleBody"><!--BeforeDocument(1102807111,0)-->
 
@@ -56,8 +57,14 @@
                 <img src="{{ item.photo.url }}" style="max-width:800px; height:500px;">
             {% endif %}
         </div>
-        <br><br><br><br>
+        </article>
+  </div>
 
+<br><h5>매물 위치</h5>
+ <div class="sang_content">
+  <div id="map" style="margin-left:200px; margin-right: 200px; height:350px;"></div>
+
+<br><br><br><br>
 
         <div class="control hidden">
             {% if request.user.is_superuser %}
@@ -70,11 +77,36 @@
                 </button>
             {% endif %}
         </div>
-        </article>
   </div>
-
-
   </section>
+   <div style="height:300px;"></div>
+
   <br><br>
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f460952f0d62b1ca6bd68a4534bb4978"></script>
+
+<script>
+      var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+          mapOption = {
+              center: new kakao.maps.LatLng({{ item.lat }}, {{ item.lng }}), // 지도의 중심좌표
+              level: 3 // 지도의 확대 레벨
+          };
+
+      var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+      // 마커가 표시될 위치입니다
+      var markerPosition  = new kakao.maps.LatLng({{ item.lat }}, {{ item.lng }});
+
+      // 마커를 생성합니다
+      var marker = new kakao.maps.Marker({
+          position: markerPosition
+      });
+
+      // 마커가 지도 위에 표시되도록 설정합니다
+      marker.setMap(map);
+
+      // 아래 코드는 지도 위의 마커를 제거하는 코드입니다
+      // marker.setMap(null);
+</script>
+
 
 {% endblock content %}

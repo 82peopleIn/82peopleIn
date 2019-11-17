@@ -20,6 +20,41 @@
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
 
+
+
+    <style>
+    #topcircle{
+      margin-top:70px;
+    }
+    #circle1 {
+      background-color:#ffffff;
+      opacity: 0.8;
+      width:155px;
+      height:155px;
+      border-radius:75px;
+      text-align:center;
+      margin:0 35px 0 0;
+      font-size:12px;
+      vertical-align:middle;
+      line-height:150px;
+      display: inline-block;
+      }
+    #toptext{
+
+    }
+    #text1 {
+      color: #ffffff;
+      width:155px;
+      height:155px;
+      text-align:center;
+      padding-top:10px;
+      margin:0 35px 0 0;
+      font-size:15px;
+      vertical-align:middle;
+      display: inline-block;
+      }
+    </style>
+
 <body>
 
 
@@ -83,7 +118,7 @@
     <br>
 		<div class="list_wrap">
       <ul>
-        <li class="list"><img src="/static/img/franlogo1.png" alt="쥬씨""></li>
+        <li class="list"><img src="/static/img/franlogo1.png" alt="쥬씨"></li>
         <li class="list"><img src="/static/img/franlogo3.png"></li>
         <li class="list"><img src="/static/img/franlogo5.png"></li>
         <li class="list"><img src="/static/img/franlogo2.png"></li>
@@ -95,6 +130,16 @@
 
       </ul>
 		</div>
+{#    <div id="topcircle">#}
+{#      <div id="circle1"><a href="{% url 'franchise:franchise_list' %}"><img src="{% static 'image/franchise.png' %}" style="width:80px; margin: 0 auto;" alt=""></a></div>#}
+{#      <div id="circle1"><a href="{% url 'franchise:franchise_list' %}"><img src="{% static 'image/money.png' %}" style="width:80px; margin: 0 auto;" alt=""></a></div>#}
+{#      <div id="circle1"><a href="{% url 'franchise:franchise_list' %}"><img src="{% static 'image/bars.png' %}" style="width:80px; margin: 0 auto;" alt=""></a></div>#}
+{#    </div>#}
+{#    <div id="toptext">#}
+{#    <div id="text1"><h4 style="color:#ffffff">프랜차이즈 점포수추이</h4><br><p></p></div>#}
+{#    <div id="text1"><h4 style="color:#ffffff">프랜차이즈별 월매출</h4><br><p></p></div>#}
+{#    <div id="text1"><h4 style="color:#ffffff">프랜차이즈 시장점유율</h4><br><p></p></div>#}
+{#    </div>#}
 
     </div><!-- /.section3끝 -->
 <div class="section fp-auto-height section_footer"><div id="footer">

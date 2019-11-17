@@ -21,6 +21,8 @@ class Item(models.Model):
     desc = models.TextField(verbose_name="매물 특징")
     price = models.CharField(max_length=20,verbose_name="가격")
     photo = models.ImageField()  # blank=True 지정하지 않은 경우
+    lat = models.DecimalField(null = True, max_digits=15, decimal_places=6)
+    lng = models.DecimalField(null = True, max_digits=15, decimal_places=6)
 
     def __str__(self):
         return self.name

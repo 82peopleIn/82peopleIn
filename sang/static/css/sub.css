@@ -586,7 +586,7 @@ section .btn_demo {
 
 .summary_video .bg {
     position: absolute;
-    z-index: ;
+    /*z-index: ;*/
     top: 0;
     left: 0;
     min-width: 100%;

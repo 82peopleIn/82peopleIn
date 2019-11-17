@@ -2,14 +2,17 @@
 .fran_list{
     margin: 0 auto;
     text-align : center;
+
 }
 
 .fran_a img{
-    width: 200px;
+    /*border:1.5px solid #d0d0d6;*/
+    width: 160px;
+    margin:10px;
 }
 
 .fran_a:hover {
-    filter: brightness(40%);
+    /*filter: brightness(40%);*/
 }
 
 .chart .list-wrap .cont.gallery > ul > li .title {

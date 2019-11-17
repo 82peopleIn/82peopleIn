@@ -32,11 +32,6 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-
-
-
-
-
            <div class="menu">
                <div class="menu_bg"></div>
                <div class="menu_con_bg"></div>
@@ -74,7 +69,6 @@
                     }
                 });
             </script>
-               <title>MaxGauge | DB 성능관리 솔루션</title>
            <!-- 컨텐츠 -->
            <section>
 
@@ -117,6 +111,18 @@
                             <li><span class="icon"></span><span class="txt"><br>매출액 추이</span></li>
                             <li><span class="icon"></span><span class="txt"><br>기업별 재무상태</span></li>
                         </ul>
+{#                        <ul class="summary_ul summary_ul4">#}
+{#                            <li><a class="icon" href="{% url 'franchise:juicy' %}"><img src="{% static 'img/쥬씨.png' %}" alt="쥬씨"></a></li>#}
+{#                            <li><a class="icon ani" href="{% url 'franchise:momstouch' %}"><img src="{% static 'img/맘스터치.png' %}" alt="맘스터치"></a></li>#}
+{#                            <li><a class="icon" href="{% url 'franchise:subway' %}"><img src="{% static 'img/서브웨이.png' %}" alt="서브웨이"></a></li>#}
+{#                            <li><a class="icon" href="{% url 'franchise:starbucks' %}"><img src="{% static 'img/스타벅스.png' %}" alt="스타벅스"></a></li>#}
+{#                        </ul>#}
+{#                        <ul class="summary_ul summary_ul4">#}
+{#                            <li><a class="icon" href="{% url 'franchise:ediya' %}"><img src="{% static 'img/이디야.png' %}"></a></li>#}
+{#                            <li><a class="icon" href="{% url 'franchise:sinjeon' %}"><img src="{% static 'img/신전.png' %}"></a></li>#}
+{#                            <li><a class="icon" href="{% url 'franchise:caffebene' %}"><img src="{% static 'img/카페베네.png' %}"></a></li>#}
+{#                            <li><a class="icon" href="{% url 'franchise:mrsd' %}"><img src="{% static 'img/명랑핫도그.png' %}"></a></li>#}
+{#                        </ul>#}
                     </div>
                     </div>
                 <div class="feature section fp-normal-scroll fp-auto-height fp-section fp-table" data-fp-styles="null" data-anchor="con2" style="height: 674px;"><div class="fp-tableCell" style="height: 674px;">
@@ -139,11 +145,11 @@
                           <a class="fran_a" href="{% url 'franchise:momstouch' %}"><img src="/static/img/탐탐.png"></a>
                       </div>
 
-</div>
-<br><br><br><br>
+                    </div>
+                      <br><br><br><br>
                    </div>
-        </div>
-                   </div>
+                  </div>
+                 </div>
            </section>
         </body>
 {% endblock %}
