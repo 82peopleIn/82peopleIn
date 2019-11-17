@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e08f3cd5-5f26-49dd-ab72-8aeb84aa7876" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forSale/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/forSale/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forSale/templates/forSale/item_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/forSale/templates/forSale/item_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/franchise/templates/franchise/franchise_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/franchise/templates/franchise/franchise_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peopleIn/static/css/yun2.css" beforeDir="false" afterPath="$PROJECT_DIR$/peopleIn/static/css/yun2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peopleIn/static/franchise.css" beforeDir="false" afterPath="$PROJECT_DIR$/peopleIn/static/franchise.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peopleIn/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/peopleIn/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sang/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/static/age.json" beforeDir="false" afterPath="$PROJECT_DIR$/sang/static/age.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/static/css/sub.css" beforeDir="false" afterPath="$PROJECT_DIR$/sang/static/css/sub.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/static/csvjson.json" beforeDir="false" afterPath="$PROJECT_DIR$/sang/static/csvjson.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang2.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+            <state relative-caret-position="133">
+              <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
               <folding>
                 <element signature="e#1712#1793#0#HTML" expanded="true" />
                 <element signature="e#1834#1870#0#HTML" expanded="true" />
@@ -79,6 +68,33 @@
                 <element signature="e#2875#4729#0#HTML" />
                 <element signature="e#4732#6469#0#HTML" />
                 <element signature="e#6472#9159#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/forSale/templates/forSale/item_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="133" column="53" selection-start-line="133" selection-start-column="53" selection-end-line="133" selection-end-column="53" />
+              <folding>
+                <element signature="e#287#1145#0#HTML" />
+                <element signature="e#1918#1979#0#HTML" expanded="true" />
+                <element signature="e#2516#2537#0#HTML" expanded="true" />
+                <element signature="e#2679#3347#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forSale/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="24" column="75" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/peopleIn/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="282">
-              <caret line="123" column="21" lean-forward="true" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+              <caret line="123" column="21" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -106,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/peopleIn/static/css/yun2.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="463">
-              <caret line="312" lean-forward="true" selection-start-line="312" selection-end-line="312" />
+              <caret line="312" selection-start-line="312" selection-end-line="312" />
             </state>
           </provider>
         </entry>
@@ -115,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/sang/static/mc.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -124,7 +140,7 @@
         <entry file="file://$PROJECT_DIR$/peopleIn/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="494">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -217,7 +233,6 @@
         <option value="$PROJECT_DIR$/franchise/templates/franchise/franchise_list.html" />
         <option value="$PROJECT_DIR$/sang/static/css/sub.css" />
         <option value="$PROJECT_DIR$/forSale/models.py" />
-        <option value="$PROJECT_DIR$/forSale/templates/forSale/item_detail.html" />
         <option value="$PROJECT_DIR$/sang/models.py" />
         <option value="$PROJECT_DIR$/sang/static/makers.json" />
         <option value="$PROJECT_DIR$/sang/static/markers.json" />
@@ -231,12 +246,13 @@
         <option value="$PROJECT_DIR$/peopleIn/static/css/yun2.css" />
         <option value="$PROJECT_DIR$/sang/static/mc2.json" />
         <option value="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" />
+        <option value="$PROJECT_DIR$/forSale/templates/forSale/item_detail.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-285" />
-    <option name="y" value="38" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-48" />
+    <option name="y" value="65" />
     <option name="width" value="1020" />
     <option name="height" value="710" />
   </component>
@@ -276,6 +292,12 @@
               <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
               <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
               <item name="franchise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
+              <item name="franchise" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
@@ -376,11 +398,11 @@
       <recent name="C:\peopleIn2\peopleIn\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\peopleIn2\franchise\static" />
       <recent name="C:\peopleIn2\sang\static" />
       <recent name="C:\peopleIn2\forSale\templates\forSale" />
       <recent name="C:\peopleIn2\forSale" />
       <recent name="C:\peopleIn2\franchise" />
-      <recent name="C:\peopleIn2\peopleIn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -485,12 +507,12 @@
       <workItem from="1573709664562" duration="22982000" />
       <workItem from="1573802669350" duration="10300000" />
       <workItem from="1573903686331" duration="3103000" />
-      <workItem from="1573969953129" duration="14906000" />
+      <workItem from="1573969953129" duration="18033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="436979000" />
+    <option name="totallyTimeSpent" value="440106000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -505,7 +527,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.325067" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -517,8 +539,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49597856" weight="0.20538244" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402147" side_tool="true" weight="0.38755304" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4953083" visible="true" weight="0.05240793" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50469166" side_tool="true" visible="true" weight="0.05240793" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.04249292" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32577905" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3286119" />
@@ -756,26 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forSale/templates/forSale/item_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="64" column="16" selection-start-line="64" selection-end-line="65" />
-          <folding>
-            <element signature="e#2516#2537#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forSale/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="24" column="75" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sang/static/markers2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -868,7 +870,7 @@
     <entry file="file://$PROJECT_DIR$/peopleIn/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
@@ -885,21 +887,21 @@
     <entry file="file://$PROJECT_DIR$/peopleIn/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
-          <caret line="123" column="21" lean-forward="true" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+          <caret line="123" column="21" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/peopleIn/static/css/yun2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
-          <caret line="312" lean-forward="true" selection-start-line="312" selection-end-line="312" />
+          <caret line="312" selection-start-line="312" selection-end-line="312" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sang/static/mc.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -919,8 +921,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+        <state relative-caret-position="133">
+          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
           <folding>
             <element signature="e#1712#1793#0#HTML" expanded="true" />
             <element signature="e#1834#1870#0#HTML" expanded="true" />
@@ -931,6 +933,29 @@
             <element signature="e#2875#4729#0#HTML" />
             <element signature="e#4732#6469#0#HTML" />
             <element signature="e#6472#9159#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forSale/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="75" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forSale/templates/forSale/item_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="133" column="53" selection-start-line="133" selection-start-column="53" selection-end-line="133" selection-end-column="53" />
+          <folding>
+            <element signature="e#287#1145#0#HTML" />
+            <element signature="e#1918#1979#0#HTML" expanded="true" />
+            <element signature="e#2516#2537#0#HTML" expanded="true" />
+            <element signature="e#2679#3347#0#HTML" />
           </folding>
         </state>
       </provider>
