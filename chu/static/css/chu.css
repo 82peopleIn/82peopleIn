@@ -1,0 +1,12 @@
+
+.table-dark{
+  background:#0f4c97;
+}
+
+p {
+  font-size: large;
+  color:#0f4c97;
+  display: inline-block;
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue';
+  font-weight: bold;
+}

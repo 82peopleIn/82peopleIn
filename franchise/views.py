@@ -269,3 +269,19 @@ def mrsd(request):
          'yAxis': {
              'title': {'text': '가맹점 수'}}})
     return render(request, 'shop_name/MRSD.html', {'chart_list': [cht]})
+
+
+def baek(request):
+    return render(request, 'shop_name/baek.html')
+
+def tous(request):
+    return render(request, 'shop_name/tous.html')
+
+def cu(request):
+    return render(request, 'shop_name/cu.html')
+
+def gs25(request):
+    return render(request, 'shop_name/gs25.html')
+
+def bhc(request):
+    return render(request, 'shop_name/bhc.html')

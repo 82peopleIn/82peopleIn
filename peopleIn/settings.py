@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'chartit',
     'franchise.apps.FranchiseConfig',
     'sang',
-
+    'chu',
 ]
 
 

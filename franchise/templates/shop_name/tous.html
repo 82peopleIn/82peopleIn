@@ -1,0 +1,38 @@
+{% extends "../base.html" %}                   <!--base.html을 상속받는다고 선언-->
+{% block title %}{{ notice.title }}{% endblock %}
+{% load staticfiles %}
+{% block extrastyle %}{% static "franchise.css" %}{% endblock %}
+{% block content %}
+<script>
+	$(window).on("scroll", function() {
+		if ($(window).scrollTop() > 300) {
+			$("#mainNav").css("background-color","#ffffff").css("box-shadow", "0 0 14px rgba(0,0,0,.4)");
+			$(".navbar-nav .nav-item .nav-link").css("color","#000000");
+		}else {
+      $("#mainNav").css("background-color","transparent").css("box-shadow", "none");
+      $(".navbar-nav .nav-item .nav-link").css("color","#ffffff");
+		}
+	});
+</script>
+   <!-- jQuery CDN -->
+    <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"></script>
+
+
+
+<div style="height:400px; width:100%; background-image: url({% static 'img/toussss.jpg' %});">
+
+  <h1 class="menu_name">프랜차이즈</h1>
+</div>
+<br><br>
+  <div style="text-align: center;"><h5>뚜레쥬르</h5></div>
+<br><br>
+  <div style="text-align: center;">
+    <iframe src="https://dplive.dataplanet.co.kr/ZiLLa/embed" width="800" height="600" frameborder="0"></iframe>
+  </div>
+
+
+
+{% endblock %}

@@ -16,5 +16,10 @@ urlpatterns = [
     path('sinjeon/', views.sinjeon, name='sinjeon'),
     path('caffebene/', views.caffebene, name='caffebene'),
     path('mrsd/', views.mrsd, name='mrsd'),
+    path('gs25/', views.gs25, name='gs25'),
+    path('cu/', views.cu, name='cu'),
+    path('bhc/', views.bhc, name='bhc'),
+    path('baek/', views.baek, name='baek'),
+    path('tous/', views.tous, name='tous'),
 
 ]

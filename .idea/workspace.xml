@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e08f3cd5-5f26-49dd-ab72-8aeb84aa7876" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/sang/static/img/baek.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sang/static/img/cu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sang/static/img/gs25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sang/static/img/naenae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sang/static/img/toussss.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sang/static/img/뚜레쥬르.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sang/static/img/비에이치씨.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sang/static/img/빽다방.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sang/static/img/씨유.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sang/static/img/업종추천.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sang/static/img/지에스.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/franchise/templates/franchise/franchise_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/franchise/templates/franchise/franchise_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/franchise/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/franchise/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/franchise/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/franchise/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/peopleIn/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/peopleIn/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleIn/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/peopleIn/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sang/static/css/sub.css" beforeDir="false" afterPath="$PROJECT_DIR$/sang/static/css/sub.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sang/static/js/hangjungdong2.js" beforeDir="false" afterPath="$PROJECT_DIR$/sang/static/js/hangjungdong2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sang/static/markers.json" beforeDir="false" afterPath="$PROJECT_DIR$/sang/static/markers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,14 +74,98 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
+        <entry file="file://$PROJECT_DIR$/chu/templates/chu/chu_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+            <state relative-caret-position="342">
+              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.5dd2263047329f/chu_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="22" lean-forward="true" selection-end-line="166" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sang/static/js/hangjungdong2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chu/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
-                <element signature="e#6032#10299#0#HTML" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chu/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chu/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://81f73662-0edb-429f-aa0a-67e69a536eb7/schema/main/table/chu_chu">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="a9d92979-2605-498a-848d-568bf01bec94">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chu/templates/chu/chu_ori.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2457" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forSale/templates/forSale/item_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="126" column="43" selection-start-line="126" selection-start-column="43" selection-end-line="126" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chu/templates/chu/chu_detail_ori.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-399" />
           </provider>
         </entry>
       </file>
@@ -76,12 +182,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>background</find>
-      <find>background: url</find>
-      <find>max</find>
-      <find>inter_sum</find>
-      <find>sum</find>
-      <find>fla_sum1</find>
       <find>max_sum3</find>
       <find>child(4)</find>
       <find>ani</find>
@@ -106,6 +206,12 @@
       <find>교남동</find>
       <find>list</find>
       <find>CS</find>
+      <find>서대문</find>
+      <find>mrsd</find>
+      <find>console</find>
+      <find>code</find>
+      <find>hh</find>
+      <find>id</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,12 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/userExtends2/views.py" />
-        <option value="$PROJECT_DIR$/userExtends/admin.py" />
-        <option value="$PROJECT_DIR$/userExtends2/admin.py" />
-        <option value="$PROJECT_DIR$/userExtends2/forms.py" />
-        <option value="$PROJECT_DIR$/peopleIn/templates/registration/register.html" />
-        <option value="$PROJECT_DIR$/peopleIn/views.py" />
         <option value="$PROJECT_DIR$/sang/static/geo.geojson" />
         <option value="$PROJECT_DIR$/sang/static/good.geojson" />
         <option value="$PROJECT_DIR$/sang/static/data(1).json" />
@@ -143,35 +243,41 @@
         <option value="$PROJECT_DIR$/sang/static/seoul.json" />
         <option value="$PROJECT_DIR$/sang/templates/sang/sample.html" />
         <option value="$PROJECT_DIR$/sang/static/seoul2.json" />
-        <option value="$PROJECT_DIR$/peopleIn/settings.py" />
         <option value="$PROJECT_DIR$/sang/static/mc.json" />
         <option value="$USER_HOME$/Desktop/피플인/nuBnag (2)/sang/templates/sang/sang2.html" />
         <option value="$USER_HOME$/AppData/Local/Temp/BNZ.5dc90df22f14cb/sang2.html" />
         <option value="$PROJECT_DIR$/franchise/static/css/common.css" />
-        <option value="$PROJECT_DIR$/franchise/templates/franchise/franchise_list.html" />
         <option value="$PROJECT_DIR$/sang/static/css/sub.css" />
         <option value="$PROJECT_DIR$/forSale/models.py" />
         <option value="$PROJECT_DIR$/sang/models.py" />
         <option value="$PROJECT_DIR$/sang/static/makers.json" />
-        <option value="$PROJECT_DIR$/sang/static/markers.json" />
         <option value="$PROJECT_DIR$/sang/static/age.json" />
         <option value="$PROJECT_DIR$/sang/static/csvjson.json" />
         <option value="$PROJECT_DIR$/sang/static/in.json" />
         <option value="$PROJECT_DIR$/sang/static/ingu.json" />
         <option value="$PROJECT_DIR$/peopleIn/static/franchise.css" />
-        <option value="$PROJECT_DIR$/peopleIn/templates/index.html" />
         <option value="$PROJECT_DIR$/peopleIn/static/css/yun2.css" />
         <option value="$PROJECT_DIR$/sang/static/mc2.json" />
-        <option value="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" />
         <option value="$PROJECT_DIR$/forSale/templates/forSale/item_detail.html" />
         <option value="$PROJECT_DIR$/sang/templates/sang/sang2.html" />
+        <option value="$PROJECT_DIR$/sang/static/markers.json" />
+        <option value="$PROJECT_DIR$/sang/templates/sang/sang_detail.html" />
+        <option value="$PROJECT_DIR$/peopleIn/settings.py" />
+        <option value="$PROJECT_DIR$/peopleIn/urls.py" />
+        <option value="$PROJECT_DIR$/peopleIn/templates/index.html" />
+        <option value="$PROJECT_DIR$/franchise/templates/franchise/franchise_list.html" />
+        <option value="$PROJECT_DIR$/franchise/views.py" />
+        <option value="$PROJECT_DIR$/franchise/urls.py" />
+        <option value="$PROJECT_DIR$/chu/templates/chu/chu_detail.html" />
+        <option value="$PROJECT_DIR$/sang/static/js/hangjungdong2.js" />
+        <option value="$PROJECT_DIR$/chu/templates/chu/chu_list.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-48" />
-    <option name="y" value="65" />
-    <option name="width" value="1020" />
+    <option name="x" value="600" />
+    <option name="y" value="6" />
+    <option name="width" value="1325" />
     <option name="height" value="710" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -191,6 +297,24 @@
             <path>
               <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
               <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
+              <item name="chu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
+              <item name="chu" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
+              <item name="chu" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="chu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
               <item name="forSale" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -209,51 +333,13 @@
             <path>
               <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
               <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
-              <item name="franchise" type="462c0819:PsiDirectoryNode" />
+              <item name="peopleIn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
               <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
-              <item name="franchise" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
-              <item name="franchise" type="462c0819:PsiDirectoryNode" />
+              <item name="peopleIn" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
-              <item name="franchise" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="franchise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
-              <item name="peopleIn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
-              <item name="peopleIn" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
-              <item name="peopleIn" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="peopleIn2" type="462c0819:PsiDirectoryNode" />
-              <item name="peopleIn" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="fontawesome-free" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="peopleIn2" type="b2602c69:ProjectViewProjectNode" />
@@ -300,7 +386,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/peopleIn2/peopleIn/views.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/peopleIn/static/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sang/static/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -308,19 +394,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\peopleIn2\sang\static\image\sub" />
+      <recent name="C:\peopleIn2\sang\static\css" />
+      <recent name="C:\peopleIn2\sang\static" />
+      <recent name="C:\peopleIn2\franchise\templates\shop_name" />
+      <recent name="C:\peopleIn2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\peopleIn2\sang\static\img" />
       <recent name="C:\peopleIn2\peopleIn\static\image" />
       <recent name="C:\peopleIn2\sang\static" />
       <recent name="C:\peopleIn2\franchise\templates\franchise" />
       <recent name="C:\peopleIn2\forSale\templates\forSale" />
-      <recent name="C:\peopleIn2\peopleIn\static" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\peopleIn2\franchise\static" />
-      <recent name="C:\peopleIn2\sang\static" />
-      <recent name="C:\peopleIn2\forSale\templates\forSale" />
-      <recent name="C:\peopleIn2\forSale" />
-      <recent name="C:\peopleIn2\franchise" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -425,12 +511,15 @@
       <workItem from="1573709664562" duration="22982000" />
       <workItem from="1573802669350" duration="10300000" />
       <workItem from="1573903686331" duration="3103000" />
-      <workItem from="1573969953129" duration="18881000" />
+      <workItem from="1573969953129" duration="19739000" />
+      <workItem from="1574043465642" duration="2016000" />
+      <workItem from="1574047758439" duration="721000" />
+      <workItem from="1574048868572" duration="3777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="440954000" />
+    <option name="totallyTimeSpent" value="448326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,7 +534,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.325067" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26407507" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -457,7 +546,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49463806" visible="true" weight="0.32152975" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49463806" visible="true" weight="0.04249292" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5053619" side_tool="true" weight="0.3186969" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.04249292" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32577905" />
@@ -466,7 +555,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
-      <window_info anchor="right" id="Database" order="4" weight="0.15683647" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.26742628" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
@@ -508,161 +597,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sang/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forSale/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forSale/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="99" column="6" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sang/static/js/csvjson.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sang/static/seoul.json" />
-    <entry file="file://$PROJECT_DIR$/sang/static/localization.json" />
-    <entry file="file://$PROJECT_DIR$/sang/static/--_-1_-2_utf.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/franchise/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="107" column="14" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sang/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forSale/templates/forSale/layout.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forSale/templates/forSale/item_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.5dc90dbc2e4055/sang22.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2812">
-          <caret line="148" column="1" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sang/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/peopleIn/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1463">
-          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/피플인/nuBnag (2)/sang/templates/sang/sang2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="220" column="35" lean-forward="true" selection-start-line="220" selection-start-column="35" selection-end-line="220" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.5dc90df22f14cb/sang2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="224" column="31" selection-end-line="240" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/franchise/templates/franchise/layout.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Pictures/peopleIn2 (4)/sang/templates/sang/sang2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="50" selection-end-line="170" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Pictures/peopleIn2 (4)/sang/templates/sang/sang_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="155" column="10" lean-forward="true" selection-start-line="155" selection-start-column="10" selection-end-line="155" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sang/static/geolast.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="41" column="81" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="81" />
-          <caret line="42" column="81" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="81" />
-          <caret line="43" column="81" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="81" />
-          <caret line="45" column="81" selection-start-line="45" selection-start-column="76" selection-end-line="45" selection-end-column="81" />
-          <caret line="44" column="81" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="81" />
-          <caret line="46" column="81" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="81" />
-          <caret line="47" column="81" selection-start-line="47" selection-start-column="76" selection-end-line="47" selection-end-column="81" />
-          <caret line="48" column="81" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="81" />
-          <caret line="49" column="81" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="81" />
-          <caret line="50" column="81" selection-start-line="50" selection-start-column="76" selection-end-line="50" selection-end-column="81" />
-          <caret line="51" column="81" selection-start-line="51" selection-start-column="76" selection-end-line="51" selection-end-column="81" />
-          <caret line="52" column="81" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="81" />
-          <caret line="53" column="81" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="81" />
-          <caret line="54" column="81" selection-start-line="54" selection-start-column="76" selection-end-line="54" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/franchise/static/css/fullpage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/franchise/static/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="662" column="39" selection-start-line="662" selection-start-column="39" selection-end-line="662" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/franchise/static/css/examples.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/peopleIn/static/css/bootstrap-reboot.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -695,9 +629,6 @@
           </filtering>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sang/static/markers2.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sang/static/markers.png">
       <provider selected="true" editor-type-id="images" />
@@ -740,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sang/static/markers.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="115" column="12" lean-forward="true" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sang/static/csvjson.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -768,37 +692,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sang/static/in.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/peopleIn/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/franchise/templates/franchise/franchise_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="130" column="37" lean-forward="true" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/peopleIn/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="123" column="21" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sang/static/in.json" />
     <entry file="file://$PROJECT_DIR$/peopleIn/static/css/yun2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
@@ -827,15 +721,193 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2413">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sang/static/markers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1262094">
+          <caret line="66426" column="20" selection-start-line="66426" selection-start-column="17" selection-end-line="66426" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sang/static/markers2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peopleIn/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peopleIn/templates/index3.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/신우/줄거/franchise/templates/franchise/franchise_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2147">
+          <caret line="113" selection-start-line="113" selection-end-line="118" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/franchise/templates/franchise/franchise_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2109">
+          <caret line="111" column="50" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forSale/templates/forSale/layout.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forSale/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/franchise/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5396">
+          <caret line="286" column="48" selection-start-line="286" selection-start-column="48" selection-end-line="286" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/franchise/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6441">
+          <caret line="339" column="10" selection-start-line="339" selection-start-column="10" selection-end-line="339" selection-end-column="10" />
+          <folding>
+            <element signature="e#9192#12522#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peopleIn/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="104" column="12" lean-forward="true" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peopleIn/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://81f73662-0edb-429f-aa0a-67e69a536eb7/schema/main/table/django_admin_log">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a9d92979-2605-498a-848d-568bf01bec94">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forSale/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1968">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forSale/templates/forSale/item_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#button#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sang/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chu/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chu/templates/chu/chu_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="111" column="7" lean-forward="true" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sang/static/chu.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/forSale/templates/forSale/item_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="133" column="53" selection-start-line="133" selection-start-column="53" selection-end-line="133" selection-end-column="53" />
+        <state relative-caret-position="241">
+          <caret line="126" column="43" selection-start-line="126" selection-start-column="43" selection-end-line="126" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chu/templates/chu/chu_detail_ori.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chu/templates/chu/chu_ori.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2457" />
+      </provider>
+    </entry>
+    <entry file="das://81f73662-0edb-429f-aa0a-67e69a536eb7/schema/main/table/chu_chu">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a9d92979-2605-498a-848d-568bf01bec94">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chu/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
-            <element signature="e#287#1145#0#HTML" />
-            <element signature="e#1918#1979#0#HTML" expanded="true" />
-            <element signature="e#2516#2537#0#HTML" expanded="true" />
-            <element signature="e#2679#3347#0#HTML" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -850,31 +922,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang_detail.html">
+    <entry file="file://$PROJECT_DIR$/chu/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        <state relative-caret-position="171">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
-            <element signature="e#1712#1793#0#HTML" expanded="true" />
-            <element signature="e#1834#1870#0#HTML" expanded="true" />
-            <element signature="e#1902#1952#0#HTML" expanded="true" />
-            <element signature="e#1908#1984#0#HTML" expanded="true" />
-            <element signature="e#2083#2132#0#HTML" expanded="true" />
-            <element signature="e#2285#2343#0#HTML" expanded="true" />
-            <element signature="e#2875#4729#0#HTML" />
-            <element signature="e#4732#6469#0#HTML" />
-            <element signature="e#6472#9159#0#HTML" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sang/templates/sang/sang2.html">
+    <entry file="file://$PROJECT_DIR$/chu/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        <state>
           <folding>
-            <element signature="e#6032#10299#0#HTML" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sang/static/js/hangjungdong2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.5dd2263047329f/chu_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" lean-forward="true" selection-end-line="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chu/templates/chu/chu_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>

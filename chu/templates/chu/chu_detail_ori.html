@@ -1,0 +1,100 @@
+{% extends "base.html" %}                   <!--base.html을 상속받는다고 선언-->
+
+{% block title %}{% endblock %}    <!--title 블록 재정의-->
+
+<!--정적 파일인 css 연결하기 위하여, staticfiles를 로드-->
+{% load staticfiles %}
+<!--extrastyle 블록을 재정의하여 추가적으로 home.css 연결-->
+{% block extrastyle %}{% static "home.css" %}{% endblock %}
+
+{% block content %}
+
+{% load staticfiles %}
+  <link href='{% static "css/chu.css" %}' rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <script type="text/javascript" src="{% static 'js/chu.js' %}"></script>
+  <script>
+	$(window).on("scroll", function() {
+		if ($(window).scrollTop() > 300) {
+			$("#mainNav").css("background-color","#ffffff").css("box-shadow", "0 0 14px rgba(0,0,0,.4)");
+			$(".navbar-nav .nav-item .nav-link").css("color","#000000");
+		}else {
+      $("#mainNav").css("background-color","transparent").css("box-shadow", "none");
+      $(".navbar-nav .nav-item .nav-link").css("color","#ffffff");
+		}
+	});
+</script>
+
+  <h4 style="text-align: center; color: #0f4c97; "> <span style="margin: 0 auto;">{{ chu.gu_title }} {{ chu.dong_title }}</span></h4>
+  <br><br>
+
+{% load humanize %}
+
+    <br>
+
+    {{ chu.gu_title }} {{ chu.dong_title }}은
+    <h1 style="color:#0f4c97;">{{ chu.living_pop|intcomma }}명</h1>이 거주하고 있는
+    <h1 style="color:#0f4c97;">{{ chu.area}}km2</h1>의 지역입니다.
+    인구밀도는 <h1 style="color:#0f4c97;">{{ chu.density|intcomma }}</h1>으로
+    높습니다. 한식 대비 배달음식의 비율은
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-latest.min.js" type="application/javascript"></script>
+
+  <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+
+ <!--태이블-->
+  <body>
+  <div class="container">
+    <div class="row">
+  <table class="table col-6">
+    <thead class="table-dark">
+
+      <tr>
+          <th>순위</th>
+          <th>추천업종</th>
+          <th>비추천업종</th>
+      </tr>
+    </thead>
+  </table>
+    </div>
+  </div>
+
+  <script>
+  $.getJSON("{% static 'chu.json' %}", function(data) {
+      var items = [];
+
+      $.each(data, function(key, val) {
+          items.push("<tr>");
+          items.push("<th>" +"1" +"</th>");
+          items.push("<td id=''" + key + "''>" + val.chu1 + "</td>");
+          items.push("<td id=''" + key + "''>" + val.bchu1 + "</td>");
+          items.push("<tr>");
+          items.push("<th>" +"2" +"</th>");
+          items.push("<td id=''" + key + "''>" + val.chu2 + "</td>");
+          items.push("<td id=''" + key + "''>" + val.bchu2 + "</td>");
+          items.push("<tr>");
+          items.push("<th>" +"3" +"</th>");
+          items.push("<td id=''" + key + "''>" + val.chu3 + "</td>");
+          items.push("<td id=''" + key + "''>" + val.bchu3 + "</td>");
+          items.push("<tr>");
+          items.push("<th>" +"4" +"</th>");
+          items.push("<td id=''" + key + "''>" + val.chu4 + "</td>");
+          items.push("<tr>");
+      });
+      $("<tbody/>", {html: items.join("")}).appendTo("table");
+      });
+
+  </script>
+  </body>
+
+
+{% endblock %}
