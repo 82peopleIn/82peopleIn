@@ -62,8 +62,8 @@
 
             .area {
             position: absolute;
-            background: #3498db;
-            border: 1px solid #3498db;
+            background: #8AA6AF;
+            border: 1px solid #8AA6AF;
             border-radius: 7px;
             font-size: 12px;
             color: #fff;
@@ -84,11 +84,13 @@
            <script type="text/javascript" src="{% static 'js/product.js' %}"></script>
             <script>
                 $(window).on("scroll", function() {
-                    if ($(window).scrollTop() > 300) {
-                        $("#mainNav").css("background-color","#ffffff").css("box-shadow", "0 0 14px rgba(0,0,0,.4)");
+                    if ($(window).scrollTop() > 500) {
+                        $("#mainNav").css("background-color","#ffffff").css("border-bottom", "1px solid #ddd");
+                        $("#mainNav .navbar-brand").css("color", "#8AA6AF");
                         $(".navbar-nav .nav-item .nav-link").css("color","#000000");
                     }else {
-                  $("#mainNav").css("background-color","transparent").css("box-shadow", "none");
+                  $("#mainNav").css("background-color","transparent").css("border-bottom", "none");
+                  $("#mainNav .navbar-brand").css("color", "#ffffff");
                   $(".navbar-nav .nav-item .nav-link").css("color","#ffffff");
                     }
                 });
@@ -120,9 +122,27 @@
 
        </div></div>
 
+     <style>
+       .movebtn {
+         display: inline-block;
+         height:50px; width:32.5%;
+         background-color: #8AA6AF;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 18px;
+        line-height: 45px;
+        font-weight: 500;
+        text-align: center;
+         cursor: pointer;
+       }
+     </style>
        <div class="summary section fp-normal-scroll fp-auto-height fp-section fp-table" data-fp-styles="null" data-anchor="con1" style="height: 674px;"><div class="fp-tableCell" style="height: 674px;">
-
-           <div id="map" style="width:70%;height:550px; margin:0 auto;"></div>
+      <div style="padding-bottom:5px;width:65%; margin:0 auto;">
+        <div class="movebtn jong" onclick="setCenterJo()" >종로구</div>
+        <div class="movebtn seo" onclick="setCenterSeo()">서대문구</div>
+        <div class="movebtn no" onclick="setCenterNo()">노원구</div>
+      </div>
+           <div id="map" style="width:65%;height:550px; margin:0 auto;"></div>
          <br>
 {#      <iframe width="100%" height="520" frameborder="0" src="https://82people.carto.com/builder/443a3876-3458-47d0-ba27-7d4b44d6931f/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>#}
 
@@ -182,9 +202,11 @@
                   var polygon = new kakao.maps.Polygon({
                       map: map, // 다각형을 표시할 지도 객체
                       path: path,
-                      strokeWeight: 4,
-                      strokeStyle: 'longdash',
-                      strokeColor: '#3498db',
+                      strokeWeight: 2.5,
+                      {#strokeStyle: 'longdash',#}
+                      {#strokeColor: '#3498db',#}
+                      {#strokeColor: '#f26d5b',#}
+                      strokeColor:'#8AA6AF',
                       strokeOpacity: 0.8,
                       fillColor: '#fff',
                       fillOpacity: 0.1
@@ -198,7 +220,7 @@
                   kakao.maps.event.addListener(polygon, 'mouseover', function (mouseEvent) {
                       polygon.setOptions({
                           fillOpacity: 0.3,
-                          fillColor: '#09f'
+                          fillColor: '#8AA6AF'
 
                       });
 
@@ -240,6 +262,31 @@
 
 
               }
+
+          function setCenterJo() {
+              // 이동할 위도 경도 위치를 생성합니다
+              var moveLatLon = new kakao.maps.LatLng(37.581305999999998, 126.972694);
+
+              // 지도 중심을 이동 시킵니다
+              map.setCenter(moveLatLon);
+          }
+
+          function setCenterSeo() {
+              // 이동할 위도 경도 위치를 생성합니다
+              var moveLatLon = new kakao.maps.LatLng(37.571987,	126.932812);
+
+              // 지도 중심을 부드럽게 이동시킵니다
+              // 만약 이동할 거리가 지도 화면보다 크면 부드러운 효과 없이 이동합니다
+              map.setCenter(moveLatLon);
+          }
+          function setCenterNo() {
+              // 이동할 위도 경도 위치를 생성합니다
+              var moveLatLon = new kakao.maps.LatLng(37.63689,	127.073145);
+
+              // 지도 중심을 부드럽게 이동시킵니다
+              // 만약 이동할 거리가 지도 화면보다 크면 부드러운 효과 없이 이동합니다
+              map.setCenter(moveLatLon);
+          }
 
       </script>
 

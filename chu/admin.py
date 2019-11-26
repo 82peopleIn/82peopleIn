@@ -6,3 +6,4 @@ from chu.models import Chu
 @admin.register(Chu)
 class ViewAdmin(ImportExportModelAdmin):
     exclude = ('id', )
+

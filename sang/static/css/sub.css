@@ -382,7 +382,7 @@ section .btn_demo {
 .max_aws_con>div,
 .icloud_con>div,
 .aiops_con>div {
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 .max_con>div:first-child,

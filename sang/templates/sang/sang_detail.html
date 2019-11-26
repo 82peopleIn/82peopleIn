@@ -10,6 +10,9 @@
 {% block content %}
 
 {% load staticfiles %}
+<!-- DataTables CSS -->
+  <style>
+  </style>
 
 
   <script>
@@ -32,7 +35,7 @@
 
   <h4 style="text-align: center; color: #0f4c97; "> <span style="margin: 0 auto;">{{ sang.gu_title }} {{ sang.dong_title }}</span></h4>
   <br><br>
-
+{#<img style="width:27px;" src="{% static 'info.png' %}">#}
   <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f460952f0d62b1ca6bd68a4534bb4978"></script>
   <div id="map" style="width: 60%; margin: 0 auto; height:350px;"></div>
   <br>
@@ -58,21 +61,27 @@
   <div id="container1" style="width: 60%; margin: 0 auto; height: 500px"></div>
 
   <br>
-  <p  style="width: 60%; margin: 0 auto; ">업종별 평균 월매출</p><br>
-  <div id="container3"  style="width: 60%; margin: 0 auto; height: 500px;"></div>
+
+  <p style="width: 60%; margin: 0 auto;">업종별 평균 월매출</p>
+  <br>
+  <div style="width: 60%; margin: 0 auto; text-align: center; height: 500px;">
+    <div style="width: 70%;display: inline-block;  height: 500px; ">
+      <div id="container3" style="height: 100%;"></div>
+    </div>
+
+    <div style=" width: 30%; display: inline-block; float:left;">
+      <table class="table table-nomargin dataTable table-bordered" id="container4">
+        <thead>
+            <th style="width:20px;">순위</th>
+            <th style="width:20px;">순위</th>
+            <th  style="width:100px;">업종명</th>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
 
 
-
-{#  <p  style="width: 60%; margin: 0 auto; ">업종별 평균 월매출 순위</p><br>#}
-{#  <div id="container4">#}
-{#    <table class="table table-bordered table-striped">#}
-{#      <thead>#}
-{#          <th>순위</th>#}
-{#          <th>업종명</th>#}
-{#      </thead>#}
-{#      <tbody></tbody>#}
-{#    </table>#}
-{#  </div>#}
 
   <script src="https://code.highcharts.com/highcharts-3d.js"></script>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -111,12 +120,12 @@
                         type:'category',
                         allowDecimals: false,
                         title: {
-                            text: "업종명"
+                            text: ""
                         }
                     },
                     yAxis: {
                         title: {
-                            text: "점포 수"
+                            text: ""
                         }
                     },
                     credits: {
@@ -125,7 +134,9 @@
                     series: [{
                         name : '',
                         colorByPoint: true,
-                        data: processed_json
+                        data: processed_json,
+                        showInLegend: false
+
                     }]
                 });
             });
@@ -184,7 +195,7 @@
 {#  업종별 매출#}
           $(function () {
                 var processed_json3 = new Array();
-                $.getJSON('{% static 'mc2.json' %}', function(data) {
+                $.getJSON('{% static 'nice.json' %}', function(data) {
                     // Populate series
                     for (i = 0; i < data.length; i++) {
                         if (data[i].id == {{ sang.id }}) {
@@ -196,6 +207,7 @@
                     }
                      console.log(processed_json3);
 
+                     {#막대그래프#}
                      Highcharts.setOptions({
                       lang: {
                         thousandsSep: ','
@@ -222,7 +234,7 @@
                               type:'category',
                               allowDecimals: false,
                               title: {
-                                  text: "업종명"
+                                  text: ""
                               }
                           },
                           yAxis: {
@@ -240,14 +252,61 @@
                           },
                           series: [{
                               name : '',
-                              {#colorByPoint: true,#}
-                              data: processed_json3
+                              data: processed_json3,
+                              showInLegend: false,
+                              color:'#CBA6C3'
+
                           }]
             });
         });
   });
 
+
       </script>
+
+  <script>
+
+   $(function () {
+                var processed_json9 = new Array();
+                $.getJSON('{% static 'nice.json' %}', function(data) {
+                    // Populate series
+                    for (i = 0; i < data.length; i++) {
+                        if (data[i].id == {{ sang.id }}) {
+                            processed_json9.push({"mc": data[i].HS, "uj": "한식"}, {"mc": data[i].BS, "uj":"분식"}, {"mc": data[i].IS, "uj":"일식/수산물"},
+                                {"mc": data[i].JS,"uj": "중식"}, {"mc": data[i].CHICK, "uj":"치킨집"},{"mc": data[i].CAFÉ, "uj":"커피점/카페"}, {"mc": data[i].CS, "uj":"편의점/슈퍼마켓"},
+                                {"mc": data[i].FF, "uj":"패스트푸드"}, {"mc": data[i].JB, "uj":"제과제빵"}, {"mc": data[i].YS, "uj":"양식"}, {"mc": data[i].YH, "uj":"유흥주점"} );
+                        }
+                    }
+                     console.log(processed_json9);
+
+
+                  var t = $('#container4').DataTable({
+                      "paging":   false,
+                      "info":     false,
+                      "searching": false,
+
+                     data: processed_json9,
+                     columns : [
+                          { title: "순위", data:null},
+                          { title: "순위", data:"mc", "visible": false},
+                          { title: "업종명", data:"uj"}
+                     ],
+                      orderFixed: {
+                          pre: [ 1, 'desc' ]
+                      }
+                      });
+                  t.on('order.dt search.dt', function() {
+                      t.column(0, {
+                        search: 'applied',
+                        order: 'applied'
+                      }).nodes().each(function(cell, i) {
+                        cell.innerHTML = i + 1;
+                      });
+                }).draw();
+
+        });
+   });
+  </script>
   <script type="text/javascript">
   {#  유동인구 #}
             $(function () {
@@ -293,13 +352,13 @@
                                 type:'category',
                                  tickInterval: 2,
                                 title: {
-                                    {#text: "업종명"#}
+                                    text: ""
                                 }
                             },
                             yAxis: {
                                 {#max: yAxisMax,#}
                                 title: {
-                                    {#text: "월 평균 매출(단위:원)"#}
+                                    text: ""
                                 },
                                 labels : {
                                     {#ormat: '{value:,.0f}'#}
@@ -380,7 +439,9 @@
 </script>
 
 
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.css"/>
 
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.js"></script>
 
 {% endblock %}
 

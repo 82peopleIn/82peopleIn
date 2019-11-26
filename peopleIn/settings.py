@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'franchise.apps.FranchiseConfig',
     'sang',
     'chu',
+    'newchu'
 ]
 
 

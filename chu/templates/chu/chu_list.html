@@ -81,12 +81,22 @@
       if(jQuery('#sido > option:selected').val() == code.sido && jQuery('#sigugun > option:selected').val() == code.sigugun){
         jQuery('#dong').append(fn_option(code.dong, code.codeNm));
 
+{#      {% for chu in chu_list %}#}
+{#        if(code.dong == {{ chu.id }}){#}
+{#            console.log(code.dong, code.codeNm);#}
+{#             $("#hh").click(function() {#}
+{#                document.location.href = '{{ chu.get_absolute_url }}';#}
+{#            });#}
+{#          }#}
+{#        {% endfor %}#}
+
       {% for chu in chu_list %}
-        if(code.dong == {{ chu.id }}){
-                 $("#hh").click(function() {
-                location.href = '{{ chu.get_absolute_url }}';
-        });
-            }
+             $("#hh").click(function() {
+                 if(code.dong == {{ chu.id }}){
+                     document.location.href = '{{ chu.get_absolute_url }}';
+                }
+            });
+
         {% endfor %}
       }
     });
@@ -128,8 +138,8 @@
     geocoder.addressSearch("'"+codeNm+"'", callback);
 
 
-    
-    
+
+
   });
 });
 

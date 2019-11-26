@@ -27,6 +27,7 @@ urlpatterns = [
     path('sang/', include('sang.urls')),
     path('map/', include('map.urls')),
     path('chu/', include('chu.urls')),
+    path('newchu/', include('newchu.urls')),
     path('forSale/', include('forSale.urls')),
     path('ckeditor/', include('ckeditor_uploader.urls')),
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
