@@ -62,10 +62,13 @@
                 $(window).on("scroll", function() {
                     if ($(window).scrollTop() > 300) {
                         $("#mainNav").css("background-color","#ffffff").css("box-shadow", "0 0 14px rgba(0,0,0,.4)");
+                        $("#mainNav .navbar-brand").css("color", "#fe9d2c");
                         $(".navbar-nav .nav-item .nav-link").css("color","#000000");
                     }else {
                   $("#mainNav").css("background-color","transparent").css("box-shadow", "none");
                   $(".navbar-nav .nav-item .nav-link").css("color","#ffffff");
+                  $("#mainNav .navbar-brand").css("color", "#ffffff");
+
                     }
                 });
             </script>
