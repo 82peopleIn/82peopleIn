@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from newchu.models import Maechul
+
+admin.site.register(Maechul)

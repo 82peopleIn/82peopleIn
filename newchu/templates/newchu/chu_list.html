@@ -10,31 +10,290 @@
 {% block content %}
 
 {% load staticfiles %}
-  <style>
-      .btn-info {
-            background: #3498db;
-      }
-  </style>
-  <script>
-	$(window).on("scroll", function() {
-		if ($(window).scrollTop() > 300) {
-			$("#mainNav").css("background-color","#ffffff").css("box-shadow", "0 0 14px rgba(0,0,0,.4)");
-			$(".navbar-nav .nav-item .nav-link").css("color","#000000");
-		}else {
-      $("#mainNav").css("background-color","transparent").css("box-shadow", "none");
-      $(".navbar-nav .nav-item .nav-link").css("color","#ffffff");
-		}
-	});
-</script>
 
-<div style="height:400px; width:100%; background-image: url({% static 'img/업종추천.jpg' %});">
-  <h1 class="menu_name">업종추천</h1>
-</div>
-  <div style="height:70px;"></div>
+    <head>
+        <link href="/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href='{% static "css/fullpage.css" %}' rel="stylesheet">
+        <link href='{% static "css/examples.css" %}' rel="stylesheet">
 
 
 
 
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=1600px, user-scalable=yes">
+
+            <link rel="shortcut icon" type="image/x-icon" href="/resources/image/common/favicon.png">
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+           <!-- <script src="/resources/js/jquery-1.12.4.min.js"></script> -->
+            <script type="text/javascript" src="{% static 'js/common.js' %}"></script>
+            <link href='{% static "css/common.css" %}' rel="stylesheet">
+
+
+            <script type="text/javascript" src="{% static 'js/slick.js' %}"></script>
+
+
+    </head>
+        <body class="fp-viewing-intro" style="overflow: visible; height: initial;">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+           <div class="menu">
+               <div class="menu_bg"></div>
+               <div class="menu_con_bg"></div>
+               <div class="menu_con">
+                   <div class="lang white">
+                       <span class="lang_bg"></span>
+                   </div>
+
+               </div>
+           </div>
+
+
+
+            <script src="https://code.jquery.com/jquery-latest.min.js" type="application/javascript"></script>
+           <style>
+           .intro {height:943px}
+
+            .area {
+            position: absolute;
+            background: #8AA6AF;
+            border: 1px solid #8AA6AF;
+            border-radius: 7px;
+            font-size: 12px;
+            color: #fff;
+            left: 15px;
+            padding:5px;
+             }
+            .dd {
+            font-size: 17px;
+            padding-top: 93px;
+            padding-left: 0px;
+            }
+
+           </style>
+
+           <link href='{% static "css/sub.css" %}' rel="stylesheet">
+           <script type="text/javascript" src="{% static 'js/fullpage.js' %}"></script>
+           <script type="text/javascript" src="{% static 'js/example.js' %}"></script>
+           <script type="text/javascript" src="{% static 'js/product.js' %}"></script>
+            <script>
+                $(window).on("scroll", function() {
+                    if ($(window).scrollTop() > 500) {
+                        $("#mainNav").css("background-color","#ffffff").css("border-bottom", "1px solid #ddd");
+                        $("#mainNav .navbar-brand").css("color", "#8AA6AF");
+                        $(".navbar-nav .nav-item .nav-link").css("color","#000000");
+                    }else {
+                  $("#mainNav").css("background-color","transparent").css("border-bottom", "none");
+                  $("#mainNav .navbar-brand").css("color", "#ffffff");
+                  $(".navbar-nav .nav-item .nav-link").css("color","#ffffff");
+                    }
+                });
+            </script>
+           <!-- 컨텐츠 -->
+<section>
+
+   <div class="contents max_con fullpage-wrapper" style="height: 100%; position: relative;">
+       <!-- 인트로 -->
+       <div class="intro section fp-section active fp-table fp-completely" data-fp-styles="null" data-anchor="intro" style="height: 674px;"><div class="fp-tableCell" style="height: 674px;">
+           <div class="intro_wrap"></div>
+           <div class="intro_txt">
+               <dl class="intro_dl">
+                     <p style ="text-align:left; margin: 0px; font-size:50px; color: #ffffff;">상권분석</p>
+                     <br>
+                     <p style ="text-align:left; margin: 0px; font-size:20px; color: #ffffff;">마테 레몬그라스, 생강차, 아메리카노</p>
+               </dl>
+               <ul class="intro_menu">
+                   <li data-menuanchor="con1"><a href="#con1">인구 분석</a></li>
+                   <li data-menuanchor="con2"><a href="#con2">매출 분석</a></li>
+                   <li data-menuanchor="con3"><a href="#con3">업종 분석</a></li>
+                   <li data-menuanchor="con4"><a href="#con4">점포 현황</a></li>
+               </ul>
+           </div>
+{#                       <img class="intro_fix" src="/static/image/sub/max_fix.svg" alt="MaxGauge" style="display: block;">#}
+{#                       <iframe class="intro_ani" src="/static/image/sub/max_ani.svg" style="display: block; border:0px"></iframe>#}
+
+           <img src="/static/image/sub/cms.gif" style= "width:600px; height:450px; margin-left: 600px;">
+
+       </div></div>
+
+     <style>
+       .movebtn {
+         display: inline-block;
+         height:50px; width:32.5%;
+         background-color: #8AA6AF;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 18px;
+        line-height: 45px;
+        font-weight: 500;
+        text-align: center;
+         cursor: pointer;
+       }
+     </style>
+       <div class="summary section fp-normal-scroll fp-auto-height fp-section fp-table" data-fp-styles="null" data-anchor="con1" style="height: 674px;"><div class="fp-tableCell" style="height: 674px;">
+      <div style="padding-bottom:5px;width:65%; margin:0 auto;">
+        <div class="movebtn jong" onclick="setCenterJo()" >종로구</div>
+        <div class="movebtn seo" onclick="setCenterSeo()">서대문구</div>
+        <div class="movebtn no" onclick="setCenterNo()">노원구</div>
+      </div>
+           <div id="map" style="width:65%;height:550px; margin:0 auto;"></div>
+         <br>
+{#      <iframe width="100%" height="520" frameborder="0" src="https://82people.carto.com/builder/443a3876-3458-47d0-ba27-7d4b44d6931f/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>#}
+
+      <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f460952f0d62b1ca6bd68a4534bb4978"></script>
+
+
+      <script>
+                  var container = document.getElementById('map');
+                  var options = {
+                    center: new kakao.maps.LatLng(37.581305999999998, 126.972694),
+                    level: 5
+                  };
+
+                  var map = new kakao.maps.Map(container, options),
+
+                    customOverlay = new kakao.maps.CustomOverlay({}),
+                    infowindow = new kakao.maps.InfoWindow({removable: true});
+
+
+              //행정구역 구분
+              $.getJSON("{% static 'data.json' %}", function(geojson) {
+
+                  var data = geojson.features;
+                  var coordinates = [];    //좌표 저장할 배열
+                  var adm_nm = '';            //행정 구 이름
+                  var id = 0; // id 저장
+
+                  $.each(data, function(index, val) {
+
+                      coordinates = val.geometry.coordinates;
+                      adm_nm = val.properties.adm_nm;
+                      id = val.properties.id;
+
+                      displayArea(coordinates, adm_nm, id);
+
+                  })
+              });
+
+
+              var polygons=[];                //function 안 쪽에 지역변수로 넣으니깐 폴리곤 하나 생성할 때마다 배열이 비어서 클릭했을 때 전체를 못 없애줌.  그래서 전역변수로 만듦.
+
+              //행정구역 폴리곤
+              function displayArea(coordinates, adm_nm, id) {
+
+                  var path = [];            //폴리곤 그려줄 path
+                  var points = [];        //중심좌표 구하기 위한 지역구 좌표들
+
+                  $.each(coordinates[0], function (index, coordinate) {        //console.log(coordinates)를 확인해보면 보면 [0]번째에 배열이 주로 저장이 됨.  그래서 [0]번째 배열에서 꺼내줌.
+                      var point = new Object();
+                      point.x = coordinate[1];
+                      point.y = coordinate[0];
+                      points.push(point);
+                      path.push(new kakao.maps.LatLng(coordinate[1], coordinate[0]));            //new daum.maps.LatLng가 없으면 인식을 못해서 path 배열에 추가
+                  });
+
+                  // 다각형을 생성합니다
+                  var polygon = new kakao.maps.Polygon({
+                      map: map, // 다각형을 표시할 지도 객체
+                      path: path,
+                      strokeWeight: 2.5,
+                      {#strokeStyle: 'longdash',#}
+                      {#strokeColor: '#3498db',#}
+                      {#strokeColor: '#f26d5b',#}
+                      strokeColor:'#8AA6AF',
+                      strokeOpacity: 0.8,
+                      fillColor: '#fff',
+                      fillOpacity: 0.1
+                  });
+
+
+                  polygons.push(polygon);            //폴리곤 제거하기 위한 배열
+
+                  // 다각형에 mouseover 이벤트를 등록하고 이벤트가 발생하면 폴리곤의 채움색을 변경합니다
+                  // 지역명을 표시하는 커스텀오버레이를 지도위에 표시합니다
+                  kakao.maps.event.addListener(polygon, 'mouseover', function (mouseEvent) {
+                      polygon.setOptions({
+                          fillOpacity: 0.3,
+                          fillColor: '#8AA6AF'
+
+                      });
+
+                      var content = '<div class="area">' + adm_nm + '<br>' +
+                                    '<p style="font-size: 14px; float: right; margin-bottom:0px;">' + '상권분석 >' + '</p>' + '</div>';
+
+
+
+                      customOverlay.setContent(content);
+                      customOverlay.setPosition(mouseEvent.latLng);
+                      customOverlay.setMap(map);
+
+                  });
+
+                  // 다각형에 mousemove 이벤트를 등록하고 이벤트가 발생하면 커스텀 오버레이의 위치를 변경합니다
+                  kakao.maps.event.addListener(polygon, 'mousemove', function (mouseEvent) {
+
+                      customOverlay.setPosition(mouseEvent.latLng);
+                  });
+
+                  // 다각형에 mouseout 이벤트를 등록하고 이벤트가 발생하면 폴리곤의 채움색을 원래색으로 변경합니다
+                  // 커스텀 오버레이를 지도에서 제거합니다
+                  kakao.maps.event.addListener(polygon, 'mouseout', function () {
+                      polygon.setOptions({
+                          fillOpacity: 0.1,
+                          fillColor: '#fff'
+                      });
+
+                  });
+
+
+                  kakao.maps.event.addListener(polygon, 'click', function() {
+                      {% for sang in sang_list %}
+                          if (id == {{ sang.id }}) {
+                              document.location.href = '{{ sang.get_absolute_url }}';
+                          }
+                      {% endfor %}
+                  });
+
+
+              }
+
+          function setCenterJo() {
+              // 이동할 위도 경도 위치를 생성합니다
+              var moveLatLon = new kakao.maps.LatLng(37.581305999999998, 126.972694);
+
+              // 지도 중심을 이동 시킵니다
+              map.setCenter(moveLatLon);
+          }
+
+          function setCenterSeo() {
+              // 이동할 위도 경도 위치를 생성합니다
+              var moveLatLon = new kakao.maps.LatLng(37.571987,	126.932812);
+
+              // 지도 중심을 부드럽게 이동시킵니다
+              // 만약 이동할 거리가 지도 화면보다 크면 부드러운 효과 없이 이동합니다
+              map.setCenter(moveLatLon);
+          }
+          function setCenterNo() {
+              // 이동할 위도 경도 위치를 생성합니다
+              var moveLatLon = new kakao.maps.LatLng(37.63689,	127.073145);
+
+              // 지도 중심을 부드럽게 이동시킵니다
+              // 만약 이동할 거리가 지도 화면보다 크면 부드러운 효과 없이 이동합니다
+              map.setCenter(moveLatLon);
+          }
+
+      </script>
+
+       </div>
+       </div>
+   </div>
+</section>
+</body>
 
 {% endblock %}
-
