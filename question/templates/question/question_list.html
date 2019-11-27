@@ -31,11 +31,11 @@
 
     </tbody>
   </table>
- {% if request.user.is_superuser %}
+
     <button type="submit" style="float: right;">
         <a href="{% url 'question:question_new' %}" style="color:#000000 ">글쓰기</a>
     </button>
-  {% endif %}
+
 </section>
 
 <br>

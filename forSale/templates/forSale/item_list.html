@@ -27,8 +27,8 @@
       {% endfor %}
     </div>
    {% if request.user.is_superuser %}
-    <button type="submit">
-        <a href="{% url 'forSale:item_new' %}" style="color:#000000">새 매물 등록</a>
+    <button type="submit " class="btnking">
+        <a href="{% url 'forSale:item_new' %}"  style="; color:#000000">새 매물 등록</a>
     </button>
   {% endif %}
   </div>

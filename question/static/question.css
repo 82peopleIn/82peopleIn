@@ -11,3 +11,11 @@
     width: 837px;
 }
 
+.btnking{
+    float:right;
+}
+.submitbtn{
+    display: inline;
+    width: 100px;
+    /*border-radius: 10px;*/
+}

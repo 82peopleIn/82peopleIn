@@ -16,8 +16,9 @@
       .customoverlay:after {content:'';position:absolute;margin-left:-12px;left:50%;bottom:-12px;width:22px;height:12px;background:url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}
     </style>
 {## 매물 정보#}
-<br><h5>매물 정보</h5>
-    <section style="height:1000px;">
+
+    <section class="sang_infoSection" style="height:1000px;">
+    <br><h5>매물 정보</h5>
         <article>
           <table class="sang_info">
             <tr>
@@ -52,40 +53,39 @@
             </tr>
             </table>
         </article>
+      <br>
 {#    <hr class="my-hr4">#}
 <br><h5>매물 사진</h5>
 
   <div class="sang_content">
         <article itemprop="articleBody"><!--BeforeDocument(1102807111,0)-->
 
-        <div style="margin-left:200px; margin-right: 200px; background-color: #f0f3f5">
+        <div style=" background-color: #f0f3f5">
             {% if item.photo %}
                 <img src="{{ item.photo.url }}" style="max-width:800px; height:500px;">
             {% endif %}
         </div>
         </article>
   </div>
-
+      <br>
 <br><h5>매물 위치</h5>
  <div class="sang_content">
-  <div id="map" style="margin-left:200px; margin-right: 200px; height:350px;"></div>
+  <div id="map" style="margin: 0 auto; height:400px;"></div>
 
-<br><br><br><br>
+<br><br>
 
-        <div class="control hidden">
+    <div class="btnking">
             {% if request.user.is_superuser %}
-                <button type="submit" class="">
-                    <a href="{% url 'forSale:item_remove' item.pk %}" >매물정보 삭제</a>
-                </button>
-                <div class="control hidden">
-                <button type="submit" class="">
-                    <a href="{% url 'forSale:item_edit' item.pk %}" >매물정보 수정</a>
-                </button>
+          <button type="submit" class="submitbtn ">
+              <a href="{% url 'forSale:item_remove' item.pk %}" >삭제</a>
+          </button>
+           <button type="submit" class="submitbtn">
+                <a href="{% url 'forSale:item_edit' item.pk %}" >수정</a>
+           </button>
             {% endif %}
-        </div>
   </div>
   </section>
-   <div style="height:300px;"></div>
+   <div style="height:400px;"></div>
 
   <br><br>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f460952f0d62b1ca6bd68a4534bb4978&libraries=services"></script>
@@ -110,7 +110,7 @@
 
 
 </script>
-    <script>
+<script>
     var mapContainer = document.getElementById('map'), // 지도를 표시할 div
         mapOption = {
             center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
