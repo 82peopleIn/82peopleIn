@@ -9,15 +9,18 @@
 
 {% block content %}
 <script>
-	$(window).on("scroll", function() {
-		if ($(window).scrollTop() > 300) {
-			$("#mainNav").css("background-color","#ffffff").css("box-shadow", "0 0 14px rgba(0,0,0,.4)");
-			$(".navbar-nav .nav-item .nav-link").css("color","#000000");
-		}else {
-      $("#mainNav").css("background-color","transparent").css("box-shadow", "none");
-      $(".navbar-nav .nav-item .nav-link").css("color","#ffffff");
-		}
-	});
+                $(window).on("scroll", function() {
+                    if ($(window).scrollTop() > 300) {
+                        $("#mainNav").css("background-color","#ffffff").css("box-shadow", "0 0 14px rgba(0,0,0,.4)");
+                        $("#mainNav .navbar-brand").css("color", "#000000");
+                        $(".navbar-nav .nav-item .nav-link").css("color","#000000");
+                    }else {
+                  $("#mainNav").css("background-color","transparent").css("box-shadow", "none");
+                  $(".navbar-nav .nav-item .nav-link").css("color","#ffffff");
+                  $("#mainNav .navbar-brand").css("color", "#ffffff");
+
+                    }
+                });
 </script>
  <div style="height:400px; width:100%; background-image: url({% static 'img/상가매물4.jpg' %});">
 
